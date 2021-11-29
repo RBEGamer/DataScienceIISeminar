@@ -27,9 +27,9 @@ services:
       - redis-net
 
 
-  jupyther:
-    image: jupytherds2
-    container_name: jupyther
+  jupyterds2:
+    image: jupyterds2
+    container_name: jupyterds2
     build:
       context: .
     ports:
@@ -43,8 +43,8 @@ services:
     networks:
       - redis-net
     #environment:
-    #  - JUPYTER_TOKEN='jupyther'
-    #  - PASSWORD='jupytherf'
+    #  - JUPYTER_TOKEN='jupyter'
+    #  - PASSWORD='jupyter'
 
 
 
