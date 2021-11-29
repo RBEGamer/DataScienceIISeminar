@@ -45,6 +45,27 @@ services:
     #environment:
     #  - JUPYTER_TOKEN='jupyter'
     #  - PASSWORD='jupyter'
+  
+  visuds2:
+    image: visuds2
+    container_name: visuds2
+    build:
+      context: .
+    ports:
+      - 9097:3016 
+    volumes:
+      - ${PWD}/generated/:/usr/src/app
+    depends_on:
+      - jupyterds2
+    links:
+      - "jupyterds2:jupyterds2"
+    networks:
+      - redis-net
+    #environment:
+    #  - JUPYTER_TOKEN='jupyter'
+    #  - PASSWORD='jupyter'
+  
+
 
 
 
