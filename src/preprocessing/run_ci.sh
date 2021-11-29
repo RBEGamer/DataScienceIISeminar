@@ -10,5 +10,4 @@ docker exec jupyterds2 jupyter nbconvert --execute --to notebook /home/jovyan/wo
 # PUSH RESULTS
 #docker-compose down jupyterds2
 ls -la ./generated/departure_tables_raw
-git pull origin/main main
-git add ./generated/departure_tables_raw
+git add ./generated/
