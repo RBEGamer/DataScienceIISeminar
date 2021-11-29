@@ -23,7 +23,7 @@ var bcrypt = require('bcrypt'); //for pw hash
 var DB = require('tingodb')().Db;//file based database like mongo db
 
 
-var port = process.env.PORT || config.webserver_default_port || 3000;
+var port = process.env.PORT || config.webserver_default_port || 3016;
 var hostname = process.env.HOSTNAME || config.hostname || "http://127.0.0.1:" + port + "/";
 var appDirectory = require('path').dirname(process.pkg ? process.execPath : (require.main ? require.main.filename : process.argv[0]));
 console.log(appDirectory);
