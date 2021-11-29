@@ -1,0 +1,50 @@
+version: "3.8"
+networks:
+  redis-net:
+
+
+
+services:
+  redis:
+    image: redis
+    container_name: cache
+    expose:
+      - 6379
+    networks:
+      - redis-net
+  rkiapi:
+    image: marlon360/rki-covid-server:v2
+    container_name: rkiapi
+    #build:
+    #  context: rki-covid-api-2/docker
+    ports:
+      - "9095:3000"
+    depends_on:
+      - redis
+    environment:
+      - REDISHOST=redis
+    networks:
+      - redis-net
+
+
+  jupyther:
+    image: jupytherds2
+    container_name: jupyther
+    build:
+      context: .
+    ports:
+      - 9096:8888 
+    volumes:
+      - ${PWD}:/home/jovyan/work
+    depends_on:
+      - rkiapi
+    links:
+      - "rkiapi:rkiapi"
+    networks:
+      - redis-net
+    #environment:
+    #  - JUPYTER_TOKEN='jupyther'
+    #  - PASSWORD='jupytherf'
+
+
+
