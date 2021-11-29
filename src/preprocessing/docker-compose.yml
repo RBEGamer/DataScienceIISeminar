@@ -59,6 +59,26 @@ services:
       - jupyterds2
     links:
       - "jupyterds2:jupyterds2"
+      - "dataservds2:dataservds2"
+    networks:
+      - redis-net
+    #environment:
+    #  - JUPYTER_TOKEN='jupyter'
+    #  - PASSWORD='jupyter'
+  
+  dataservds2:
+    image: dataservds2
+    container_name: dataservds2
+    build:
+      context: ./data_server
+    ports:
+      - 9098:3017 
+    volumes:
+      - ${PWD}/generated/visualisation_files:/usr/src/app/data
+    depends_on:
+      - jupyterds2
+    links:
+      - "jupyterds2:jupyterds2"
     networks:
       - redis-net
     #environment:
