@@ -44,7 +44,7 @@ def fetch_district_data():
     global failed_fetch
     global successful_fetch
     # DOCKER CONTAINER LINK ADRESS TO marlon360/rki-covid-server:v2
-    r = requests.get('http://rkiapi:3000/districts')
+    r = requests.get('http://127.0.0.1:9096/districts')
 
     if r.status_code == 200:
         return r.json()
