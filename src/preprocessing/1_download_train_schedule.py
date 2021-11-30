@@ -125,7 +125,7 @@ display(f) # display the bar
 
 # FETCH EACH STATION
 for station in stationd_id:
-    #print(station)
+    print(station)
     fetch_station_id = station
     fetch_station_time = None #"2021-11-25T8:00:00.000Z"
     fetch_depature_table(fetch_station_id,fetch_station_time)
