@@ -1,4 +1,5 @@
 {
     "webserver_default_port":3016,
-    "app_name":"DS II"
+    "app_name":"DS II",
+    "data_server_url": "http://127.0.0.1:9098"
 }
