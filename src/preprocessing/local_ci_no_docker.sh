@@ -7,6 +7,6 @@ do
     git pull
     git add .
     git commit -m "ci push"
-    git push
+    git push --force
     sleep 1200
 done
