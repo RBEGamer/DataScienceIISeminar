@@ -8,5 +8,5 @@ do
     git add .
     git commit -m "ci push"
     git push --force
-    sleep 500
+    sleep 300
 done
