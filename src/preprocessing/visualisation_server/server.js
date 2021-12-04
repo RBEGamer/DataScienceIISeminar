@@ -4,9 +4,9 @@ var path = require('path');
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 var express = require('express');
-var session = require('express-session');//sessions
 var bodyParser = require('body-parser');//sessions
 var sessionstore = require('sessionstore'); //sessions
+<<<<<<< Updated upstream
 var config = require('./config.json'); //include the cofnig file
 var uuidv1 = require('uuid/v1'); //gen random uuid times based
 var got = require('got');
@@ -18,10 +18,21 @@ var cron = require('node-cron'); //some cronjobs
 var listEndpoints = require('express-list-endpoints'); //for rest api explorer
 var bcrypt = require('bcrypt'); //for pw hash
 
+=======
+var listEndpoints = require('express-list-endpoints'); //for rest api explorer
+>>>>>>> Stashed changes
 
 
-var port = process.env.PORT || config.webserver_default_port || 3016;
-var hostname = process.env.HOSTNAME || config.hostname || "http://127.0.0.1:" + port + "/";
+
+
+//LOAD/CREATE CONFIG
+var CFG = require('./config/config'); //include the cofnig file
+CFG.init_config();
+
+
+
+var port = process.env.PORT || CFG.getConfig().webserver_default_port || 3016;
+var hostname = process.env.HOSTNAME || CFG.getConfig().hostname || "http://127.0.0.1:" + port + "/";
 var appDirectory = require('path').dirname(process.pkg ? process.execPath : (require.main ? require.main.filename : process.argv[0]));
 console.log(appDirectory);
 
@@ -30,28 +41,15 @@ console.log(appDirectory);
 
 //-------- EXPRESS APP SETUP --------------- //
 app.set('trust proxy', 1);
-app.use(function (req, res, next) {
-    if (!req.session) {
-        return next(); //handle error
-    }
-    next(); //otherwise continue
-});
+
 app.set('views', __dirname + '/views');
 app.engine('html', require('ejs').renderFile);
 // Routing
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(session({
-    secret: 'damdkfgnlesfkdgjerinsmegwirhlnks.m',
-    store: sessionstore.createSessionStore(),
-    resave: true,
-    saveUninitialized: true
-}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
-app.use(fileUpload());
-
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -65,6 +63,7 @@ server.listen(port, function () {
 // ---------------- END EXPRESS SETUP -------------- //
 
 
+<<<<<<< Updated upstream
 //-------- HELPER FUNCTIONS ---------------//
 function generate_random_string() {
     return randomstring.generate({
@@ -78,6 +77,8 @@ var sess;
 
 
 
+=======
+>>>>>>> Stashed changes
 
 
 app.get('/', function (req, res) {
@@ -86,6 +87,7 @@ app.get('/', function (req, res) {
 
 app.get('/index', function (req, res) {
     res.render('index.ejs', {
+<<<<<<< Updated upstream
         app_name: config.app_name
     });
 });
@@ -94,6 +96,16 @@ app.get('/index', function (req, res) {
 
 
 
+=======
+        app_name: CFG.getConfig().app_name
+    });
+});
+
+
+
+
+
+>>>>>>> Stashed changes
 //---------------- SOCKET IO START ------------- //
 
 io.on('connection', function (socket) {
@@ -108,12 +120,6 @@ io.on('connection', function (socket) {
 
 
 //BROADCAST  socket.broadcast.emit('update', {});
-
-
-//CRON JOB EVER MINUTE
-cron.schedule('* * * * *', () => {
-    console.log('running a task every minute');
-});
 
 
 
@@ -143,7 +149,7 @@ app.get('/rest', function (req, res) {
 
 //RETURNS A JSON WITH ONLY /rest ENPOINTS TO GENERATE A NICE HTML SITE
 var REST_ENDPOINT_PATH_BEGIN_REGEX = "^\/rest\/(.)*$"; //REGEX FOR ALL /rest/* beginning
-var REST_API_TITLE = config.app_name | "APP NAME HERE";
+var REST_API_TITLE = CFG.getConfig().app_name | "APP NAME HERE";
 var rest_endpoint_regex = new RegExp(REST_ENDPOINT_PATH_BEGIN_REGEX);
 var REST_PARAM_REGEX = "\/:(.*)\/"; // FINDS /:id/ /:hallo/test
 //HERE YOU CAN ADD ADDITIONAL CALL DESCTIPRION

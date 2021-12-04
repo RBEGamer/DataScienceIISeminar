@@ -5,129 +5,139 @@
     <link href="/css/bootstrap.css" rel="stylesheet">
 
 
-
     <link href="/css/landing-page.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="kaps avatar test side">
     <meta name="author" content="Marcel Ochsendorf">
-    <meta http-equiv="cache-control" content="max-age=0" />
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="expires" content="0" />
-    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <title><%= app_name  %></title>
+    <meta http-equiv="cache-control" content="max-age=0"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <title><%= app_name %></title>
+
+
+    <style>
+        #content .info {
+            height: 20px;
+        }
+
+        #content .map path {
+            fill: #aaa;
+            stroke: #fff;
+        }
+
+        #content .bounding-box rect {
+            fill: none;
+            stroke: #333;
+            stroke-dasharray: 2,1;
+        }
+
+        #content .centroid {
+            display: none;
+        }
+
+        #content .centroid circle {
+            fill: red;
+        }
+    </style>
 </head>
 
 <body class="container">
 
-    <nav class="navbar navbar-light bg-light static-top">
-        <div class="container">
-            <a class="navbar-brand" href="/"><%= app_name  %></a>
-             <a class="btn btn-danger" href="/login">LOGIN</a>
-        </div>
-    </nav>
+<nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">Data Science II - Covid - Public Transport - Viewer</a>
 
-
-    <!-- Masthead -->
-    <form action="/register" method="GET">
-        <header class="masthead text-white text-center">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <h1 class="mb-5">The Challenge of the future</h1>
-                    </div>
-                    <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-
-                        <input type="hidden" name="type" value="admin_register"/>
-                        <input type="submit" class="btn btn-block btn-lg btn-danger" value="ACCESS" />
-
-                    </div>
-
-                    <noscript>
-                        <div class="alert alert-danger">
-                            <strong>Fehler :</strong> Bitte aktivieren Sie Javascript um alle Features sehen zu koennen.
-                        </div>
-                    </noscript>
-
-
-
-                </div>
-            </div>
-            </div>
-        </header>
-    </form>
+    </div>
+</nav>
 
 
 
 
-
-
-
-
-    <!-- Footer -->
-    <footer class="footer bg-light">
-        <div class="container text-center">
-            <div class="row">
-
-                <div class="col-lg-4 h-100 text-center text-lg-center my-auto">
-                    <a href="/"><img src="img/sponsor_a.png"
-                            height="100px"></a>
+                <div id="content">
+                    <div class="info">Hover over a country</div>
+                    <svg width="620px" height="600px">
+                        <g class="map"></g>
+                        <g class="bounding-box"><rect></rect></g>
+                        <g class="centroid"><circle r="4"></circle></g>
+                    </svg>
                 </div>
 
-                <div class="col-lg-4 h-100 text-center text-lg-center my-auto">
-                    <a href="/"><img src="img/sponsor_b.png"
-                            height="100px"></a>
-                </div>
-
-                <div class="col-lg-4 h-100 text-center text-lg-center my-auto">
-                    <a href="/"><img src="img/sponsor_c.png"
-                            height="100px"></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12 h-100 text-center text-lg-center my-auto">
-                    <span><a href="/admin">ADMIN PANEL</a></span><br>
 
 
-                </div>
-            </div>
-        </div>
+<script src="/js/jquery-3.4.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/2.0.4_socket.io.js"></script>
+<script src="/js/d3.min.js"></script>
+
+<script>
+
+    let projection = d3.geoMercator()
+        //.scale(0.1)
+        //.translate([200, 280])
+        //.center([0, 5]);
+
+    let geoGenerator = d3.geoPath()
+        .projection(projection);
+
+    function handleMouseover(e, d) {
+        let pixelArea = geoGenerator.area(d);
+        let bounds = geoGenerator.bounds(d);
+        let centroid = geoGenerator.centroid(d);
+        let measure = geoGenerator.measure(d);
+
+        d3.select('#content .info').text(d.properties.name + ' (path.area = ' + pixelArea.toFixed(1) + ' path.measure = ' + measure.toFixed(1) + ')');
+
+        d3.select('#content .bounding-box rect')
+            .attr('x', bounds[0][0])
+            .attr('y', bounds[0][1])
+            .attr('width', bounds[1][0] - bounds[0][0])
+            .attr('height', bounds[1][1] - bounds[0][1]);
+
+        d3.select('#content .centroid')
+            .style('display', 'inline')
+            .attr('transform', 'translate(' + centroid + ')');
+    }
+
+    function update(geojson) {
+        let u = d3.select('#content g.map')
+            .selectAll('path')
+            .data(geojson.features);
+
+        u.enter()
+            .append('path')
+            .attr('d', geoGenerator)
+            .on('mouseover', handleMouseover);
+    }
 
 
 
-    </footer>
 
 
 
 
+    $(document).ready(function () {
+        console.log("ready!");
 
+        socket = io();
+        socket.emit('msg', {});
 
-    <script src="/js/jquery-3.4.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/2.0.4_socket.io.js"></script>
-    <script>
-
-
-
-        $(document).ready(function () {
-
-
-            console.log("ready!");
-
-            socket = io();
-            socket.emit('msg', {});
-
-            socket.on('update', function (data) {
-                var objectConstructor = {}.constructor;
-                console.log(data)
-            });
-
+        socket.on('update', function (data) {
+            var objectConstructor = {}.constructor;
+            console.log(data)
         });
-    </script>
+
+        // REQUEST DATA
+        d3.json('/test.json').then(function(json) {
+            update(json)
+        });
+
+
+    });
+</script>
 
 </body>
 
