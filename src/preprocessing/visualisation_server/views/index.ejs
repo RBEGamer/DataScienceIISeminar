@@ -2,11 +2,13 @@
 
 <head>
 
-    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="/bootstrap-select-1.13.14/dist/css/bootstrap-select.min.css" rel="stylesheet" media="all">
+    <link href="/css/fh_design.css" rel="stylesheet" media="all">
 
 
-    <link href="/css/landing-page.css" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet">
+   <link href="/css/landing-page.css" rel="stylesheet">
+   <link href="/css/main.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="kaps avatar test side">
@@ -20,6 +22,8 @@
 
 
     <style>
+
+
         #content .info {
             height: 20px;
         }
@@ -32,7 +36,7 @@
         #content .bounding-box rect {
             fill: none;
             stroke: #333;
-            stroke-dasharray: 2,1;
+            stroke-dasharray: 2, 1;
         }
 
         #content .centroid {
@@ -47,41 +51,116 @@
 
 <body class="container">
 
-<nav class="navbar navbar-light bg-light static-top">
+<nav class="navbar navbar-dark bg-dark static-top">
     <div class="container">
-        <a class="navbar-brand" href="/">Data Science II - Covid - Public Transport - Viewer</a>
-
+        <span>
+            <img src="/img/logo.png" height="60px"/>
+            <a class="navbar-brand" href="/"><b class="fhcolor_text">Data Science II - Public Transport - Spreading Viewer</b></a>
+        </span>
     </div>
 </nav>
 
 
 
+<div id="content d-flex">
 
-                <div id="content">
-                    <div class="info">Hover over a country</div>
-                    <svg width="620px" height="600px">
-                        <g class="map"></g>
-                        <g class="bounding-box"><rect></rect></g>
-                        <g class="centroid"><circle r="4"></circle></g>
-                    </svg>
-                </div>
 
+    <!-- ADD SPACING -->
+    <div class="row mt-5"></div>
+
+    <div class="row justify-content-center align-self-center">
+        <div class="col-4">
+            <label for="from_station" class="form-label"><b class="fhcolor_text">START STATION</b></label>
+            <select id="from_station" class="form-select form-select-lg mb-3" data-live-search="true">
+                <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
+                <option data-tokens="mustard">Burger, Shake and a Smile</option>
+                <option data-tokens="frosting">Sugar, Spice and all things nice</option>
+            </select>
+
+
+        </div>
+        <div class="col-3">
+            <img src="/img/from_train_to.png" height="100px">
+        </div>
+        <div class="col-5">
+
+            <label for="to_station" class="form-label"><b class="fhcolor_text">DESTINATION STATION</b></label>
+            <select id="to_station" class="form-select form-select-lg mb-3" data-live-search="true">
+                <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
+                <option data-tokens="mustard">Burger, Shake and a Smile</option>
+                <option data-tokens="frosting">Sugar, Spice and all things nice</option>
+            </select>
+
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+            <div class="info">Hover over a country</div>
+        </div>
+    </div>
+
+    <div class="row fhcolor_bg" id="svg_map" height="300px">
+        <div class="col">
+            <svg width="620px" height="300px">
+                <g class="map"></g>
+                <g class="bounding-box">
+                    <rect></rect>
+                </g>
+                <g class="centroid">
+                    <circle r="4"></circle>
+                </g>
+            </svg>
+        </div>
+
+    </div>
+
+
+</div>
 
 
 <script src="/js/jquery-3.4.1.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+
+<script src="/js/popper.min.js"></script>
+<script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="/bootstrap-select-1.13.14/dist/js/bootstrap-select.min.js"></script>
+
+
+
 <script src="/js/2.0.4_socket.io.js"></script>
 <script src="/js/d3.min.js"></script>
 
+<script src="/js/d3-array/dist/d3-array.min.js"></script>
+<script src="/js/d3-geo/dist/d3-geo.min.js"></script>
+
+
 <script>
 
-    let projection = d3.geoMercator()
-        //.scale(0.1)
-        //.translate([200, 280])
-        //.center([0, 5]);
 
-    let geoGenerator = d3.geoPath()
-        .projection(projection);
+    var width = 300;
+    var height = 300;
+    var scale = 10;
+
+    var projection = null;
+    var geoGenerator = null;
+
+    function init_d3() {
+
+
+        width = $("#content").width();
+        height = $("#content").height();
+
+
+        $("#svg_map").width(width);
+        $("#svg_map").height(height);
+
+
+        projection = d3.geoMercator();
+        geoGenerator = d3.geoPath().projection(projection);
+    }
+
 
     function handleMouseover(e, d) {
         let pixelArea = geoGenerator.area(d);
@@ -111,12 +190,19 @@
             .append('path')
             .attr('d', geoGenerator)
             .on('mouseover', handleMouseover);
+
+        /*
+        debugger;
+        var path = d3.geoPath(projection);
+
+        var bounds  = path.bounds(geojson);
+
+        var hscale  = scale*width  / (bounds[1][0] - bounds[0][0]);
+        var vscale  = scale*height / (bounds[1][1] - bounds[0][1]);
+        var scale   = (hscale < vscale) ? hscale : vscale;
+        var offset  = [width - (bounds[0][0] + bounds[1][0])/2, height - (bounds[0][1] + bounds[1][1])/2];
+*/
     }
-
-
-
-
-
 
 
     $(document).ready(function () {
@@ -130,10 +216,15 @@
             console.log(data)
         });
 
+
+        //INIT D3
+        init_d3();
+
         // REQUEST DATA
-        d3.json('/test.json').then(function(json) {
-            update(json)
-        });
+        d3.json('https://assets.codepen.io/2814973/africa.json')
+            .then(function (json) {
+                update(json)
+            });
 
 
     });

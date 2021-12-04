@@ -5,22 +5,8 @@ var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 var express = require('express');
 var bodyParser = require('body-parser');//sessions
-var sessionstore = require('sessionstore'); //sessions
-<<<<<<< Updated upstream
-var config = require('./config.json'); //include the cofnig file
-var uuidv1 = require('uuid/v1'); //gen random uuid times based
-var got = require('got');
-var randomstring = require("randomstring"); //gen random strings
-var fs = require('fs');
-var sanitizer = require('sanitizer');
-var fileUpload = require('express-fileupload');
-var cron = require('node-cron'); //some cronjobs
 var listEndpoints = require('express-list-endpoints'); //for rest api explorer
-var bcrypt = require('bcrypt'); //for pw hash
 
-=======
-var listEndpoints = require('express-list-endpoints'); //for rest api explorer
->>>>>>> Stashed changes
 
 
 
@@ -63,22 +49,9 @@ server.listen(port, function () {
 // ---------------- END EXPRESS SETUP -------------- //
 
 
-<<<<<<< Updated upstream
-//-------- HELPER FUNCTIONS ---------------//
-function generate_random_string() {
-    return randomstring.generate({
-        length: 13,
-        charset: String(Math.round(new Date().getTime() / 1000))
-    });
-}
-//--------END HELPER FUNCTIONS ---------------//
-var sess;
 
 
 
-
-=======
->>>>>>> Stashed changes
 
 
 app.get('/', function (req, res) {
@@ -87,25 +60,12 @@ app.get('/', function (req, res) {
 
 app.get('/index', function (req, res) {
     res.render('index.ejs', {
-<<<<<<< Updated upstream
-        app_name: config.app_name
-    });
-});
-
-
-
-
-
-=======
         app_name: CFG.getConfig().app_name
     });
 });
 
 
 
-
-
->>>>>>> Stashed changes
 //---------------- SOCKET IO START ------------- //
 
 io.on('connection', function (socket) {
@@ -113,13 +73,13 @@ io.on('connection', function (socket) {
     socket.on('msg', function (msg) {
         console.log(msg);
     });
+
+//BROADCAST  socket.broadcast.emit('update', {});
+
+
 });
 
 
-
-
-
-//BROADCAST  socket.broadcast.emit('update', {});
 
 
 
