@@ -83,7 +83,6 @@
 </div>
 
 
-
 <div class="container">
     <nav class="navbar navbar-dark bg-dark static-top">
         <div class="container">
@@ -153,23 +152,23 @@
     </div>
 
 
-
-
-
     <!-- Footer -->
     <footer class="bg-dark text-center text-white">
         <div class="container p-4">
             <section class="mb-4">
 
-                <a class="btn btn-outline-light btn-floating m-1" href="/visualisation_files/departure_table.csv" download="departure_table.csv" role="button">
+                <a class="btn btn-outline-light btn-floating m-1" href="/visualisation_files/departure_table.csv"
+                   download="departure_table.csv" role="button">
                     <img src="/img/csv.png" height="50px"/>
                 </a>
 
-                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/RBEGamer/DataScienceIISeminar" role="button">
+                <a class="btn btn-outline-light btn-floating m-1"
+                   href="https://github.com/RBEGamer/DataScienceIISeminar" role="button">
                     <img src="/img/git.png" height="50px"/>
                 </a>
 
-                <a class="btn btn-outline-light btn-floating m-1" href="http://marcelochsendorf.com/impressum" role="button">
+                <a class="btn btn-outline-light btn-floating m-1" href="http://marcelochsendorf.com/impressum"
+                   role="button">
                     <img src="/img/impressum.png" height="50px"/>
                 </a>
             </section>
@@ -177,11 +176,6 @@
         </div>
     </footer>
 </div>
-
-
-
-
-
 
 
 <script src="/js/jquery-3.4.1.min.js"></script>
@@ -252,8 +246,35 @@
         } else if (_station_type === 1) {
             station_id_to = $("#to_station").val();
         }
+/*
+        if(!station_id_to){
+            alert("Please select a valid  destination station");
+            return;
+        }
+
+        if(!station_id_from){
+            alert("Please select a valid start station");
+            return;
+        }
+*/
+        if(station_id_from === station_id_to){
+            alert("Start and destination station cant be the same");
+            if (_station_type === 0) {
+                $("#from_station").val('');
+                $("#from_station").attr('selected','');
+            } else if (_station_type === 1) {
+                $("#to_station").val('');
+                $("#to_station").attr('selected','');
+            }
+            return;
+        }
 
 
+        if(!station_id_from || !station_id_to){
+            return;
+        }
+
+        console.log(station_id_from);
     }
 
     function updatestation(geojson) {
@@ -303,7 +324,7 @@
 
 
     //POPULATES THE STATION SELECTION FIELDS
-    function parse_station_data(json){
+    function parse_station_data(json) {
         if (!json || !json.stations) {
             alert("failed to load selected_stations");
             return;
@@ -313,6 +334,8 @@
             $("#from_station").append(new Option(json.stations[i].station_name, json.stations[i].station_id));
             $("#to_station").append(new Option(json.stations[i].station_name, json.stations[i].station_id));
         }
+        $("#from_station").val('- PLEASE SELECT -');
+        $("#to_station").val('- PLEASE SELECT -');
     }
 
     $(document).ready(function () {
@@ -327,10 +350,6 @@
         });
 
 
-
-
-
-
         //INIT D3
         init_d3();
 
@@ -341,11 +360,9 @@
             parse_station_data(station_json);// LOAD SELECTED STATION INTO FIELDS
 
 
-
             $("#modal_info_text").html("LOADING GEOJSON MAP");
             d3.json('/world.geojson').then(function (map_json) {
                 update(map_json);
-
 
 
                 $("#modal_info_text").html("LOADING STATIONS POI LOCATIONS");
@@ -359,9 +376,6 @@
             });
 
         });
-
-
-
 
 
     });
