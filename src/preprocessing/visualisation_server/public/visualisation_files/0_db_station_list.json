@@ -1,0 +1,1356 @@
+{
+    "stations": [
+        {
+            "station_name": "Bayreuth Hbf",
+            "station_id": 8000028
+        },
+        {
+            "station_name": "Brackwede",
+            "station_id": 8000048
+        },
+        {
+            "station_name": "Kaufering",
+            "station_id": 8000195
+        },
+        {
+            "station_name": "Weiden(Oberpf)",
+            "station_id": 8000204
+        },
+        {
+            "station_name": "Landshut(Bay)Hbf",
+            "station_id": 8000217
+        },
+        {
+            "station_name": "Löhne(Westf)",
+            "station_id": 8000233
+        },
+        {
+            "station_name": "Schnega",
+            "station_id": 8000440
+        },
+        {
+            "station_name": "Amberg",
+            "station_id": 8000566
+        },
+        {
+            "station_name": "Aschaffenburg Süd",
+            "station_id": 8000619
+        },
+        {
+            "station_name": "Baden-Baden Rebland",
+            "station_id": 8000775
+        },
+        {
+            "station_name": "Bohmte",
+            "station_id": 8001071
+        },
+        {
+            "station_name": "Bonn UN Campus",
+            "station_id": 8001091
+        },
+        {
+            "station_name": "Bremen-Sebaldsbrück",
+            "station_id": 8001164
+        },
+        {
+            "station_name": "Bremerhaven-Lehe",
+            "station_id": 8001168
+        },
+        {
+            "station_name": "Creidlitz",
+            "station_id": 8001347
+        },
+        {
+            "station_name": "Dülken",
+            "station_id": 8001571
+        },
+        {
+            "station_name": "Echem",
+            "station_id": 8001646
+        },
+        {
+            "station_name": "Einfeld",
+            "station_id": 8001718
+        },
+        {
+            "station_name": "Emmerthal",
+            "station_id": 8001777
+        },
+        {
+            "station_name": "Erlangen Paul-Gossen-Straße",
+            "station_id": 8001846
+        },
+        {
+            "station_name": "Erndtebrück",
+            "station_id": 8001851
+        },
+        {
+            "station_name": "Etelsen",
+            "station_id": 8001924
+        },
+        {
+            "station_name": "Feldhausen",
+            "station_id": 8001972
+        },
+        {
+            "station_name": "Frankenthal Süd",
+            "station_id": 8002025
+        },
+        {
+            "station_name": "Freiburg-ZÃ¤hringen",
+            "station_id": 8002071
+        },
+        {
+            "station_name": "Freilassing-Hofham",
+            "station_id": 8002085
+        },
+        {
+            "station_name": "Gelsenkirchen-Rotthausen",
+            "station_id": 8002227
+        },
+        {
+            "station_name": "Haste",
+            "station_id": 8002634
+        },
+        {
+            "station_name": "Heessen",
+            "station_id": 8002680
+        },
+        {
+            "station_name": "Heilbronn Trappensee",
+            "station_id": 8002700
+        },
+        {
+            "station_name": "Herne-Börnig",
+            "station_id": 8002779
+        },
+        {
+            "station_name": "Hof Hbf",
+            "station_id": 8002924
+        },
+        {
+            "station_name": "Ingolstadt Nord",
+            "station_id": 8003076
+        },
+        {
+            "station_name": "Inningen",
+            "station_id": 8003079
+        },
+        {
+            "station_name": "Isselhorst-Avenwedde",
+            "station_id": 8003096
+        },
+        {
+            "station_name": "Kalchreuth",
+            "station_id": 8003154
+        },
+        {
+            "station_name": "Karlsruhe-Mühlburg",
+            "station_id": 8003187
+        },
+        {
+            "station_name": "Koblenz-Moselweiß",
+            "station_id": 8003354
+        },
+        {
+            "station_name": "Königslutter",
+            "station_id": 8003382
+        },
+        {
+            "station_name": "Krefeld-Uerdingen",
+            "station_id": 8003427
+        },
+        {
+            "station_name": "Landau(Pfalz)West",
+            "station_id": 8003508
+        },
+        {
+            "station_name": "Lang Göns",
+            "station_id": 8003520
+        },
+        {
+            "station_name": "Laubenheim(Nahe)",
+            "station_id": 8003568
+        },
+        {
+            "station_name": "Legden",
+            "station_id": 8003608
+        },
+        {
+            "station_name": "Leverkusen-Rheindorf",
+            "station_id": 8003672
+        },
+        {
+            "station_name": "Linsburg",
+            "station_id": 8003705
+        },
+        {
+            "station_name": "Ludwigshafen-Rheingönheim",
+            "station_id": 8003767
+        },
+        {
+            "station_name": "Lutum",
+            "station_id": 8003804
+        },
+        {
+            "station_name": "Mainz-Mombach",
+            "station_id": 8003821
+        },
+        {
+            "station_name": "Marktbreit",
+            "station_id": 8003881
+        },
+        {
+            "station_name": "Maxhütte-Haidhof",
+            "station_id": 8003922
+        },
+        {
+            "station_name": "Mellrichstadt Bf",
+            "station_id": 8003959
+        },
+        {
+            "station_name": "Merzenich",
+            "station_id": 8003990
+        },
+        {
+            "station_name": "Mering-St Afra",
+            "station_id": 8004008
+        },
+        {
+            "station_name": "Mühlheim(b Tuttlingen)",
+            "station_id": 8004111
+        },
+        {
+            "station_name": "Mülheim(Ruhr)West",
+            "station_id": 8004122
+        },
+        {
+            "station_name": "Münster(Hessen)",
+            "station_id": 8004171
+        },
+        {
+            "station_name": "Neu Wulmstorf",
+            "station_id": 8004247
+        },
+        {
+            "station_name": "Neubrücke(Nahe)",
+            "station_id": 8004253
+        },
+        {
+            "station_name": "Neuhof(Kr Fulda)",
+            "station_id": 8004295
+        },
+        {
+            "station_name": "Neukloster(Kr Stade)",
+            "station_id": 8004302
+        },
+        {
+            "station_name": "Dortmund UniversitÃ¤t",
+            "station_id": 8004419
+        },
+        {
+            "station_name": "Niederweimar",
+            "station_id": 8004420
+        },
+        {
+            "station_name": "Münster-HÃ¤ger",
+            "station_id": 8004426
+        },
+        {
+            "station_name": "Neustadt-Böbig",
+            "station_id": 8004489
+        },
+        {
+            "station_name": "Oberbettingen-Hillesheim",
+            "station_id": 8004513
+        },
+        {
+            "station_name": "Oberbrechen",
+            "station_id": 8004518
+        },
+        {
+            "station_name": "Oberhausen-Sterkrade",
+            "station_id": 8004542
+        },
+        {
+            "station_name": "Obernhof(Lahn)",
+            "station_id": 8004567
+        },
+        {
+            "station_name": "Oelde",
+            "station_id": 8004626
+        },
+        {
+            "station_name": "Oker",
+            "station_id": 8004665
+        },
+        {
+            "station_name": "Osterhofen(Nby)",
+            "station_id": 8004700
+        },
+        {
+            "station_name": "Osterholz-Scharmbeck",
+            "station_id": 8004702
+        },
+        {
+            "station_name": "Ostheim(b Butzbach)",
+            "station_id": 8004712
+        },
+        {
+            "station_name": "Otterfing",
+            "station_id": 8004726
+        },
+        {
+            "station_name": "Pfeddersheim",
+            "station_id": 8004788
+        },
+        {
+            "station_name": "Pforzheim-Weißenstein",
+            "station_id": 8004801
+        },
+        {
+            "station_name": "Pfronten-Weißbach",
+            "station_id": 8004809
+        },
+        {
+            "station_name": "Pirmasens Hbf",
+            "station_id": 8004822
+        },
+        {
+            "station_name": "Pönitz(Holst)",
+            "station_id": 8004848
+        },
+        {
+            "station_name": "Porta Westfalica",
+            "station_id": 8004868
+        },
+        {
+            "station_name": "Pulling(b Freising)",
+            "station_id": 8004900
+        },
+        {
+            "station_name": "Düsseldorf-Hellerhof",
+            "station_id": 8004920
+        },
+        {
+            "station_name": "Raisdorf",
+            "station_id": 8004924
+        },
+        {
+            "station_name": "Ramsenthal",
+            "station_id": 8004936
+        },
+        {
+            "station_name": "Regensburg-Prüfening",
+            "station_id": 8004983
+        },
+        {
+            "station_name": "Reichertshausen(Ilm)",
+            "station_id": 8005008
+        },
+        {
+            "station_name": "Reinfeld(Holst)",
+            "station_id": 8005019
+        },
+        {
+            "station_name": "Rheinhausen Ost",
+            "station_id": 8005065
+        },
+        {
+            "station_name": "Rödental Mitte",
+            "station_id": 8005122
+        },
+        {
+            "station_name": "Rösrath-Stümpen",
+            "station_id": 8005143
+        },
+        {
+            "station_name": "Rommerskirchen",
+            "station_id": 8005159
+        },
+        {
+            "station_name": "Rottershausen",
+            "station_id": 8005199
+        },
+        {
+            "station_name": "Rückersbacher Schlucht",
+            "station_id": 8005208
+        },
+        {
+            "station_name": "Saarhölzbach",
+            "station_id": 8005246
+        },
+        {
+            "station_name": "Salzgitter-Watenstedt",
+            "station_id": 8005275
+        },
+        {
+            "station_name": "Sand(Niederbay)",
+            "station_id": 8005279
+        },
+        {
+            "station_name": "Sarstedt",
+            "station_id": 8005292
+        },
+        {
+            "station_name": "Schieder",
+            "station_id": 8005340
+        },
+        {
+            "station_name": "Schifferstadt Süd",
+            "station_id": 8005345
+        },
+        {
+            "station_name": "Schirnding",
+            "station_id": 8005352
+        },
+        {
+            "station_name": "Heidelberg-Schlierbach/Ziegelhausen",
+            "station_id": 8005366
+        },
+        {
+            "station_name": "Schopfloch(b Freudenstadt)",
+            "station_id": 8005421
+        },
+        {
+            "station_name": "Schülldorf",
+            "station_id": 8005435
+        },
+        {
+            "station_name": "Schwabach-Limbach",
+            "station_id": 8005440
+        },
+        {
+            "station_name": "Schweinfurt Stadt",
+            "station_id": 8005481
+        },
+        {
+            "station_name": "Seubersdorf",
+            "station_id": 8005543
+        },
+        {
+            "station_name": "Speyer Hbf",
+            "station_id": 8005628
+        },
+        {
+            "station_name": "St Goar",
+            "station_id": 8005645
+        },
+        {
+            "station_name": "St Mang",
+            "station_id": 8005653
+        },
+        {
+            "station_name": "St Michaelisdonn",
+            "station_id": 8005655
+        },
+        {
+            "station_name": "St Thomas",
+            "station_id": 8005658
+        },
+        {
+            "station_name": "Bad Staffelstein",
+            "station_id": 8005670
+        },
+        {
+            "station_name": "Iffeldorf",
+            "station_id": 8005672
+        },
+        {
+            "station_name": "Stammbach",
+            "station_id": 8005674
+        },
+        {
+            "station_name": "Steinach(Baden)",
+            "station_id": 8005688
+        },
+        {
+            "station_name": "Steinheim(Westf)",
+            "station_id": 8005708
+        },
+        {
+            "station_name": "Steinfurt-Grottenkamp",
+            "station_id": 8005712
+        },
+        {
+            "station_name": "Stockheim(Oberfr)",
+            "station_id": 8005737
+        },
+        {
+            "station_name": "Storzingen",
+            "station_id": 8005747
+        },
+        {
+            "station_name": "Straßberg-Winterlingen",
+            "station_id": 8005750
+        },
+        {
+            "station_name": "Suchsdorf",
+            "station_id": 8005781
+        },
+        {
+            "station_name": "Sulzbach(Saar)Altenwald",
+            "station_id": 8005797
+        },
+        {
+            "station_name": "Sulzbach(Taunus)Nord",
+            "station_id": 8005799
+        },
+        {
+            "station_name": "Tarp",
+            "station_id": 8005825
+        },
+        {
+            "station_name": "Tauberfeld",
+            "station_id": 8005828
+        },
+        {
+            "station_name": "Teningen-Mundingen",
+            "station_id": 8005836
+        },
+        {
+            "station_name": "Trier Süd",
+            "station_id": 8005905
+        },
+        {
+            "station_name": "Trossingen Bahnhof",
+            "station_id": 8005911
+        },
+        {
+            "station_name": "Tübingen-Lustnau",
+            "station_id": 8005918
+        },
+        {
+            "station_name": "Twistringen",
+            "station_id": 8005929
+        },
+        {
+            "station_name": "Ãœbach-Palenberg",
+            "station_id": 8005935
+        },
+        {
+            "station_name": "Ãœberlingen-Nußdorf",
+            "station_id": 8005943
+        },
+        {
+            "station_name": "Ãœrzig(DB)",
+            "station_id": 8005945
+        },
+        {
+            "station_name": "Uffenheim",
+            "station_id": 8005947
+        },
+        {
+            "station_name": "Uhingen",
+            "station_id": 8005949
+        },
+        {
+            "station_name": "Ulm-Söflingen",
+            "station_id": 8005955
+        },
+        {
+            "station_name": "Undorf",
+            "station_id": 8005966
+        },
+        {
+            "station_name": "Unkel",
+            "station_id": 8005970
+        },
+        {
+            "station_name": "Unna-Königsborn",
+            "station_id": 8005971
+        },
+        {
+            "station_name": "Unterheckenhofen",
+            "station_id": 8005995
+        },
+        {
+            "station_name": "Germering-Unterpfaffenhofen",
+            "station_id": 8006006
+        },
+        {
+            "station_name": "Untersteinach(b Stadtsteinach)",
+            "station_id": 8006017
+        },
+        {
+            "station_name": "Vach",
+            "station_id": 8006052
+        },
+        {
+            "station_name": "Vellmar-Osterberg/EKZ",
+            "station_id": 8006068
+        },
+        {
+            "station_name": "Vilseck",
+            "station_id": 8006085
+        },
+        {
+            "station_name": "Vilshofen(Niederbay)",
+            "station_id": 8006086
+        },
+        {
+            "station_name": "Vöhringen",
+            "station_id": 8006094
+        },
+        {
+            "station_name": "Voerde(Niederrhein)",
+            "station_id": 8006098
+        },
+        {
+            "station_name": "Vogelweh",
+            "station_id": 8006100
+        },
+        {
+            "station_name": "Volkringhausen",
+            "station_id": 8006109
+        },
+        {
+            "station_name": "Volpriehausen",
+            "station_id": 8006112
+        },
+        {
+            "station_name": "Wackershofen",
+            "station_id": 8006135
+        },
+        {
+            "station_name": "Waigolshausen",
+            "station_id": 8006147
+        },
+        {
+            "station_name": "Waldenburg(Württ)",
+            "station_id": 8006154
+        },
+        {
+            "station_name": "Waldshut",
+            "station_id": 8006167
+        },
+        {
+            "station_name": "Walheim(Württ)",
+            "station_id": 8006171
+        },
+        {
+            "station_name": "Walldorf(Hess)",
+            "station_id": 8006175
+        },
+        {
+            "station_name": "Wallersdorf",
+            "station_id": 8006181
+        },
+        {
+            "station_name": "Wallertheim",
+            "station_id": 8006183
+        },
+        {
+            "station_name": "Hebertshausen",
+            "station_id": 8006189
+        },
+        {
+            "station_name": "Walpertskirchen",
+            "station_id": 8006190
+        },
+        {
+            "station_name": "Walporzheim",
+            "station_id": 8006191
+        },
+        {
+            "station_name": "Wannweil",
+            "station_id": 8006203
+        },
+        {
+            "station_name": "Warthausen",
+            "station_id": 8006212
+        },
+        {
+            "station_name": "Wasserburg(Bodensee)",
+            "station_id": 8006218
+        },
+        {
+            "station_name": "Wasserburg(Günz)",
+            "station_id": 8006219
+        },
+        {
+            "station_name": "Wattenscheid-Höntrop",
+            "station_id": 8006227
+        },
+        {
+            "station_name": "Weddel(Braunschw)",
+            "station_id": 8006233
+        },
+        {
+            "station_name": "Wedel(Holst)",
+            "station_id": 8006236
+        },
+        {
+            "station_name": "Weidenbach",
+            "station_id": 8006258
+        },
+        {
+            "station_name": "Weiding",
+            "station_id": 8006264
+        },
+        {
+            "station_name": "Weiherhammer",
+            "station_id": 8006266
+        },
+        {
+            "station_name": "Weil der Stadt",
+            "station_id": 8006271
+        },
+        {
+            "station_name": "Weilbach(Unterallg)",
+            "station_id": 8006279
+        },
+        {
+            "station_name": "Weißenburg(Bay)",
+            "station_id": 8006298
+        },
+        {
+            "station_name": "Weißenohe",
+            "station_id": 8006300
+        },
+        {
+            "station_name": "Welgesheim-Zotzenheim",
+            "station_id": 8006312
+        },
+        {
+            "station_name": "Werdorf",
+            "station_id": 8006340
+        },
+        {
+            "station_name": "Weßling(Oberbay)",
+            "station_id": 8006359
+        },
+        {
+            "station_name": "Westerstetten",
+            "station_id": 8006373
+        },
+        {
+            "station_name": "Westhausen",
+            "station_id": 8006376
+        },
+        {
+            "station_name": "Westheim(Schwab)",
+            "station_id": 8006378
+        },
+        {
+            "station_name": "Wickede(Ruhr)",
+            "station_id": 8006389
+        },
+        {
+            "station_name": "Wickrath",
+            "station_id": 8006391
+        },
+        {
+            "station_name": "Wieren",
+            "station_id": 8006402
+        },
+        {
+            "station_name": "Wiesbaden Ost",
+            "station_id": 8006404
+        },
+        {
+            "station_name": "Wiesental",
+            "station_id": 8006417
+        },
+        {
+            "station_name": "Wiesthal",
+            "station_id": 8006426
+        },
+        {
+            "station_name": "Wildberg(Württ)",
+            "station_id": 8006432
+        },
+        {
+            "station_name": "Wincheringen",
+            "station_id": 8006463
+        },
+        {
+            "station_name": "Windsbach",
+            "station_id": 8006473
+        },
+        {
+            "station_name": "Winkelhaid",
+            "station_id": 8006476
+        },
+        {
+            "station_name": "Winningen(Mosel)",
+            "station_id": 8006481
+        },
+        {
+            "station_name": "Winterbach(b Schorndorf)",
+            "station_id": 8006485
+        },
+        {
+            "station_name": "Winterberg(Westf)",
+            "station_id": 8006486
+        },
+        {
+            "station_name": "Winterhausen",
+            "station_id": 8006488
+        },
+        {
+            "station_name": "Wissen(Sieg)",
+            "station_id": 8006501
+        },
+        {
+            "station_name": "Witten-Annen Nord",
+            "station_id": 8006510
+        },
+        {
+            "station_name": "Mannheim-Neckarstadt",
+            "station_id": 8006511
+        },
+        {
+            "station_name": "Essen-Holthausen",
+            "station_id": 8006514
+        },
+        {
+            "station_name": "Alfter-Witterschlick",
+            "station_id": 8006516
+        },
+        {
+            "station_name": "Witzenhausen Nord",
+            "station_id": 8006524
+        },
+        {
+            "station_name": "Witzwort",
+            "station_id": 8006527
+        },
+        {
+            "station_name": "Darmstadt-Wixhausen",
+            "station_id": 8006528
+        },
+        {
+            "station_name": "Wörnitzstein",
+            "station_id": 8006533
+        },
+        {
+            "station_name": "Wörsdorf",
+            "station_id": 8006535
+        },
+        {
+            "station_name": "Wörth(Isar)",
+            "station_id": 8006537
+        },
+        {
+            "station_name": "Wohltorf",
+            "station_id": 8006541
+        },
+        {
+            "station_name": "Wolfgang(Kr Hanau)",
+            "station_id": 8006548
+        },
+        {
+            "station_name": "Wolfratshausen",
+            "station_id": 8006550
+        },
+        {
+            "station_name": "Wolfstein",
+            "station_id": 8006555
+        },
+        {
+            "station_name": "Wrist",
+            "station_id": 8006572
+        },
+        {
+            "station_name": "Wülfrath-Aprath",
+            "station_id": 8006575
+        },
+        {
+            "station_name": "Würzbach(Saar)",
+            "station_id": 8006581
+        },
+        {
+            "station_name": "Würzburg-Zell",
+            "station_id": 8006586
+        },
+        {
+            "station_name": "Wustweiler",
+            "station_id": 8006627
+        },
+        {
+            "station_name": "Zapfendorf",
+            "station_id": 8006634
+        },
+        {
+            "station_name": "Zeil",
+            "station_id": 8006635
+        },
+        {
+            "station_name": "Zell(Wiesental)",
+            "station_id": 8006641
+        },
+        {
+            "station_name": "Esslingen-Zell",
+            "station_id": 8006642
+        },
+        {
+            "station_name": "Zieverich",
+            "station_id": 8006659
+        },
+        {
+            "station_name": "Zimmern(Main-Tauber)",
+            "station_id": 8006662
+        },
+        {
+            "station_name": "Zimmersrode",
+            "station_id": 8006663
+        },
+        {
+            "station_name": "Zollhaus(Villingen-Schwenningen)",
+            "station_id": 8006667
+        },
+        {
+            "station_name": "Zollhaus-Petersthal",
+            "station_id": 8006670
+        },
+        {
+            "station_name": "Zorneding",
+            "station_id": 8006671
+        },
+        {
+            "station_name": "Euskirchen Zuckerfabrik",
+            "station_id": 8006673
+        },
+        {
+            "station_name": "Züttlingen",
+            "station_id": 8006676
+        },
+        {
+            "station_name": "Zweibrücken Hbf",
+            "station_id": 8006680
+        },
+        {
+            "station_name": "Zwingenberg(Bergstr)",
+            "station_id": 8006687
+        },
+        {
+            "station_name": "Unterschleißheim",
+            "station_id": 8006688
+        },
+        {
+            "station_name": "Lübeck-Travem. Skandinavienkai",
+            "station_id": 8006704
+        },
+        {
+            "station_name": "Hann Münden",
+            "station_id": 8006707
+        },
+        {
+            "station_name": "Dorsten",
+            "station_id": 8006709
+        },
+        {
+            "station_name": "Hagen-Wehringhausen",
+            "station_id": 8006712
+        },
+        {
+            "station_name": "Solingen Vogelpark",
+            "station_id": 8006714
+        },
+        {
+            "station_name": "Vachendorf",
+            "station_id": 8006717
+        },
+        {
+            "station_name": "Wuppertal-Oberbarmen",
+            "station_id": 8006719
+        },
+        {
+            "station_name": "Straubing-Ost",
+            "station_id": 8006745
+        },
+        {
+            "station_name": "Urmersbach",
+            "station_id": 8007357
+        },
+        {
+            "station_name": "Aglasterhausen",
+            "station_id": 8007445
+        },
+        {
+            "station_name": "Miesenbach",
+            "station_id": 8007482
+        },
+        {
+            "station_name": "Wilhermsdorf Mitte",
+            "station_id": 8007856
+        },
+        {
+            "station_name": "Schaidt(Pfalz)",
+            "station_id": 8007857
+        },
+        {
+            "station_name": "Schweighofen",
+            "station_id": 8007860
+        },
+        {
+            "station_name": "Lebach-Jabach",
+            "station_id": 8007868
+        },
+        {
+            "station_name": "Cranzahl",
+            "station_id": 8010074
+        },
+        {
+            "station_name": "Görlitz",
+            "station_id": 8010131
+        },
+        {
+            "station_name": "Plaue(Thür)",
+            "station_id": 8010274
+        },
+        {
+            "station_name": "Suhl",
+            "station_id": 8010345
+        },
+        {
+            "station_name": "Erfurt-Gispersleben",
+            "station_id": 8011503
+        },
+        {
+            "station_name": "Frankfurt(Oder)-Rosengarten",
+            "station_id": 8011559
+        },
+        {
+            "station_name": "Gera-Zwötzen",
+            "station_id": 8011623
+        },
+        {
+            "station_name": "Jena-ZwÃ¤tzen",
+            "station_id": 8011958
+        },
+        {
+            "station_name": "Kirchmöser",
+            "station_id": 8012011
+        },
+        {
+            "station_name": "Neumühle(Elster)",
+            "station_id": 8012465
+        },
+        {
+            "station_name": "Peitz Ost",
+            "station_id": 8012621
+        },
+        {
+            "station_name": "Pretzier(Altm)",
+            "station_id": 8012673
+        },
+        {
+            "station_name": "Rodleben",
+            "station_id": 8012777
+        },
+        {
+            "station_name": "Rohr(Thür)",
+            "station_id": 8012787
+        },
+        {
+            "station_name": "Schwerin Mitte",
+            "station_id": 8012940
+        },
+        {
+            "station_name": "Schwarzkollm",
+            "station_id": 8012942
+        },
+        {
+            "station_name": "Seebach(Mühlhausen)",
+            "station_id": 8012961
+        },
+        {
+            "station_name": "Sonneberg(Thür)Hbf",
+            "station_id": 8013008
+        },
+        {
+            "station_name": "Tangerhütte",
+            "station_id": 8013083
+        },
+        {
+            "station_name": "Treben-Lehma",
+            "station_id": 8013138
+        },
+        {
+            "station_name": "Uebigau",
+            "station_id": 8013160
+        },
+        {
+            "station_name": "Utzedel",
+            "station_id": 8013177
+        },
+        {
+            "station_name": "Ventschow",
+            "station_id": 8013186
+        },
+        {
+            "station_name": "Vetschau",
+            "station_id": 8013188
+        },
+        {
+            "station_name": "Wahlitz",
+            "station_id": 8013205
+        },
+        {
+            "station_name": "Walschleben",
+            "station_id": 8013221
+        },
+        {
+            "station_name": "Walsleben",
+            "station_id": 8013222
+        },
+        {
+            "station_name": "Wandersleben",
+            "station_id": 8013226
+        },
+        {
+            "station_name": "Wasserthaleben",
+            "station_id": 8013244
+        },
+        {
+            "station_name": "Weisen",
+            "station_id": 8013258
+        },
+        {
+            "station_name": "Weißenfels West",
+            "station_id": 8013261
+        },
+        {
+            "station_name": "Werdau Nord",
+            "station_id": 8013280
+        },
+        {
+            "station_name": "Wilmersdorf(Angerm)",
+            "station_id": 8013313
+        },
+        {
+            "station_name": "Wingerode",
+            "station_id": 8013315
+        },
+        {
+            "station_name": "Woffleben",
+            "station_id": 8013333
+        },
+        {
+            "station_name": "Wutha",
+            "station_id": 8013366
+        },
+        {
+            "station_name": "Zachun",
+            "station_id": 8013370
+        },
+        {
+            "station_name": "Zarrendorf",
+            "station_id": 8013373
+        },
+        {
+            "station_name": "Zerbst/Anhalt",
+            "station_id": 8013389
+        },
+        {
+            "station_name": "Zerrenthin",
+            "station_id": 8013393
+        },
+        {
+            "station_name": "Zeutsch",
+            "station_id": 8013398
+        },
+        {
+            "station_name": "Zöberitz",
+            "station_id": 8013414
+        },
+        {
+            "station_name": "Zörnigall",
+            "station_id": 8013418
+        },
+        {
+            "station_name": "Freital-Potschappel",
+            "station_id": 8013445
+        },
+        {
+            "station_name": "Böhlen(Leipzig)",
+            "station_id": 8013471
+        },
+        {
+            "station_name": "Camburg(Saale)",
+            "station_id": 8013474
+        },
+        {
+            "station_name": "Dresden-Plauen",
+            "station_id": 8013476
+        },
+        {
+            "station_name": "Radebeul-Naundorf",
+            "station_id": 8013490
+        },
+        {
+            "station_name": "Untergrainau",
+            "station_id": 8017042
+        },
+        {
+            "station_name": "Heidenheim Voithwerk",
+            "station_id": 8070005
+        },
+        {
+            "station_name": "Offenbach(Main) Kaiserlei",
+            "station_id": 8070092
+        },
+        {
+            "station_name": "Durmersheim Nord",
+            "station_id": 8070170
+        },
+        {
+            "station_name": "Marienheide",
+            "station_id": 8070483
+        },
+        {
+            "station_name": "Zielitz Ort",
+            "station_id": 8073410
+        },
+        {
+            "station_name": "Neckarbischofsheim Nord",
+            "station_id": 8077434
+        },
+        {
+            "station_name": "Nohfelden",
+            "station_id": 8079083
+        },
+        {
+            "station_name": "Hannover-Ledeburg",
+            "station_id": 8079097
+        },
+        {
+            "station_name": "Neidenfels",
+            "station_id": 8079146
+        },
+        {
+            "station_name": "Hinterweidenthal Ost",
+            "station_id": 8079147
+        },
+        {
+            "station_name": "Dreieich-Weibelfeld",
+            "station_id": 8079151
+        },
+        {
+            "station_name": "Tessin West",
+            "station_id": 8079604
+        },
+        {
+            "station_name": "Singen Industriegebiet",
+            "station_id": 8079616
+        },
+        {
+            "station_name": "Rostock Thierfelder Str.",
+            "station_id": 8079629
+        },
+        {
+            "station_name": "Delitzsch ob Bf",
+            "station_id": 8080280
+        },
+        {
+            "station_name": "Halle Zscherbener Straße",
+            "station_id": 8080620
+        },
+        {
+            "station_name": "Magdeburg Hasselbachplatz",
+            "station_id": 8080660
+        },
+        {
+            "station_name": "Saarmund",
+            "station_id": 8081220
+        },
+        {
+            "station_name": "Schönebeck-Frohse",
+            "station_id": 8081270
+        },
+        {
+            "station_name": "Seegefeld",
+            "station_id": 8081586
+        },
+        {
+            "station_name": "Cottbus-Willmersdorf Nord",
+            "station_id": 8081688
+        },
+        {
+            "station_name": "Köln Messe/Deutz Gl. 9-10",
+            "station_id": 8083368
+        },
+        {
+            "station_name": "Münchweiler(Alsenz)",
+            "station_id": 8087062
+        },
+        {
+            "station_name": "Oberursel-Stierstadt",
+            "station_id": 8087064
+        },
+        {
+            "station_name": "Weingarten Berg",
+            "station_id": 8087067
+        },
+        {
+            "station_name": "Maulbronn West",
+            "station_id": 8087080
+        },
+        {
+            "station_name": "Neuenburg(Baden)",
+            "station_id": 8089119
+        },
+        {
+            "station_name": "Erkner (S)",
+            "station_id": 8089181
+        },
+        {
+            "station_name": "Potsdam Hbf (S)",
+            "station_id": 8089184
+        },
+        {
+            "station_name": "Blankenfelde (S)",
+            "station_id": 8089186
+        },
+        {
+            "station_name": "Strausberg (S)",
+            "station_id": 8089187
+        },
+        {
+            "station_name": "Flughafen BER - Terminal 1-2 (S-Bahn)",
+            "station_id": 8089201
+        },
+        {
+            "station_name": "Bernau (S)",
+            "station_id": 8089205
+        },
+        {
+            "station_name": "Hennigsdorf (S)",
+            "station_id": 8089207
+        },
+        {
+            "station_name": "Stuttgart Hbf (tief)",
+            "station_id": 8098096
+        },
+        {
+            "station_name": "Frankfurt Hbf (tief)",
+            "station_id": 8098105
+        },
+        {
+            "station_name": "Kassel Hbf (tief)",
+            "station_id": 8098193
+        },
+        {
+            "station_name": "Leipzig Hbf (tief)",
+            "station_id": 8098205
+        },
+        {
+            "station_name": "München Hbf (tief)",
+            "station_id": 8098263
+        },
+        {
+            "station_name": "Stolberg(Rheinl)Hbf Gl.44",
+            "station_id": 8098349
+        },
+        {
+            "station_name": "Nürnberg Frankenstadion Sonderbahnsteig",
+            "station_id": 8098493
+        },
+        {
+            "station_name": "Hamburg-Altona(S)",
+            "station_id": 8098553
+        }
+    ]
+}

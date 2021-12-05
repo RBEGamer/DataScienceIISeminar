@@ -337,7 +337,7 @@
 
         show_loading_modal(true); //DISPLAY OVERLAY
         $("#modal_info_text").html("LOADING STATIONS");
-        $.getJSON("/visualisation_files/selected_stations.json", function (station_json) {
+        $.getJSON("/visualisation_files/0_db_station_list.json", function (station_json) {
             parse_station_data(station_json);// LOAD SELECTED STATION INTO FIELDS
 
 
