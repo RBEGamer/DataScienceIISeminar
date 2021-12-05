@@ -7,8 +7,12 @@
     <link href="/css/fh_design.css" rel="stylesheet" media="all">
 
 
-   <link href="/css/landing-page.css" rel="stylesheet">
-   <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/landing-page.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+
+    <link href="/css/fullscreen_modal.css" rel="stylesheet">
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="kaps avatar test side">
@@ -56,6 +60,7 @@
         path.active {
             fill: pink;
         }
+
         circle.active {
             fill: blue;
         }
@@ -64,71 +69,88 @@
     </style>
 </head>
 
-<body class="container">
+<body>
 
-<nav class="navbar navbar-dark bg-dark static-top">
-    <div class="container">
+
+<!------------------ LOADING OVERLAY -------------->
+
+<div class="overlay"></div>
+<div class="spanner">
+    <div class="loader"></div>
+    <b class="">LOADING GEODATA - PLEASE WAIT</b>
+    <br>
+    <b class="" id="modal_info_text"></b>
+</div>
+
+
+
+<div class="container">
+    <nav class="navbar navbar-dark bg-dark static-top">
+        <div class="container">
         <span>
             <img src="/img/logo.png" height="60px"/>
             <a class="navbar-brand" href="/"><b class="fhcolor_text">Data Science II - Public Transport - Spreading Viewer</b></a>
         </span>
+        </div>
+    </nav>
+
+
+    <!-- ---- MAIN CONTENT ----------->
+    <div id="content d-flex">
+
+
+        <!-- ADD SPACING -->
+        <div class="row mt-5"></div>
+
+        <div class="row justify-content-center align-self-center">
+            <div class="col-4">
+                <label for="from_station" class="form-label"><b class="fhcolor_text">START STATION</b></label>
+                <select id="from_station" class="form-select form-select-lg mb-3" data-live-search="true"
+                        onchange="visualize_station_data(0)">
+
+                </select>
+
+
+            </div>
+            <div class="col-3">
+                <img src="/img/from_train_to.png" height="100px">
+            </div>
+            <div class="col-5">
+
+                <label for="to_station" class="form-label"><b class="fhcolor_text">DESTINATION STATION</b></label>
+                <select id="to_station" class="form-select form-select-lg mb-3" data-live-search="true"
+                        onchange="visualize_station_data(1)">
+
+                </select>
+
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <div id="info" style="color: whitesmoke;">Hover over a country</div>
+            </div>
+        </div>
+
+        <div class="row fhcolor_bg" id="map_content" height="600px">
+            <div class="col">
+                <svg id="svg_map" height="600px">
+                    <g id="svg_map_map" class="map"></g>
+                    <g class="bounding-box">
+                        <rect></rect>
+                    </g>
+                    <g class="centroid">
+                        <circle r="4"></circle>
+                    </g>
+                </svg>
+            </div>
+
+        </div>
+
+
     </div>
-</nav>
-
-
-
-<div id="content d-flex">
-
-
-    <!-- ADD SPACING -->
-    <div class="row mt-5"></div>
-
-    <div class="row justify-content-center align-self-center">
-        <div class="col-4">
-            <label for="from_station" class="form-label"><b class="fhcolor_text">START STATION</b></label>
-            <select id="from_station" class="form-select form-select-lg mb-3" data-live-search="true">
-
-            </select>
-
-
-        </div>
-        <div class="col-3">
-            <img src="/img/from_train_to.png" height="100px">
-        </div>
-        <div class="col-5">
-
-            <label for="to_station" class="form-label"><b class="fhcolor_text">DESTINATION STATION</b></label>
-            <select id="to_station" class="form-select form-select-lg mb-3" data-live-search="true">
-
-            </select>
-
-
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col">
-            <div id="info" style="color: whitesmoke;">Hover over a country</div>
-        </div>
-    </div>
-
-    <div class="row fhcolor_bg" id="map_content" height="600px">
-        <div class="col">
-            <svg id="svg_map"  height="600px">
-                <g id="svg_map_map" class="map"></g>
-                <g class="bounding-box">
-                    <rect></rect>
-                </g>
-                <g class="centroid">
-                    <circle r="4"></circle>
-                </g>
-            </svg>
-        </div>
-
-    </div>
-
-
 </div>
 
 
@@ -137,7 +159,6 @@
 <script src="/js/popper.min.js"></script>
 <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 <!--<script src="/bootstrap-select-1.13.14/dist/js/bootstrap-select.min.js"></script>-->
-
 
 
 <script src="/js/2.0.4_socket.io.js"></script>
@@ -189,28 +210,47 @@
             .attr('transform', 'translate(' + centroid + ')');
     }
 
+    var station_id_to = null;
+    var station_id_from = null;
 
-    function updatestation(geojson){
+
+    function visualize_station_data(_station_type) {
+        //_station_type = 0 FROM
+        // 1 = TO
+        if (_station_type === 0) {
+            station_id_from = $("#from_station").val();
+        } else if (_station_type === 1) {
+            station_id_to = $("#to_station").val();
+        }
+
+
+    }
+
+    function updatestation(geojson) {
         let u = d3.select('#svg_map g.map')
             .selectAll('path')
             .data(geojson.features).enter().append("circle")
-            .attr('r',5)
-            .attr('cx',function(d) { return projection(d.geometry.coordinates)[0]})
-            .attr('cy',function(d) { return projection(d.geometry.coordinates)[1]})
-            .on("mouseover",function(d) {
+            .attr('r', 5)
+            .attr('cx', function (d) {
+                return projection(d.geometry.coordinates)[0]
+            })
+            .attr('cy', function (d) {
+                return projection(d.geometry.coordinates)[1]
+            })
+            .on("mouseover", function (d) {
                 console.log("just had a mouseover", d3.select(d));
-                d3.select(this).classed("active",true);
+                d3.select(this).classed("active", true);
 
-            }).on("mouseout",function(d){
-                d3.select(this).classed("active",false);
+            }).on("mouseout", function (d) {
+                d3.select(this).classed("active", false);
             });
-
     }
+
+
     function update(geojson) {
         let u = d3.select('#svg_map g.map')
             .selectAll('path')
             .data(geojson.features);
-
 
 
         u.enter()
@@ -219,10 +259,31 @@
             .on('mouseover', handleMouseover);
 
 
-
-
     }
 
+    function show_loading_modal(_state) {
+        if (_state) {
+            $("div.spanner").addClass("show");
+            $("div.overlay").addClass("show");
+        } else {
+            $("div.spanner").removeClass("show");
+            $("div.overlay").removeClass("show");
+        }
+    }
+
+
+    //POPULATES THE STATION SELECTION FIELDS
+    function parse_station_data(json){
+        if (!json || !json.stations) {
+            alert("failed to load selected_stations");
+            return;
+        }
+        //LOAD VALUES INTO SELECT ITEM
+        for (var i = 0; i < json.stations.length; i++) {
+            $("#from_station").append(new Option(json.stations[i].name, json.stations[i].id));
+            $("#to_station").append(new Option(json.stations[i].name, json.stations[i].id));
+        }
+    }
 
     $(document).ready(function () {
         console.log("ready!");
@@ -236,26 +297,41 @@
         });
 
 
-        // LOAD SELECTED STATION INTO FIELDS
-        $.getJSON( "/visualisation_files/selected_stations.json", function( json ) {
-           if(!json || !json.stations){
-               alert("failed to load selected_stations");
-               return;
-           }
-            //LOAD VALUES INTO SELECT ITEM
-           for(var i= 0; i < json.stations.length;i++){
-               $("#from_station").append(new Option(json.stations[i].name, json.stations[i].id));
-               $("#to_station").append(new Option(json.stations[i].name, json.stations[i].id));
-           }
-        });
+
+
 
 
         //INIT D3
         init_d3();
 
-        // REQUEST DATA
-        d3.json('http://enjalot.github.io/wwsd/data/world/world-110m.geojson').then(function (json) {update(json)});
-        d3.json('http://enjalot.github.io/wwsd/data/world/ne_50m_populated_places_simple.geojson').then(function (json) {updatestation(json)});
+
+        show_loading_modal(true); //DISPLAY OVERLAY
+        $("#modal_info_text").html("LOADING STATIONS");
+        $.getJSON("/visualisation_files/selected_stations.json", function (station_json) {
+            parse_station_data(station_json);// LOAD SELECTED STATION INTO FIELDS
+
+
+
+            $("#modal_info_text").html("LOADING GEOJSON MAP");
+            d3.json('http://enjalot.github.io/wwsd/data/world/world-110m.geojson').then(function (map_json) {
+                update(map_json);
+
+
+
+                $("#modal_info_text").html("LOADING STATIONS POI LOCATIONS");
+                //LOAD STATION POINTS
+                d3.json('http://enjalot.github.io/wwsd/data/world/ne_50m_populated_places_simple.geojson').then(function (stationpoi_json) {
+                    updatestation(stationpoi_json);
+                    //DISABLE LOADING MODAL
+                    $("#modal_info_text").html("");
+                    show_loading_modal(false);
+                });
+            });
+
+        });
+
+
+
 
 
     });
