@@ -313,14 +313,14 @@
 
 
             $("#modal_info_text").html("LOADING GEOJSON MAP");
-            d3.json('http://enjalot.github.io/wwsd/data/world/world-110m.geojson').then(function (map_json) {
+            d3.json('/world.geojson').then(function (map_json) {
                 update(map_json);
 
 
 
                 $("#modal_info_text").html("LOADING STATIONS POI LOCATIONS");
                 //LOAD STATION POINTS
-                d3.json('http://enjalot.github.io/wwsd/data/world/ne_50m_populated_places_simple.geojson').then(function (stationpoi_json) {
+                d3.json('poi.geojson').then(function (stationpoi_json) {
                     updatestation(stationpoi_json);
                     //DISABLE LOADING MODAL
                     $("#modal_info_text").html("");
