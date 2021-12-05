@@ -1,0 +1,12 @@
+{
+  "stations": [
+    {
+      "name":"Frankfurt (Main HBF)",
+      "id": 80000
+    },
+    {
+      "name":"Aachen HBF",
+      "id": 80001
+    }
+  ]
+}
