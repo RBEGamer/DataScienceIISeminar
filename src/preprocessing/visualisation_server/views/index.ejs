@@ -11,6 +11,7 @@
     <link href="/css/main.css" rel="stylesheet">
 
     <link href="/css/fullscreen_modal.css" rel="stylesheet">
+    <link href="/css/fullscreen_modal_map.css" rel="stylesheet">
 
 
     <meta charset="utf-8">
@@ -74,13 +75,14 @@
 
 <!------------------ LOADING OVERLAY -------------->
 
-<div id="modal_loading_overlay"class="overlay"></div>
-<div id="modal_loading_overlay" class="spanner">
+<div id="modal_loading_overlay" class="overlay"></div>
+<div id="modal_loading_spanner" class="spanner">
     <div class="loader"></div>
     <b class="">LOADING GEODATA - PLEASE WAIT</b>
     <br>
     <b class="" id="modal_info_text"></b>
 </div>
+
 
 
 <div class="container">
@@ -97,12 +99,8 @@
     <!-- ---- MAIN CONTENT ----------->
     <div id="content d-flex">
 
-        <div id="modal_map_overlay"class="overlay"></div>
-        <div id="modal_map_overlay" class="spanner">
-            <div class="loader"></div>
-            <b class="">PLEASE SELECT A START AND DESTINATION STATION</b>
 
-        </div>
+
 
         <!-- ADD SPACING -->
         <div class="row mt-5"></div>
@@ -117,8 +115,8 @@
 
 
             </div>
-            <div class="col-3">
-                <img src="/img/from_train_to.png" height="100px">
+            <div class="col-2">
+                <img src="/img/train.png" height="100px">
             </div>
             <div class="col-5">
 
@@ -141,6 +139,8 @@
 
         <div class="row fhcolor_bg" id="map_content" height="600px">
             <div class="col">
+
+
                 <svg id="svg_map" height="600px">
                     <g id="svg_map_map" class="map"></g>
                     <g class="bounding-box">
@@ -149,6 +149,7 @@
                     <g class="centroid">
                         <circle r="4"></circle>
                     </g>
+
                 </svg>
             </div>
 
@@ -270,6 +271,14 @@
             return;
         }
 
+
+        $("#modal_info_text").html("LOADING");
+        show_loading_modal(true); //DISPLAY OVERLAY
+
+
+
+
+        show_loading_modal(false); //DISPLAY OVERLAY
         console.log(station_id_from);
     }
 
@@ -321,14 +330,14 @@
 
     //POPULATES THE STATION SELECTION FIELDS
     function parse_station_data(json) {
-        if (!json || !json.stations) {
+        if (!json || !json.features) {
             alert("failed to load selected_stations");
             return;
         }
         //LOAD VALUES INTO SELECT ITEM
-        for (var i = 0; i < json.stations.length; i++) {
-            $("#from_station").append(new Option(json.stations[i].station_name, json.stations[i].station_id));
-            $("#to_station").append(new Option(json.stations[i].station_name, json.stations[i].station_id));
+        for (var i = 0; i < json.features.length; i++) {
+            $("#from_station").append(new Option(json.features[i].properties.station_name, json.features[i].properties.station_id));
+            $("#to_station").append(new Option(json.features[i].properties.station_name, json.features[i].properties.station_id));
         }
         $("#from_station").val('- PLEASE SELECT -');
         $("#to_station").val('- PLEASE SELECT -');
@@ -349,8 +358,10 @@
         //INIT D3
         init_d3();
 
-
+        $("#modal_info_text").html("LOADING STATIONS");
         show_loading_modal(true); //DISPLAY OVERLAY
+
+
         $("#modal_info_text").html("LOADING STATIONS");
         $.getJSON("/visualisation_files/0_db_station_list.json", function (station_json) {
             parse_station_data(station_json);// LOAD SELECTED STATION INTO FIELDS
@@ -363,7 +374,7 @@
 
                 $("#modal_info_text").html("LOADING STATIONS POI LOCATIONS");
                 //LOAD STATION POINTS
-                d3.json('poi.geojson').then(function (stationpoi_json) {
+                d3.json('/visualisation_files/0_db_station_list.json').then(function (stationpoi_json) {
                     updatestation(stationpoi_json);
                     //DISABLE LOADING MODAL
                     $("#modal_info_text").html("");
