@@ -74,8 +74,8 @@
 
 <!------------------ LOADING OVERLAY -------------->
 
-<div class="overlay"></div>
-<div class="spanner">
+<div id="modal_loading_overlay"class="overlay"></div>
+<div id="modal_loading_overlay" class="spanner">
     <div class="loader"></div>
     <b class="">LOADING GEODATA - PLEASE WAIT</b>
     <br>
@@ -97,6 +97,12 @@
     <!-- ---- MAIN CONTENT ----------->
     <div id="content d-flex">
 
+        <div id="modal_map_overlay"class="overlay"></div>
+        <div id="modal_map_overlay" class="spanner">
+            <div class="loader"></div>
+            <b class="">PLEASE SELECT A START AND DESTINATION STATION</b>
+
+        </div>
 
         <!-- ADD SPACING -->
         <div class="row mt-5"></div>
@@ -246,17 +252,7 @@
         } else if (_station_type === 1) {
             station_id_to = $("#to_station").val();
         }
-/*
-        if(!station_id_to){
-            alert("Please select a valid  destination station");
-            return;
-        }
 
-        if(!station_id_from){
-            alert("Please select a valid start station");
-            return;
-        }
-*/
         if(station_id_from === station_id_to){
             alert("Start and destination station cant be the same");
             if (_station_type === 0) {
@@ -314,11 +310,11 @@
 
     function show_loading_modal(_state) {
         if (_state) {
-            $("div.spanner").addClass("show");
-            $("div.overlay").addClass("show");
+            $("#modal_loading_spanner").addClass("show");
+            $("#modal_loading_overlay").addClass("show");
         } else {
-            $("div.spanner").removeClass("show");
-            $("div.overlay").removeClass("show");
+            $("#modal_loading_spanner").removeClass("show");
+            $("#modal_loading_overlay").removeClass("show");
         }
     }
 
