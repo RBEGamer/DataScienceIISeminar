@@ -64,6 +64,11 @@ app.get('/index', function (req, res) {
     });
 });
 
+app.get('/l', function (req, res) {
+    res.render('index_leaflet.ejs', {
+        app_name: CFG.getConfig().app_name
+    });
+});
 
 
 //---------------- SOCKET IO START ------------- //

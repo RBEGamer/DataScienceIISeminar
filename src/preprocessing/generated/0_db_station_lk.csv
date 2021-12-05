@@ -4,7 +4,7 @@ Brackwede;Bielefeld;Kreisfreie Stadt;8000048;05711
 Kaufering;Landsberg am Lech;Landkreis;8000195;09181
 Weiden(Oberpf);Weiden i.d. OPf.;Kreisfreie Stadt;8000204;09363
 Landshut(Bay)Hbf;Landshut;Kreisfreie Stadt;8000217;09261
-LÃ¶hne(Westf);Herford;Kreis;8000233;05758
+Löhne(Westf);Herford;Kreis;8000233;05758
 Schnega;Lüchow-Dannenberg;Landkreis;8000440;03354
 Amberg;Amberg;Kreisfreie Stadt;8000566;09361
 Aschaffenburg Süd;Aschaffenburg;Kreisfreie Stadt;8000619;09661
@@ -29,7 +29,7 @@ Gelsenkirchen-Rotthausen;Gelsenkirchen;Kreisfreie Stadt;8002227;05513
 Haste;Schaumburg;Landkreis;8002634;03257
 Heessen;Hamm;Kreisfreie Stadt;8002680;05915
 Heilbronn Trappensee;Heilbronn;Stadtkreis;8002700;08121
-Herne-BÃ¶rnig;Herne;Kreisfreie Stadt;8002779;05916
+Herne-Börnig;Herne;Kreisfreie Stadt;8002779;05916
 Hof Hbf;Hof;Kreisfreie Stadt;8002924;09464
 Ingolstadt Nord;Ingolstadt;Kreisfreie Stadt;8003076;09161
 Inningen;Augsburg;Kreisfreie Stadt;8003079;09761
@@ -37,15 +37,15 @@ Isselhorst-Avenwedde;Gütersloh;Kreis;8003096;05754
 Kalchreuth;Erlangen-Höchstadt;Landkreis;8003154;09572
 Karlsruhe-Mühlburg;Karlsruhe;Stadtkreis;8003187;08212
 Koblenz-Moselweiß;Koblenz;Kreisfreie Stadt;8003354;07111
-KÃ¶nigslutter;Helmstedt;Landkreis;8003382;03154
+Königslutter;Helmstedt;Landkreis;8003382;03154
 Krefeld-Uerdingen;Krefeld;Kreisfreie Stadt;8003427;05114
 Landau(Pfalz)West;Landau in der Pfalz;Kreisfreie Stadt;8003508;07313
-Lang GÃ¶ns;Gießen;Landkreis;8003520;06531
+Lang Göns;Gießen;Landkreis;8003520;06531
 Laubenheim(Nahe);Bad Kreuznach;Landkreis;8003568;07133
 Legden;Borken;Kreis;8003608;05554
 Leverkusen-Rheindorf;Leverkusen;Kreisfreie Stadt;8003672;05316
 Linsburg;Nienburg (Weser);Landkreis;8003705;03256
-Ludwigshafen-RheingÃ¶nheim;Ludwigshafen am Rhein;Kreisfreie Stadt;8003767;07314
+Ludwigshafen-Rheingönheim;Ludwigshafen am Rhein;Kreisfreie Stadt;8003767;07314
 Lutum;Coesfeld;Kreis;8003804;05558
 Mainz-Mombach;Mainz;Kreisfreie Stadt;8003821;07315
 Marktbreit;Kitzingen;Landkreis;8003881;09675
@@ -63,7 +63,7 @@ Neukloster(Kr Stade);Stade;Landkreis;8004302;03359
 Dortmund UniversitÃ¤t;Dortmund;Kreisfreie Stadt;8004419;05913
 Niederweimar;Marburg-Biedenkopf;Landkreis;8004420;06534
 Münster-HÃ¤ger;Münster;Kreisfreie Stadt;8004426;05515
-Neustadt-BÃ¶big;Neustadt an der Weinstraße;Kreisfreie Stadt;8004489;07316
+Neustadt-Böbig;Neustadt an der Weinstraße;Kreisfreie Stadt;8004489;07316
 Oberbettingen-Hillesheim;Vulkaneifel;Landkreis;8004513;07233
 Oberbrechen;Limburg-Weilburg;Landkreis;8004518;06533
 Oberhausen-Sterkrade;Oberhausen;Kreisfreie Stadt;8004542;05119
@@ -78,7 +78,7 @@ Pfeddersheim;Worms;Kreisfreie Stadt;8004788;07319
 Pforzheim-Weißenstein;Pforzheim;Stadtkreis;8004801;08231
 Pfronten-Weißbach;Ostallgäu;Landkreis;8004809;09777
 Pirmasens Hbf;Pirmasens;Kreisfreie Stadt;8004822;07317
-PÃ¶nitz(Holst);Ostholstein;Kreis;8004848;01055
+Pönitz(Holst);Ostholstein;Kreis;8004848;01055
 Porta Westfalica;Minden-Lübbecke;Kreis;8004868;05770
 Pulling(b Freising);Freising;Landkreis;8004900;09178
 Düsseldorf-Hellerhof;Düsseldorf;Kreisfreie Stadt;8004920;05111
@@ -88,12 +88,12 @@ Regensburg-Prüfening;Regensburg;Kreisfreie Stadt;8004983;09362
 Reichertshausen(Ilm);Pfaffenhofen a.d. Ilm;Landkreis;8005008;09186
 Reinfeld(Holst);Stormarn;Kreis;8005019;01062
 Rheinhausen Ost;Duisburg;Kreisfreie Stadt;8005065;05112
-RÃ¶dental Mitte;Coburg;Landkreis;8005122;09473
-RÃ¶srath-Stümpen;Rheinisch-Bergischer Kreis;Kreis;8005143;05378
+Rödental Mitte;Coburg;Landkreis;8005122;09473
+Rösrath-Stümpen;Rheinisch-Bergischer Kreis;Kreis;8005143;05378
 Rommerskirchen;Rhein-Kreis Neuss;Kreis;8005159;05162
 Rottershausen;Bad Kissingen;Landkreis;8005199;09672
 Rückersbacher Schlucht;Aschaffenburg;Landkreis;8005208;09671
-SaarhÃ¶lzbach;Merzig-Wadern;Landkreis;8005246;10042
+Saarhölzbach;Merzig-Wadern;Landkreis;8005246;10042
 Salzgitter-Watenstedt;Salzgitter;Kreisfreie Stadt;8005275;03102
 Sand(Niederbay);Straubing-Bogen;Landkreis;8005279;09278
 Sarstedt;Hildesheim;Landkreis;8005292;03254
@@ -135,10 +135,10 @@ Twistringen;Diepholz;Landkreis;8005929;03251
 Ürzig(DB);Bernkastel-Wittlich;Landkreis;8005945;07231
 Uffenheim;Neustadt a.d. Aisch-Bad Windsheim;Landkreis;8005947;09575
 Uhingen;Göppingen;Landkreis;8005949;08117
-Ulm-SÃ¶flingen;Ulm;Stadtkreis;8005955;08421
+Ulm-Söflingen;Ulm;Stadtkreis;8005955;08421
 Undorf;Regensburg;Landkreis;8005966;09375
 Unkel;Neuwied;Landkreis;8005970;07138
-Unna-KÃ¶nigsborn;Unna;Kreis;8005971;05978
+Unna-Königsborn;Unna;Kreis;8005971;05978
 Unterheckenhofen;Roth;Landkreis;8005995;09576
 Germering-Unterpfaffenhofen;Fürstenfeldbruck;Landkreis;8006006;09179
 Untersteinach(b Stadtsteinach);Kulmbach;Landkreis;8006017;09477
@@ -146,7 +146,7 @@ Vach;Fürth;Kreisfreie Stadt;8006052;09563
 Vellmar-Osterberg/EKZ;Kassel;Landkreis;8006068;06633
 Vilseck;Amberg-Sulzbach;Landkreis;8006085;09371
 Vilshofen(Niederbay);Passau;Landkreis;8006086;09275
-VÃ¶hringen;Neu-Ulm;Landkreis;8006094;09775
+Vöhringen;Neu-Ulm;Landkreis;8006094;09775
 Voerde(Niederrhein);Wesel;Kreis;8006098;05170
 Vogelweh;Kaiserslautern;Kreisfreie Stadt;8006100;07312
 Volkringhausen;Märkischer Kreis;Kreis;8006109;05962
@@ -166,7 +166,7 @@ Wannweil;Reutlingen;Landkreis;8006203;08415
 Warthausen;Biberach;Landkreis;8006212;08426
 Wasserburg(Bodensee);Lindau (Bodensee);Landkreis;8006218;09776
 Wasserburg(Günz);Günzburg;Landkreis;8006219;09774
-Wattenscheid-HÃ¶ntrop;Bochum;Kreisfreie Stadt;8006227;05911
+Wattenscheid-Höntrop;Bochum;Kreisfreie Stadt;8006227;05911
 Weddel(Braunschw);Wolfenbüttel;Landkreis;8006233;03158
 Wedel(Holst);Pinneberg;Kreis;8006236;01056
 Weidenbach;Mühldorf a. Inn;Landkreis;8006258;09183
@@ -204,9 +204,9 @@ Alfter-Witterschlick;Rhein-Sieg-Kreis;Kreis;8006516;05382
 Witzenhausen Nord;Werra-Meißner-Kreis;Landkreis;8006524;06636
 Witzwort;Nordfriesland;Kreis;8006527;01054
 Darmstadt-Wixhausen;Darmstadt;Kreisfreie Stadt;8006528;06411
-WÃ¶rnitzstein;Donau-Ries;Landkreis;8006533;09779
-WÃ¶rsdorf;Rheingau-Taunus-Kreis;Landkreis;8006535;06439
-WÃ¶rth(Isar);Landshut;Landkreis;8006537;09274
+Wörnitzstein;Donau-Ries;Landkreis;8006533;09779
+Wörsdorf;Rheingau-Taunus-Kreis;Landkreis;8006535;06439
+Wörth(Isar);Landshut;Landkreis;8006537;09274
 Wohltorf;Herzogtum Lauenburg;Kreis;8006541;01053
 Wolfgang(Kr Hanau);Main-Kinzig-Kreis;Landkreis;8006548;06435
 Wolfratshausen;Bad Tölz-Wolfratshausen;Landkreis;8006550;09173
@@ -247,14 +247,14 @@ Schaidt(Pfalz);Germersheim;Landkreis;8007857;07334
 Schweighofen;Südliche Weinstraße;Landkreis;8007860;07337
 Lebach-Jabach;Saarlouis;Landkreis;8007868;10044
 Cranzahl;Erzgebirgskreis;Landkreis;8010074;14521
-GÃ¶rlitz;Görlitz;Landkreis;8010131;14626
+Görlitz;Görlitz;Landkreis;8010131;14626
 Plaue(Thür);Ilm-Kreis;Landkreis;8010274;16070
 Suhl;Suhl;Kreisfreie Stadt;8010345;16054
 Erfurt-Gispersleben;Erfurt;Kreisfreie Stadt;8011503;16051
 Frankfurt(Oder)-Rosengarten;Frankfurt (Oder);Kreisfreie Stadt;8011559;12053
-Gera-ZwÃ¶tzen;Gera;Kreisfreie Stadt;8011623;16052
+Gera-Zwötzen;Gera;Kreisfreie Stadt;8011623;16052
 Jena-ZwÃ¤tzen;Jena;Kreisfreie Stadt;8011958;16053
-KirchmÃ¶ser;Brandenburg an der Havel;Kreisfreie Stadt;8012011;12051
+Kirchmöser;Brandenburg an der Havel;Kreisfreie Stadt;8012011;12051
 Neumühle(Elster);Greiz;Landkreis;8012465;16076
 Peitz Ost;Spree-Neiße;Landkreis;8012621;12071
 Pretzier(Altm);Altmarkkreis Salzwedel;Landkreis;8012673;15081
@@ -287,10 +287,10 @@ Zarrendorf;Vorpommern-Rügen;Landkreis;8013373;13073
 Zerbst/Anhalt;Anhalt-Bitterfeld;Landkreis;8013389;15082
 Zerrenthin;Vorpommern-Greifswald;Landkreis;8013393;13075
 Zeutsch;Saalfeld-Rudolstadt;Landkreis;8013398;16073
-ZÃ¶beritz;Saalekreis;Landkreis;8013414;15088
-ZÃ¶rnigall;Wittenberg;Landkreis;8013418;15091
+Zöberitz;Saalekreis;Landkreis;8013414;15088
+Zörnigall;Wittenberg;Landkreis;8013418;15091
 Freital-Potschappel;Sächsische Schweiz-Osterzgebirge;Landkreis;8013445;14628
-BÃ¶hlen(Leipzig);Leipzig;Landkreis;8013471;14729
+Böhlen(Leipzig);Leipzig;Landkreis;8013471;14729
 Camburg(Saale);Saale-Holzland-Kreis;Landkreis;8013474;16074
 Dresden-Plauen;Dresden;Kreisfreie Stadt;8013476;14612
 Radebeul-Naundorf;Meißen;Landkreis;8013490;14627
@@ -313,10 +313,10 @@ Delitzsch ob Bf;Nordsachsen;Landkreis;8080280;14730
 Halle Zscherbener Straße;Halle (Saale);Kreisfreie Stadt;8080620;15002
 Magdeburg Hasselbachplatz;Magdeburg;Kreisfreie Stadt;8080660;15003
 Saarmund;Potsdam-Mittelmark;Landkreis;8081220;12069
-SchÃ¶nebeck-Frohse;Salzlandkreis;Landkreis;8081270;15089
+Schönebeck-Frohse;Salzlandkreis;Landkreis;8081270;15089
 Seegefeld;Havelland;Landkreis;8081586;12063
 Cottbus-Willmersdorf Nord;Cottbus;Kreisfreie Stadt;8081688;12052
-KÃ¶ln Messe/Deutz Gl. 9-10;Köln;Kreisfreie Stadt;8083368;05315
+Köln Messe/Deutz Gl. 9-10;Köln;Kreisfreie Stadt;8083368;05315
 Münchweiler(Alsenz);Donnersbergkreis;Landkreis;8087062;07333
 Oberursel-Stierstadt;Hochtaunuskreis;Landkreis;8087064;06434
 Weingarten Berg;Ravensburg;Landkreis;8087067;08436

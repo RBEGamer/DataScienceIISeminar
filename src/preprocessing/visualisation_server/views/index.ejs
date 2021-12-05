@@ -204,11 +204,16 @@
 
     var width = 300;
     var height = 600;
-    var scale = 0.1;
+    var scale = 10; //CONTAINS THE MAP SCALE FACTOR
 
     var projection = null;
     var geoGenerator = null;
     var path = null;
+
+
+
+    var loaded_lk_geojson = null;
+    var loaded_station_geojson = null;
 
     function init_d3() {
         width = $("#map_content").width();
@@ -217,7 +222,10 @@
         $("#svg_map").width(width);
         $("#svg_map").height(height);
 
+        
         projection = d3.geoMercator();
+
+
         geoGenerator = d3.geoPath().projection(projection);
     }
 
@@ -304,15 +312,38 @@
 
 
     function update(geojson) {
+
+        var center = d3.geoCentroid(geojson);
+        var offset = [width/2, height/2];
+        console.log(center);
+
+
+        var _projection = d3.geoMercator().scale(scale).center(center).translate(offset);
+        path = d3.geoPath().projection(_projection);
+
+        var bounds  = path.bounds(geojson);
+        var hscale  = scale*width  / (bounds[1][0] - bounds[0][0]);
+        var vscale  = scale*height / (bounds[1][1] - bounds[0][1]);
+        scale   = (hscale < vscale) ? hscale : vscale;
+        var offset  = [width - (bounds[0][0] + bounds[1][0])/2,
+            height - (bounds[0][1] + bounds[1][1])/2];
+        debugger;
+        projection = d3.geoMercator().center(center).scale(scale).translate(offset);
+        path = path.projection(projection);
+
+        console.log(scale);
+        console.log(center);
+        console.log(offset);
+
+
         let u = d3.select('#svg_map g.map')
             .selectAll('path')
-            .data(geojson.features);
-
-
-        u.enter()
-            .append('path')
-            .attr('d', geoGenerator)
+            .data(geojson.features).enter().append("path")
+            .attr("d", path)
             .on('mouseover', handleMouseover);
+
+
+
 
 
     }
@@ -368,13 +399,15 @@
 
 
             $("#modal_info_text").html("LOADING GEOJSON MAP");
-            d3.json('/world.geojson').then(function (map_json) {
+            d3.json('/visualisation_files/gemeinden_simplify200.geojson').then(function (map_json) {
+                loaded_lk_geojson = map_json;
                 update(map_json);
 
 
                 $("#modal_info_text").html("LOADING STATIONS POI LOCATIONS");
                 //LOAD STATION POINTS
                 d3.json('/visualisation_files/0_db_station_list.json').then(function (stationpoi_json) {
+                    loaded_station_geojson = stationpoi_json;
                     updatestation(stationpoi_json);
                     //DISABLE LOADING MODAL
                     $("#modal_info_text").html("");
