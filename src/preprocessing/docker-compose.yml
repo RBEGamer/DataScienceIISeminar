@@ -74,7 +74,7 @@ services:
     ports:
       - 9098:3017 
     volumes:
-      - ${PWD}/generated/visualisation_files:/usr/src/app/data
+      - ${PWD}/generated/:/usr/src/app/public/visualisation_files
     depends_on:
       - jupyterds2
     links:

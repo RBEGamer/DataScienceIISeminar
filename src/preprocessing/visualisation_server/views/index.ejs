@@ -310,8 +310,8 @@
         }
         //LOAD VALUES INTO SELECT ITEM
         for (var i = 0; i < json.stations.length; i++) {
-            $("#from_station").append(new Option(json.stations[i].name, json.stations[i].id));
-            $("#to_station").append(new Option(json.stations[i].name, json.stations[i].id));
+            $("#from_station").append(new Option(json.stations[i].station_name, json.stations[i].station_id));
+            $("#to_station").append(new Option(json.stations[i].station_name, json.stations[i].station_id));
         }
     }
 

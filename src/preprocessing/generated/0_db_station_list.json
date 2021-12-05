@@ -1,0 +1,60 @@
+{
+    "stations": [
+        {
+            "station_name": "Bayreuth Hbf",
+            "station_id": 8000028
+        },
+        {
+            "station_name": "Landshut(Bay)Hbf",
+            "station_id": 8000217
+        },
+        {
+            "station_name": "Hof Hbf",
+            "station_id": 8002924
+        },
+        {
+            "station_name": "Pirmasens Hbf",
+            "station_id": 8004822
+        },
+        {
+            "station_name": "Speyer Hbf",
+            "station_id": 8005628
+        },
+        {
+            "station_name": "Zweibrücken Hbf",
+            "station_id": 8006680
+        },
+        {
+            "station_name": "Sonneberg(Thür)Hbf",
+            "station_id": 8013008
+        },
+        {
+            "station_name": "Potsdam Hbf (S)",
+            "station_id": 8089184
+        },
+        {
+            "station_name": "Stuttgart Hbf (tief)",
+            "station_id": 8098096
+        },
+        {
+            "station_name": "Frankfurt Hbf (tief)",
+            "station_id": 8098105
+        },
+        {
+            "station_name": "Kassel Hbf (tief)",
+            "station_id": 8098193
+        },
+        {
+            "station_name": "Leipzig Hbf (tief)",
+            "station_id": 8098205
+        },
+        {
+            "station_name": "München Hbf (tief)",
+            "station_id": 8098263
+        },
+        {
+            "station_name": "Stolberg(Rheinl)Hbf Gl.44",
+            "station_id": 8098349
+        }
+    ]
+}
