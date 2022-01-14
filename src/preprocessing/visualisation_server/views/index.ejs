@@ -215,6 +215,12 @@
     var loaded_lk_geojson = null;
     var loaded_station_geojson = null;
 
+
+
+    var map_svg = null;
+    var map_landkreise_svg = null;
+
+
     function init_d3() {
         width = $("#map_content").width();
         height = $("#map_content").height();
@@ -227,6 +233,9 @@
 
 
         geoGenerator = d3.geoPath().projection(projection);
+
+        map_svg = d3.select("#svg_map").append("svg").attr("width", width).attr("height", height);
+        map_landkreise_svg = map_svg.append("g");
     }
 
 
@@ -295,17 +304,72 @@
         console.log(station_id_from);
     }
 
+
+    function show_selected_stions_on_map(json){
+
+
+        var to = [{lat:7.004806, long:49.995933, place:"test", color:"red"}, {lat:6.097265, long:50.924336, place:"test", color:"green"}]
+
+
+        map_landkreise_svg.selectAll("circle")
+            .data(to)
+            .enter()
+            .append("circle")
+            .attr("cx", function(d) { return projection([d.lat, d.long])[0]; })
+            .attr("cy", function(d) { return projection([d.lat, d.long])[1]; })
+            .attr("place", function(d) { return d.place; })
+            .attr("r", 10)
+            .style("fill", function(d) { return d.color; })
+            //.on("mouseover", mouseover);
+
+
+        //.on("mouseover", mouseover);
+
+        //functions for tweening the path
+        //var lineTransition = function lineTransition(path) {
+        //    path.transition()
+        //        .duration(3000)
+        //        .attrTween("stroke-dasharray", tweenDash);
+        //};
+
+        //var tweenDash = function tweenDash() {
+        //    var len = this.getTotalLength(),
+        //        interpolate = d3.interpolateString("0," + len, len + "," + len);
+
+            //return function(t) { return interpolate(t); };
+        //};
+
+        //assemble links from office locations
+        //var links = createLinks(json);
+
+        //append the arcs
+        /*
+        arcGroup.selectAll(".arc")
+            .data(links)
+            .enter()
+            .append("path")
+            .attr({ "class": "arc" })
+            .attr({ d: path })
+            .style({ fill: "none", stroke: "red", "stroke-width": "3px" })
+            .call(lineTransition);
+            */
+
+    };
+
+
     function updatestation(geojson) {
         let u = d3.select('#svg_map g.map')
             .selectAll('path')
             .data(geojson.features).enter().append("circle")
             .attr('r', 5)
+            .style("fill", "red")
             .attr('cx', function (d) {
                 return projection(d.geometry.coordinates)[0]
             })
             .attr('cy', function (d) {
                 return projection(d.geometry.coordinates)[1]
             })
+
             .on("mouseover", function (d) {
                 console.log("just had a mouseover", d3.select(d));
                 d3.select(this).classed("active", true);
@@ -332,7 +396,7 @@
         scale = (hscale < vscale) ? hscale : vscale;
         var offset = [width - (bounds[0][0] + bounds[1][0]) / 2,
             height - (bounds[0][1] + bounds[1][1]) / 2];
-        debugger;
+        //debugger;
         projection = d3.geoMercator().center(center).scale(scale).translate(offset);
         path = path.projection(projection);
 
@@ -345,10 +409,13 @@
             .selectAll('path')
             .data(geojson.features).enter().append("path")
             .attr("d", path)
+            .style("fill", "gray")
             .on('mouseover', handleMouseover);
 
 
+
     }
+
 
     function show_loading_modal(_state) {
         if (_state) {
@@ -416,6 +483,7 @@
                     d3.json('/visualisation_files/generated/0_db_station_list.json').then(function (stationpoi_json) {
                         loaded_station_geojson = stationpoi_json;
                         updatestation(stationpoi_json);
+                        show_selected_stions_on_map();
                         //DISABLE LOADING MODAL
                         $("#modal_info_text").html("");
                         show_loading_modal(false);
