@@ -31,6 +31,7 @@
 
         #content .info {
             height: 20px;
+
         }
 
         #content .map path {
@@ -132,7 +133,7 @@
 
         <div class="row">
             <div class="col">
-                <div id="info" style="color: whitesmoke;">Hover over a country</div>
+                <div id="info" class="fhcolor_text" >Hover over a country</div>
             </div>
         </div>
 
@@ -234,8 +235,13 @@
         let bounds = geoGenerator.bounds(d);
         let centroid = geoGenerator.centroid(d);
         let measure = geoGenerator.measure(d);
+        if(!d.properties.name ){
+            return;
+            $("#info").html('---');
 
-        $("#info").html(d.properties.name + ' (path.area = ' + pixelArea.toFixed(1) + ' path.measure = ' + measure.toFixed(1) + ')');
+        }
+
+        $("#info").html("<b>" + String(d.properties.name) + "</b>");
 
         d3.select('#content .bounding-box rect')
             .attr('x', bounds[0][0])
