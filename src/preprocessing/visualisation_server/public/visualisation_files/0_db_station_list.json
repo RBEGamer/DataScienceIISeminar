@@ -262,11 +262,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "ZÃ¶rnigall",
+                "station_name": "Zörnigall",
                 "station_id": 8013418,
                 "featureclass": "Admin-1",
-                "nameascii": "ZÃ¶rnigall",
-                "name": "ZÃ¶rnigall",
+                "nameascii": "Zörnigall",
+                "name": "Zörnigall",
                 "latitude": 12.731558,
                 "longitude": 51.882935,
                 "geonameid": -1,
@@ -283,11 +283,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "ZÃ¶beritz",
+                "station_name": "Zöberitz",
                 "station_id": 8013414,
                 "featureclass": "Admin-1",
-                "nameascii": "ZÃ¶beritz",
-                "name": "ZÃ¶beritz",
+                "nameascii": "Zöberitz",
+                "name": "Zöberitz",
                 "latitude": 12.033458,
                 "longitude": 51.50461,
                 "geonameid": -1,
@@ -1228,11 +1228,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "WÃ¶rth(Rhein) Zügelstraße",
+                "station_name": "Wörth(Rhein) Zügelstraße",
                 "station_id": 8006531,
                 "featureclass": "Admin-1",
-                "nameascii": "WÃ¶rth(Rhein) Zügelstraße",
-                "name": "WÃ¶rth(Rhein) Zügelstraße",
+                "nameascii": "Wörth(Rhein) Zügelstraße",
+                "name": "Wörth(Rhein) Zügelstraße",
                 "latitude": 8.262363,
                 "longitude": 49.052992,
                 "geonameid": -1,
@@ -1249,11 +1249,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "WÃ¶rth(Rhein) Mozartstraße",
+                "station_name": "Wörth(Rhein) Mozartstraße",
                 "station_id": 8006536,
                 "featureclass": "Admin-1",
-                "nameascii": "WÃ¶rth(Rhein) Mozartstraße",
-                "name": "WÃ¶rth(Rhein) Mozartstraße",
+                "nameascii": "Wörth(Rhein) Mozartstraße",
+                "name": "Wörth(Rhein) Mozartstraße",
                 "latitude": 8.251944,
                 "longitude": 49.055109,
                 "geonameid": -1,
@@ -1270,11 +1270,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "WÃ¶rth(Rhein)",
+                "station_name": "Wörth(Rhein)",
                 "station_id": 8000254,
                 "featureclass": "Admin-1",
-                "nameascii": "WÃ¶rth(Rhein)",
-                "name": "WÃ¶rth(Rhein)",
+                "nameascii": "Wörth(Rhein)",
+                "name": "Wörth(Rhein)",
                 "latitude": 8.273146,
                 "longitude": 49.045678,
                 "geonameid": -1,
@@ -1291,11 +1291,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "WÃ¶rth(Isar)",
+                "station_name": "Wörth(Isar)",
                 "station_id": 8006537,
                 "featureclass": "Admin-1",
-                "nameascii": "WÃ¶rth(Isar)",
-                "name": "WÃ¶rth(Isar)",
+                "nameascii": "Wörth(Isar)",
+                "name": "Wörth(Isar)",
                 "latitude": 12.332925,
                 "longitude": 48.624182,
                 "geonameid": -1,
@@ -1312,11 +1312,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "WÃ¶rsdorf",
+                "station_name": "Wörsdorf",
                 "station_id": 8006535,
                 "featureclass": "Admin-1",
-                "nameascii": "WÃ¶rsdorf",
-                "name": "WÃ¶rsdorf",
+                "nameascii": "Wörsdorf",
+                "name": "Wörsdorf",
                 "latitude": 8.249323,
                 "longitude": 50.244752,
                 "geonameid": -1,
@@ -1333,11 +1333,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "WÃ¶rnitzstein",
+                "station_name": "Wörnitzstein",
                 "station_id": 8006533,
                 "featureclass": "Admin-1",
-                "nameascii": "WÃ¶rnitzstein",
-                "name": "WÃ¶rnitzstein",
+                "nameascii": "Wörnitzstein",
+                "name": "Wörnitzstein",
                 "latitude": 10.714478,
                 "longitude": 48.731977,
                 "geonameid": -1,
@@ -3601,11 +3601,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Weißandt-GÃ¶lzau",
+                "station_name": "Weißandt-Gölzau",
                 "station_id": 8013259,
                 "featureclass": "Admin-1",
-                "nameascii": "Weißandt-GÃ¶lzau",
-                "name": "Weißandt-GÃ¶lzau",
+                "nameascii": "Weißandt-Gölzau",
+                "name": "Weißandt-Gölzau",
                 "latitude": 12.028765,
                 "longitude": 51.66967,
                 "geonameid": -1,
@@ -3769,11 +3769,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "WeinbÃ¶hla Hp",
+                "station_name": "Weinböhla Hp",
                 "station_id": 8013267,
                 "featureclass": "Admin-1",
-                "nameascii": "WeinbÃ¶hla Hp",
-                "name": "WeinbÃ¶hla Hp",
+                "nameascii": "Weinböhla Hp",
+                "name": "Weinböhla Hp",
                 "latitude": 13.561549,
                 "longitude": 51.159098,
                 "geonameid": -1,
@@ -4210,11 +4210,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Wattenscheid-HÃ¶ntrop",
+                "station_name": "Wattenscheid-Höntrop",
                 "station_id": 8006227,
                 "featureclass": "Admin-1",
-                "nameascii": "Wattenscheid-HÃ¶ntrop",
-                "name": "Wattenscheid-HÃ¶ntrop",
+                "nameascii": "Wattenscheid-Höntrop",
+                "name": "Wattenscheid-Höntrop",
                 "latitude": 7.153535,
                 "longitude": 51.459894,
                 "geonameid": -1,
@@ -4945,11 +4945,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "VÃ¶lksen/Eldagsen",
+                "station_name": "Völksen/Eldagsen",
                 "station_id": 8001741,
                 "featureclass": "Admin-1",
-                "nameascii": "VÃ¶lksen/Eldagsen",
-                "name": "VÃ¶lksen/Eldagsen",
+                "nameascii": "Völksen/Eldagsen",
+                "name": "Völksen/Eldagsen",
                 "latitude": 9.626528,
                 "longitude": 52.211875,
                 "geonameid": -1,
@@ -4966,11 +4966,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "VÃ¶lklingen",
+                "station_name": "Völklingen",
                 "station_id": 8000175,
                 "featureclass": "Admin-1",
-                "nameascii": "VÃ¶lklingen",
-                "name": "VÃ¶lklingen",
+                "nameascii": "Völklingen",
+                "name": "Völklingen",
                 "latitude": 6.848156,
                 "longitude": 49.249091,
                 "geonameid": -1,
@@ -4987,11 +4987,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "VÃ¶hringen",
+                "station_name": "Vöhringen",
                 "station_id": 8006094,
                 "featureclass": "Admin-1",
-                "nameascii": "VÃ¶hringen",
-                "name": "VÃ¶hringen",
+                "nameascii": "Vöhringen",
+                "name": "Vöhringen",
                 "latitude": 10.083628,
                 "longitude": 48.279088,
                 "geonameid": -1,
@@ -5449,11 +5449,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "VeitshÃ¶chheim",
+                "station_name": "Veitshöchheim",
                 "station_id": 8006065,
                 "featureclass": "Admin-1",
-                "nameascii": "VeitshÃ¶chheim",
-                "name": "VeitshÃ¶chheim",
+                "nameascii": "Veitshöchheim",
+                "name": "Veitshöchheim",
                 "latitude": 9.876196,
                 "longitude": 49.831432,
                 "geonameid": -1,
@@ -5995,11 +5995,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "UnterfÃ¶hring",
+                "station_name": "Unterföhring",
                 "station_id": 8005986,
                 "featureclass": "Admin-1",
-                "nameascii": "UnterfÃ¶hring",
-                "name": "UnterfÃ¶hring",
+                "nameascii": "Unterföhring",
+                "name": "Unterföhring",
                 "latitude": 11.646772,
                 "longitude": 48.19031,
                 "geonameid": -1,
@@ -6079,11 +6079,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Unna-KÃ¶nigsborn",
+                "station_name": "Unna-Königsborn",
                 "station_id": 8005971,
                 "featureclass": "Admin-1",
-                "nameascii": "Unna-KÃ¶nigsborn",
-                "name": "Unna-KÃ¶nigsborn",
+                "nameascii": "Unna-Königsborn",
+                "name": "Unna-Königsborn",
                 "latitude": 7.687808,
                 "longitude": 51.55328,
                 "geonameid": -1,
@@ -6184,11 +6184,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Ulm-SÃ¶flingen",
+                "station_name": "Ulm-Söflingen",
                 "station_id": 8005955,
                 "featureclass": "Admin-1",
-                "nameascii": "Ulm-SÃ¶flingen",
-                "name": "Ulm-SÃ¶flingen",
+                "nameascii": "Ulm-Söflingen",
+                "name": "Ulm-Söflingen",
                 "latitude": 9.958849,
                 "longitude": 48.402726,
                 "geonameid": -1,
@@ -6562,11 +6562,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "TÃ¶nning",
+                "station_name": "Tönning",
                 "station_id": 8005885,
                 "featureclass": "Admin-1",
-                "nameascii": "TÃ¶nning",
-                "name": "TÃ¶nning",
+                "nameascii": "Tönning",
+                "name": "Tönning",
                 "latitude": 8.937601,
                 "longitude": 54.314139,
                 "geonameid": -1,
@@ -7087,11 +7087,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Thaleischweiler-FrÃ¶schen",
+                "station_name": "Thaleischweiler-Fröschen",
                 "station_id": 8005843,
                 "featureclass": "Admin-1",
-                "nameascii": "Thaleischweiler-FrÃ¶schen",
-                "name": "Thaleischweiler-FrÃ¶schen",
+                "nameascii": "Thaleischweiler-Fröschen",
+                "name": "Thaleischweiler-Fröschen",
                 "latitude": 7.578141,
                 "longitude": 49.261374,
                 "geonameid": -1,
@@ -7675,11 +7675,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SÃ¶rup",
+                "station_name": "Sörup",
                 "station_id": 8005586,
                 "featureclass": "Admin-1",
-                "nameascii": "SÃ¶rup",
-                "name": "SÃ¶rup",
+                "nameascii": "Sörup",
+                "name": "Sörup",
                 "latitude": 9.669912,
                 "longitude": 54.716662,
                 "geonameid": -1,
@@ -11182,11 +11182,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶ppenstedt",
+                "station_name": "Schöppenstedt",
                 "station_id": 8005413,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶ppenstedt",
-                "name": "SchÃ¶ppenstedt",
+                "nameascii": "Schöppenstedt",
+                "name": "Schöppenstedt",
                 "latitude": 10.772047,
                 "longitude": 52.140692,
                 "geonameid": -1,
@@ -11203,11 +11203,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶nwalde(Spreewald)",
+                "station_name": "Schönwalde(Spreewald)",
                 "station_id": 8012923,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶nwalde(Spreewald)",
-                "name": "SchÃ¶nwalde(Spreewald)",
+                "nameascii": "Schönwalde(Spreewald)",
+                "name": "Schönwalde(Spreewald)",
                 "latitude": 13.777723,
                 "longitude": 51.990797,
                 "geonameid": -1,
@@ -11224,11 +11224,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶nstedt",
+                "station_name": "Schönstedt",
                 "station_id": 8012919,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶nstedt",
-                "name": "SchÃ¶nstedt",
+                "nameascii": "Schönstedt",
+                "name": "Schönstedt",
                 "latitude": 10.585823,
                 "longitude": 51.120752,
                 "geonameid": -1,
@@ -11245,11 +11245,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶now(Angerm)",
+                "station_name": "Schönow(Angerm)",
                 "station_id": 8012918,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶now(Angerm)",
-                "name": "SchÃ¶now(Angerm)",
+                "nameascii": "Schönow(Angerm)",
+                "name": "Schönow(Angerm)",
                 "latitude": 14.153814,
                 "longitude": 53.184946,
                 "geonameid": -1,
@@ -11266,11 +11266,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶ngeising",
+                "station_name": "Schöngeising",
                 "station_id": 8005406,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶ngeising",
-                "name": "SchÃ¶ngeising",
+                "nameascii": "Schöngeising",
+                "name": "Schöngeising",
                 "latitude": 11.192051,
                 "longitude": 48.14737,
                 "geonameid": -1,
@@ -11287,11 +11287,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶nfließ(b Oranienburg)",
+                "station_name": "Schönfließ(b Oranienburg)",
                 "station_id": 8081290,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶nfließ(b Oranienburg)",
-                "name": "SchÃ¶nfließ(b Oranienburg)",
+                "nameascii": "Schönfließ(b Oranienburg)",
+                "name": "Schönfließ(b Oranienburg)",
                 "latitude": 13.339419,
                 "longitude": 52.665075,
                 "geonameid": -1,
@@ -11308,11 +11308,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶neck-Oberdorfelden",
+                "station_name": "Schöneck-Oberdorfelden",
                 "station_id": 8004523,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶neck-Oberdorfelden",
-                "name": "SchÃ¶neck-Oberdorfelden",
+                "nameascii": "Schöneck-Oberdorfelden",
+                "name": "Schöneck-Oberdorfelden",
                 "latitude": 8.823385,
                 "longitude": 50.196149,
                 "geonameid": -1,
@@ -11329,11 +11329,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶neck-KilianstÃ¤dten",
+                "station_name": "Schöneck-KilianstÃ¤dten",
                 "station_id": 8003255,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶neck-KilianstÃ¤dten",
-                "name": "SchÃ¶neck-KilianstÃ¤dten",
+                "nameascii": "Schöneck-KilianstÃ¤dten",
+                "name": "Schöneck-KilianstÃ¤dten",
                 "latitude": 8.84042,
                 "longitude": 50.201787,
                 "geonameid": -1,
@@ -11350,11 +11350,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶neck-Büdesheim",
+                "station_name": "Schöneck-Büdesheim",
                 "station_id": 8001248,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶neck-Büdesheim",
-                "name": "SchÃ¶neck-Büdesheim",
+                "nameascii": "Schöneck-Büdesheim",
+                "name": "Schöneck-Büdesheim",
                 "latitude": 8.8436,
                 "longitude": 50.214951,
                 "geonameid": -1,
@@ -11371,11 +11371,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶nebeck-Frohse",
+                "station_name": "Schönebeck-Frohse",
                 "station_id": 8081270,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶nebeck-Frohse",
-                "name": "SchÃ¶nebeck-Frohse",
+                "nameascii": "Schönebeck-Frohse",
+                "name": "Schönebeck-Frohse",
                 "latitude": 11.707384,
                 "longitude": 52.033917,
                 "geonameid": -1,
@@ -11392,11 +11392,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶nebeck-Felgeleben",
+                "station_name": "Schönebeck-Felgeleben",
                 "station_id": 8013465,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶nebeck-Felgeleben",
-                "name": "SchÃ¶nebeck-Felgeleben",
+                "nameascii": "Schönebeck-Felgeleben",
+                "name": "Schönebeck-Felgeleben",
                 "latitude": 11.757148,
                 "longitude": 52.000747,
                 "geonameid": -1,
@@ -11413,11 +11413,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶nebeck-Bad Salzelmen",
+                "station_name": "Schönebeck-Bad Salzelmen",
                 "station_id": 8012907,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶nebeck-Bad Salzelmen",
-                "name": "SchÃ¶nebeck-Bad Salzelmen",
+                "nameascii": "Schönebeck-Bad Salzelmen",
+                "name": "Schönebeck-Bad Salzelmen",
                 "latitude": 11.723627,
                 "longitude": 51.998364,
                 "geonameid": -1,
@@ -11434,11 +11434,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶nebeck Süd",
+                "station_name": "Schönebeck Süd",
                 "station_id": 8081260,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶nebeck Süd",
-                "name": "SchÃ¶nebeck Süd",
+                "nameascii": "Schönebeck Süd",
+                "name": "Schönebeck Süd",
                 "latitude": 11.737305,
                 "longitude": 52.006752,
                 "geonameid": -1,
@@ -11455,11 +11455,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶nborn(Doberl)",
+                "station_name": "Schönborn(Doberl)",
                 "station_id": 8012903,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶nborn(Doberl)",
-                "name": "SchÃ¶nborn(Doberl)",
+                "nameascii": "Schönborn(Doberl)",
+                "name": "Schönborn(Doberl)",
                 "latitude": 13.468048,
                 "longitude": 51.602008,
                 "geonameid": -1,
@@ -11476,11 +11476,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶nberg(Meckl)",
+                "station_name": "Schönberg(Meckl)",
                 "station_id": 8012902,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶nberg(Meckl)",
-                "name": "SchÃ¶nberg(Meckl)",
+                "nameascii": "Schönberg(Meckl)",
+                "name": "Schönberg(Meckl)",
                 "latitude": 10.92787,
                 "longitude": 53.85338,
                 "geonameid": -1,
@@ -11497,11 +11497,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶nau(HÃ¶rsel)",
+                "station_name": "Schönau(Hörsel)",
                 "station_id": 8012899,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶nau(HÃ¶rsel)",
-                "name": "SchÃ¶nau(HÃ¶rsel)",
+                "nameascii": "Schönau(Hörsel)",
+                "name": "Schönau(Hörsel)",
                 "latitude": 10.429779,
                 "longitude": 50.94522,
                 "geonameid": -1,
@@ -11518,11 +11518,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchÃ¶na",
+                "station_name": "Schöna",
                 "station_id": 8012898,
                 "featureclass": "Admin-1",
-                "nameascii": "SchÃ¶na",
-                "name": "SchÃ¶na",
+                "nameascii": "Schöna",
+                "name": "Schöna",
                 "latitude": 14.234719,
                 "longitude": 50.875903,
                 "geonameid": -1,
@@ -11539,11 +11539,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchwÃ¶rstadt",
+                "station_name": "Schwörstadt",
                 "station_id": 8005497,
                 "featureclass": "Admin-1",
-                "nameascii": "SchwÃ¶rstadt",
-                "name": "SchwÃ¶rstadt",
+                "nameascii": "Schwörstadt",
+                "name": "Schwörstadt",
                 "latitude": 7.870328,
                 "longitude": 47.591019,
                 "geonameid": -1,
@@ -11665,11 +11665,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Schwerin-GÃ¶rries",
+                "station_name": "Schwerin-Görries",
                 "station_id": 8010325,
                 "featureclass": "Admin-1",
-                "nameascii": "Schwerin-GÃ¶rries",
-                "name": "Schwerin-GÃ¶rries",
+                "nameascii": "Schwerin-Görries",
+                "name": "Schwerin-Görries",
                 "latitude": 11.384935,
                 "longitude": 53.609373,
                 "geonameid": -1,
@@ -12610,11 +12610,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SchmÃ¶lln(Thür)",
+                "station_name": "Schmölln(Thür)",
                 "station_id": 8012889,
                 "featureclass": "Admin-1",
-                "nameascii": "SchmÃ¶lln(Thür)",
-                "name": "SchmÃ¶lln(Thür)",
+                "nameascii": "Schmölln(Thür)",
+                "name": "Schmölln(Thür)",
                 "latitude": 12.354899,
                 "longitude": 50.898319,
                 "geonameid": -1,
@@ -13408,11 +13408,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SandfÃ¶rde",
+                "station_name": "Sandförde",
                 "station_id": 8012839,
                 "featureclass": "Admin-1",
-                "nameascii": "SandfÃ¶rde",
-                "name": "SandfÃ¶rde",
+                "nameascii": "Sandförde",
+                "name": "Sandförde",
                 "latitude": 13.971273,
                 "longitude": 53.563981,
                 "geonameid": -1,
@@ -13849,11 +13849,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "SaarhÃ¶lzbach",
+                "station_name": "Saarhölzbach",
                 "station_id": 8005246,
                 "featureclass": "Admin-1",
-                "nameascii": "SaarhÃ¶lzbach",
-                "name": "SaarhÃ¶lzbach",
+                "nameascii": "Saarhölzbach",
+                "name": "Saarhölzbach",
                 "latitude": 6.6075,
                 "longitude": 49.516441,
                 "geonameid": -1,
@@ -14143,11 +14143,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶vershagen",
+                "station_name": "Rövershagen",
                 "station_id": 8010300,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶vershagen",
-                "name": "RÃ¶vershagen",
+                "nameascii": "Rövershagen",
+                "name": "Rövershagen",
                 "latitude": 12.247446,
                 "longitude": 54.175568,
                 "geonameid": -1,
@@ -14164,11 +14164,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶thenbach-Steinberg",
+                "station_name": "Röthenbach-Steinberg",
                 "station_id": 8005141,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶thenbach-Steinberg",
-                "name": "RÃ¶thenbach-Steinberg",
+                "nameascii": "Röthenbach-Steinberg",
+                "name": "Röthenbach-Steinberg",
                 "latitude": 11.2461671,
                 "longitude": 49.483365,
                 "geonameid": -1,
@@ -14185,11 +14185,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶thenbach-Seespitze",
+                "station_name": "Röthenbach-Seespitze",
                 "station_id": 8005142,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶thenbach-Seespitze",
-                "name": "RÃ¶thenbach-Seespitze",
+                "nameascii": "Röthenbach-Seespitze",
+                "name": "Röthenbach-Seespitze",
                 "latitude": 11.26149,
                 "longitude": 49.491524,
                 "geonameid": -1,
@@ -14206,11 +14206,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶thenbach(Pegnitz)",
+                "station_name": "Röthenbach(Pegnitz)",
                 "station_id": 8005140,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶thenbach(Pegnitz)",
-                "name": "RÃ¶thenbach(Pegnitz)",
+                "nameascii": "Röthenbach(Pegnitz)",
+                "name": "Röthenbach(Pegnitz)",
                 "latitude": 11.231104,
                 "longitude": 49.4794,
                 "geonameid": -1,
@@ -14227,11 +14227,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶thenbach(Oberpf)",
+                "station_name": "Röthenbach(Oberpf)",
                 "station_id": 8005139,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶thenbach(Oberpf)",
-                "name": "RÃ¶thenbach(Oberpf)",
+                "nameascii": "Röthenbach(Oberpf)",
+                "name": "Röthenbach(Oberpf)",
                 "latitude": 11.995583,
                 "longitude": 49.623543,
                 "geonameid": -1,
@@ -14248,11 +14248,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶thenbach(AllgÃ¤u)",
+                "station_name": "Röthenbach(AllgÃ¤u)",
                 "station_id": 8005138,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶thenbach(AllgÃ¤u)",
-                "name": "RÃ¶thenbach(AllgÃ¤u)",
+                "nameascii": "Röthenbach(AllgÃ¤u)",
+                "name": "Röthenbach(AllgÃ¤u)",
                 "latitude": 9.953543,
                 "longitude": 47.620618,
                 "geonameid": -1,
@@ -14269,11 +14269,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶srath-Stümpen",
+                "station_name": "Rösrath-Stümpen",
                 "station_id": 8005143,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶srath-Stümpen",
-                "name": "RÃ¶srath-Stümpen",
+                "nameascii": "Rösrath-Stümpen",
+                "name": "Rösrath-Stümpen",
                 "latitude": 7.15927,
                 "longitude": 50.898665,
                 "geonameid": -1,
@@ -14290,11 +14290,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶srath",
+                "station_name": "Rösrath",
                 "station_id": 8005134,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶srath",
-                "name": "RÃ¶srath",
+                "nameascii": "Rösrath",
+                "name": "Rösrath",
                 "latitude": 7.182662,
                 "longitude": 50.901549,
                 "geonameid": -1,
@@ -14311,11 +14311,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶ntgental",
+                "station_name": "Röntgental",
                 "station_id": 8081210,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶ntgental",
-                "name": "RÃ¶ntgental",
+                "nameascii": "Röntgental",
+                "name": "Röntgental",
                 "latitude": 13.513799,
                 "longitude": 52.648798,
                 "geonameid": -1,
@@ -14332,11 +14332,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶hrmoos",
+                "station_name": "Röhrmoos",
                 "station_id": 8005127,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶hrmoos",
-                "name": "RÃ¶hrmoos",
+                "nameascii": "Röhrmoos",
+                "name": "Röhrmoos",
                 "latitude": 11.44477,
                 "longitude": 48.333318,
                 "geonameid": -1,
@@ -14353,11 +14353,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶dermark-Urberach",
+                "station_name": "Rödermark-Urberach",
                 "station_id": 8006031,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶dermark-Urberach",
-                "name": "RÃ¶dermark-Urberach",
+                "nameascii": "Rödermark-Urberach",
+                "name": "Rödermark-Urberach",
                 "latitude": 8.798159,
                 "longitude": 49.975137,
                 "geonameid": -1,
@@ -14374,11 +14374,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶dermark-Ober Roden",
+                "station_name": "Rödermark-Ober Roden",
                 "station_id": 8000285,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶dermark-Ober Roden",
-                "name": "RÃ¶dermark-Ober Roden",
+                "nameascii": "Rödermark-Ober Roden",
+                "name": "Rödermark-Ober Roden",
                 "latitude": 8.828961,
                 "longitude": 49.973622,
                 "geonameid": -1,
@@ -14395,11 +14395,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶dental Mitte",
+                "station_name": "Rödental Mitte",
                 "station_id": 8005122,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶dental Mitte",
-                "name": "RÃ¶dental Mitte",
+                "nameascii": "Rödental Mitte",
+                "name": "Rödental Mitte",
                 "latitude": 11.050672,
                 "longitude": 50.295736,
                 "geonameid": -1,
@@ -14416,11 +14416,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RÃ¶dental",
+                "station_name": "Rödental",
                 "station_id": 8004633,
                 "featureclass": "Admin-1",
-                "nameascii": "RÃ¶dental",
-                "name": "RÃ¶dental",
+                "nameascii": "Rödental",
+                "name": "Rödental",
                 "latitude": 11.031308,
                 "longitude": 50.288366,
                 "geonameid": -1,
@@ -15865,11 +15865,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "RhÃ¶ndorf",
+                "station_name": "Rhöndorf",
                 "station_id": 8005074,
                 "featureclass": "Admin-1",
-                "nameascii": "RhÃ¶ndorf",
-                "name": "RhÃ¶ndorf",
+                "nameascii": "Rhöndorf",
+                "name": "Rhöndorf",
                 "latitude": 7.210214,
                 "longitude": 50.657876,
                 "geonameid": -1,
@@ -15970,11 +15970,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Rheinzabern Alte RÃ¶merstraße",
+                "station_name": "Rheinzabern Alte Römerstraße",
                 "station_id": 8005072,
                 "featureclass": "Admin-1",
-                "nameascii": "Rheinzabern Alte RÃ¶merstraße",
-                "name": "Rheinzabern Alte RÃ¶merstraße",
+                "nameascii": "Rheinzabern Alte Römerstraße",
+                "name": "Rheinzabern Alte Römerstraße",
                 "latitude": 8.273057,
                 "longitude": 49.109366,
                 "geonameid": -1,
@@ -16117,11 +16117,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Rheinbach RÃ¶merkanal",
+                "station_name": "Rheinbach Römerkanal",
                 "station_id": 8005057,
                 "featureclass": "Admin-1",
-                "nameascii": "Rheinbach RÃ¶merkanal",
-                "name": "Rheinbach RÃ¶merkanal",
+                "nameascii": "Rheinbach Römerkanal",
+                "name": "Rheinbach Römerkanal",
                 "latitude": 6.967911,
                 "longitude": 50.628284,
                 "geonameid": -1,
@@ -17440,11 +17440,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Radebeul-KÃ¶tzschenbroda",
+                "station_name": "Radebeul-Kötzschenbroda",
                 "station_id": 8010293,
                 "featureclass": "Admin-1",
-                "nameascii": "Radebeul-KÃ¶tzschenbroda",
-                "name": "Radebeul-KÃ¶tzschenbroda",
+                "nameascii": "Radebeul-Kötzschenbroda",
+                "name": "Radebeul-Kötzschenbroda",
                 "latitude": 13.628693,
                 "longitude": 51.107615,
                 "geonameid": -1,
@@ -17608,11 +17608,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "PÃ¶sing",
+                "station_name": "Pösing",
                 "station_id": 8004849,
                 "featureclass": "Admin-1",
-                "nameascii": "PÃ¶sing",
-                "name": "PÃ¶sing",
+                "nameascii": "Pösing",
+                "name": "Pösing",
                 "latitude": 12.5429,
                 "longitude": 49.229146,
                 "geonameid": -1,
@@ -17629,11 +17629,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "PÃ¶nitz(Leipzig)",
+                "station_name": "Pönitz(Leipzig)",
                 "station_id": 8012656,
                 "featureclass": "Admin-1",
-                "nameascii": "PÃ¶nitz(Leipzig)",
-                "name": "PÃ¶nitz(Leipzig)",
+                "nameascii": "Pönitz(Leipzig)",
+                "name": "Pönitz(Leipzig)",
                 "latitude": 12.514432,
                 "longitude": 51.408536,
                 "geonameid": -1,
@@ -17650,11 +17650,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "PÃ¶nitz(Holst)",
+                "station_name": "Pönitz(Holst)",
                 "station_id": 8004848,
                 "featureclass": "Admin-1",
-                "nameascii": "PÃ¶nitz(Holst)",
-                "name": "PÃ¶nitz(Holst)",
+                "nameascii": "Pönitz(Holst)",
+                "name": "Pönitz(Holst)",
                 "latitude": 10.671157,
                 "longitude": 54.045654,
                 "geonameid": -1,
@@ -17671,11 +17671,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "PÃ¶lling",
+                "station_name": "Pölling",
                 "station_id": 8004847,
                 "featureclass": "Admin-1",
-                "nameascii": "PÃ¶lling",
-                "name": "PÃ¶lling",
+                "nameascii": "Pölling",
+                "name": "Pölling",
                 "latitude": 11.413685,
                 "longitude": 49.288282,
                 "geonameid": -1,
@@ -17692,11 +17692,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "PÃ¶lchow",
+                "station_name": "Pölchow",
                 "station_id": 8012654,
                 "featureclass": "Admin-1",
-                "nameascii": "PÃ¶lchow",
-                "name": "PÃ¶lchow",
+                "nameascii": "Pölchow",
+                "name": "Pölchow",
                 "latitude": 12.121127,
                 "longitude": 54.011031,
                 "geonameid": -1,
@@ -17818,11 +17818,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "PrÃ¶sen Ost",
+                "station_name": "Prösen Ost",
                 "station_id": 8012681,
                 "featureclass": "Admin-1",
-                "nameascii": "PrÃ¶sen Ost",
-                "name": "PrÃ¶sen Ost",
+                "nameascii": "Prösen Ost",
+                "name": "Prösen Ost",
                 "latitude": 13.500532,
                 "longitude": 51.425299,
                 "geonameid": -1,
@@ -17839,11 +17839,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "PrÃ¶del",
+                "station_name": "Prödel",
                 "station_id": 8012678,
                 "featureclass": "Admin-1",
-                "nameascii": "PrÃ¶del",
-                "name": "PrÃ¶del",
+                "nameascii": "Prödel",
+                "name": "Prödel",
                 "latitude": 11.913342,
                 "longitude": 52.03764,
                 "geonameid": -1,
@@ -18637,11 +18637,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "PlÃ¶n",
+                "station_name": "Plön",
                 "station_id": 8004841,
                 "featureclass": "Admin-1",
-                "nameascii": "PlÃ¶n",
-                "name": "PlÃ¶n",
+                "nameascii": "Plön",
+                "name": "Plön",
                 "latitude": 10.422562,
                 "longitude": 54.159479,
                 "geonameid": -1,
@@ -21787,11 +21787,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Nürnberg-MÃ¶geldorf",
+                "station_name": "Nürnberg-Mögeldorf",
                 "station_id": 8004481,
                 "featureclass": "Admin-1",
-                "nameascii": "Nürnberg-MÃ¶geldorf",
-                "name": "Nürnberg-MÃ¶geldorf",
+                "nameascii": "Nürnberg-Mögeldorf",
+                "name": "Nürnberg-Mögeldorf",
                 "latitude": 11.133866,
                 "longitude": 49.459213,
                 "geonameid": -1,
@@ -22081,11 +22081,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "NÃ¶rten-Hardenberg",
+                "station_name": "Nörten-Hardenberg",
                 "station_id": 8004441,
                 "featureclass": "Admin-1",
-                "nameascii": "NÃ¶rten-Hardenberg",
-                "name": "NÃ¶rten-Hardenberg",
+                "nameascii": "Nörten-Hardenberg",
+                "name": "Nörten-Hardenberg",
                 "latitude": 9.933096,
                 "longitude": 51.628184,
                 "geonameid": -1,
@@ -22102,11 +22102,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "NÃ¶rdlingen",
+                "station_name": "Nördlingen",
                 "station_id": 8000280,
                 "featureclass": "Admin-1",
-                "nameascii": "NÃ¶rdlingen",
-                "name": "NÃ¶rdlingen",
+                "nameascii": "Nördlingen",
+                "name": "Nördlingen",
                 "latitude": 10.497863,
                 "longitude": 48.850841,
                 "geonameid": -1,
@@ -22123,11 +22123,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "NÃ¶bdenitz",
+                "station_name": "Nöbdenitz",
                 "station_id": 8012509,
                 "featureclass": "Admin-1",
-                "nameascii": "NÃ¶bdenitz",
-                "name": "NÃ¶bdenitz",
+                "nameascii": "Nöbdenitz",
+                "name": "Nöbdenitz",
                 "latitude": 12.280657,
                 "longitude": 50.878906,
                 "geonameid": -1,
@@ -22354,11 +22354,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "NordbÃ¶gge",
+                "station_name": "Nordbögge",
                 "station_id": 8004448,
                 "featureclass": "Admin-1",
-                "nameascii": "NordbÃ¶gge",
-                "name": "NordbÃ¶gge",
+                "nameascii": "Nordbögge",
+                "name": "Nordbögge",
                 "latitude": 7.7422,
                 "longitude": 51.615709,
                 "geonameid": -1,
@@ -22942,11 +22942,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "NiederhÃ¶vels",
+                "station_name": "Niederhövels",
                 "station_id": 8004381,
                 "featureclass": "Admin-1",
-                "nameascii": "NiederhÃ¶vels",
-                "name": "NiederhÃ¶vels",
+                "nameascii": "Niederhövels",
+                "name": "Niederhövels",
                 "latitude": 7.788525,
                 "longitude": 50.786291,
                 "geonameid": -1,
@@ -22963,11 +22963,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "NiederhÃ¶chstadt",
+                "station_name": "Niederhöchstadt",
                 "station_id": 8004380,
                 "featureclass": "Admin-1",
-                "nameascii": "NiederhÃ¶chstadt",
-                "name": "NiederhÃ¶chstadt",
+                "nameascii": "Niederhöchstadt",
+                "name": "Niederhöchstadt",
                 "latitude": 8.547237,
                 "longitude": 50.154198,
                 "geonameid": -1,
@@ -23005,11 +23005,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "NiedergÃ¶rsdorf",
+                "station_name": "Niedergörsdorf",
                 "station_id": 8012487,
                 "featureclass": "Admin-1",
-                "nameascii": "NiedergÃ¶rsdorf",
-                "name": "NiedergÃ¶rsdorf",
+                "nameascii": "Niedergörsdorf",
+                "name": "Niedergörsdorf",
                 "latitude": 12.978931,
                 "longitude": 51.96793,
                 "geonameid": -1,
@@ -23131,11 +23131,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Nieder WÃ¶llstadt",
+                "station_name": "Nieder Wöllstadt",
                 "station_id": 8004353,
                 "featureclass": "Admin-1",
-                "nameascii": "Nieder WÃ¶llstadt",
-                "name": "Nieder WÃ¶llstadt",
+                "nameascii": "Nieder Wöllstadt",
+                "name": "Nieder Wöllstadt",
                 "latitude": 8.767357,
                 "longitude": 50.280291,
                 "geonameid": -1,
@@ -23152,11 +23152,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Nieder FlÃ¶rsheim-Dalsheim",
+                "station_name": "Nieder Flörsheim-Dalsheim",
                 "station_id": 8004345,
                 "featureclass": "Admin-1",
-                "nameascii": "Nieder FlÃ¶rsheim-Dalsheim",
-                "name": "Nieder FlÃ¶rsheim-Dalsheim",
+                "nameascii": "Nieder Flörsheim-Dalsheim",
+                "name": "Nieder Flörsheim-Dalsheim",
                 "latitude": 8.204274,
                 "longitude": 49.656901,
                 "geonameid": -1,
@@ -23299,11 +23299,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "NeusÃ¶rnewitz",
+                "station_name": "Neusörnewitz",
                 "station_id": 8012471,
                 "featureclass": "Admin-1",
-                "nameascii": "NeusÃ¶rnewitz",
-                "name": "NeusÃ¶rnewitz",
+                "nameascii": "Neusörnewitz",
+                "name": "Neusörnewitz",
                 "latitude": 13.552767,
                 "longitude": 51.147553,
                 "geonameid": -1,
@@ -23362,11 +23362,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Neustadt-BÃ¶big",
+                "station_name": "Neustadt-Böbig",
                 "station_id": 8004489,
                 "featureclass": "Admin-1",
-                "nameascii": "Neustadt-BÃ¶big",
-                "name": "Neustadt-BÃ¶big",
+                "nameascii": "Neustadt-Böbig",
+                "name": "Neustadt-Böbig",
                 "latitude": 8.158313,
                 "longitude": 49.354245,
                 "geonameid": -1,
@@ -24601,11 +24601,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Nemsdorf-GÃ¶hrendorf",
+                "station_name": "Nemsdorf-Göhrendorf",
                 "station_id": 8012424,
                 "featureclass": "Admin-1",
-                "nameascii": "Nemsdorf-GÃ¶hrendorf",
-                "name": "Nemsdorf-GÃ¶hrendorf",
+                "nameascii": "Nemsdorf-Göhrendorf",
+                "name": "Nemsdorf-Göhrendorf",
                 "latitude": 11.6606462,
                 "longitude": 51.3577735,
                 "geonameid": -1,
@@ -26533,11 +26533,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Mühlenbeck-MÃ¶nchmühle",
+                "station_name": "Mühlenbeck-Mönchmühle",
                 "station_id": 8080980,
                 "featureclass": "Admin-1",
-                "nameascii": "Mühlenbeck-MÃ¶nchmühle",
-                "name": "Mühlenbeck-MÃ¶nchmühle",
+                "nameascii": "Mühlenbeck-Mönchmühle",
+                "name": "Mühlenbeck-Mönchmühle",
                 "latitude": 13.386844,
                 "longitude": 52.654605,
                 "geonameid": -1,
@@ -26596,11 +26596,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Mühlacker RÃ¶ßlesweg",
+                "station_name": "Mühlacker Rößlesweg",
                 "station_id": 8004103,
                 "featureclass": "Admin-1",
-                "nameascii": "Mühlacker RÃ¶ßlesweg",
-                "name": "Mühlacker RÃ¶ßlesweg",
+                "nameascii": "Mühlacker Rößlesweg",
+                "name": "Mühlacker Rößlesweg",
                 "latitude": 8.860143,
                 "longitude": 48.95634,
                 "geonameid": -1,
@@ -26680,11 +26680,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶ttingen",
+                "station_name": "Möttingen",
                 "station_id": 8004071,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶ttingen",
-                "name": "MÃ¶ttingen",
+                "nameascii": "Möttingen",
+                "name": "Möttingen",
                 "latitude": 10.597832,
                 "longitude": 48.806806,
                 "geonameid": -1,
@@ -26701,11 +26701,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶ssingen",
+                "station_name": "Mössingen",
                 "station_id": 8004070,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶ssingen",
-                "name": "MÃ¶ssingen",
+                "nameascii": "Mössingen",
+                "name": "Mössingen",
                 "latitude": 9.04653,
                 "longitude": 48.404309,
                 "geonameid": -1,
@@ -26722,11 +26722,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶ser",
+                "station_name": "Möser",
                 "station_id": 8012381,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶ser",
-                "name": "MÃ¶ser",
+                "nameascii": "Möser",
+                "name": "Möser",
                 "latitude": 11.78462,
                 "longitude": 52.218981,
                 "geonameid": -1,
@@ -26743,11 +26743,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶rlenbach",
+                "station_name": "Mörlenbach",
                 "station_id": 8004066,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶rlenbach",
-                "name": "MÃ¶rlenbach",
+                "nameascii": "Mörlenbach",
+                "name": "Mörlenbach",
                 "latitude": 8.730987,
                 "longitude": 49.597299,
                 "geonameid": -1,
@@ -26764,11 +26764,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶rfelden",
+                "station_name": "Mörfelden",
                 "station_id": 8004065,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶rfelden",
-                "name": "MÃ¶rfelden",
+                "nameascii": "Mörfelden",
+                "name": "Mörfelden",
                 "latitude": 8.565384,
                 "longitude": 49.979,
                 "geonameid": -1,
@@ -26785,11 +26785,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶nchrÃ¶den",
+                "station_name": "Mönchröden",
                 "station_id": 8004064,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶nchrÃ¶den",
-                "name": "MÃ¶nchrÃ¶den",
+                "nameascii": "Mönchröden",
+                "name": "Mönchröden",
                 "latitude": 11.057613,
                 "longitude": 50.302227,
                 "geonameid": -1,
@@ -26806,11 +26806,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶nchhagen",
+                "station_name": "Mönchhagen",
                 "station_id": 8012377,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶nchhagen",
-                "name": "MÃ¶nchhagen",
+                "nameascii": "Mönchhagen",
+                "name": "Mönchhagen",
                 "latitude": 12.225336,
                 "longitude": 54.14357,
                 "geonameid": -1,
@@ -26827,11 +26827,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶nchengladbach-Lürrip",
+                "station_name": "Mönchengladbach-Lürrip",
                 "station_id": 8001745,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶nchengladbach-Lürrip",
-                "name": "MÃ¶nchengladbach-Lürrip",
+                "nameascii": "Mönchengladbach-Lürrip",
+                "name": "Mönchengladbach-Lürrip",
                 "latitude": 6.472428,
                 "longitude": 51.199625,
                 "geonameid": -1,
@@ -26848,11 +26848,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶lln(Meckl)",
+                "station_name": "Mölln(Meckl)",
                 "station_id": 8012376,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶lln(Meckl)",
-                "name": "MÃ¶lln(Meckl)",
+                "nameascii": "Mölln(Meckl)",
+                "name": "Mölln(Meckl)",
                 "latitude": 13.084507,
                 "longitude": 53.585939,
                 "geonameid": -1,
@@ -26869,11 +26869,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶lln(Lauenb)",
+                "station_name": "Mölln(Lauenb)",
                 "station_id": 8004057,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶lln(Lauenb)",
-                "name": "MÃ¶lln(Lauenb)",
+                "nameascii": "Mölln(Lauenb)",
+                "name": "Mölln(Lauenb)",
                 "latitude": 10.683209,
                 "longitude": 53.624414,
                 "geonameid": -1,
@@ -26890,11 +26890,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶gglingen(Gmünd)",
+                "station_name": "Mögglingen(Gmünd)",
                 "station_id": 8004053,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶gglingen(Gmünd)",
-                "name": "MÃ¶gglingen(Gmünd)",
+                "nameascii": "Mögglingen(Gmünd)",
+                "name": "Mögglingen(Gmünd)",
                 "latitude": 9.960316,
                 "longitude": 48.825289,
                 "geonameid": -1,
@@ -26911,11 +26911,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "MÃ¶ckmühl",
+                "station_name": "Möckmühl",
                 "station_id": 8004050,
                 "featureclass": "Admin-1",
-                "nameascii": "MÃ¶ckmühl",
-                "name": "MÃ¶ckmühl",
+                "nameascii": "Möckmühl",
+                "name": "Möckmühl",
                 "latitude": 9.357979,
                 "longitude": 49.321107,
                 "geonameid": -1,
@@ -28024,11 +28024,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Melsungen-RÃ¶hrenfurth",
+                "station_name": "Melsungen-Röhrenfurth",
                 "station_id": 8005125,
                 "featureclass": "Admin-1",
-                "nameascii": "Melsungen-RÃ¶hrenfurth",
-                "name": "Melsungen-RÃ¶hrenfurth",
+                "nameascii": "Melsungen-Röhrenfurth",
+                "name": "Melsungen-Röhrenfurth",
                 "latitude": 9.548372,
                 "longitude": 51.154377,
                 "geonameid": -1,
@@ -28381,11 +28381,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Meckenheim(Bz KÃ¶ln)",
+                "station_name": "Meckenheim(Bz Köln)",
                 "station_id": 8003931,
                 "featureclass": "Admin-1",
-                "nameascii": "Meckenheim(Bz KÃ¶ln)",
-                "name": "Meckenheim(Bz KÃ¶ln)",
+                "nameascii": "Meckenheim(Bz Köln)",
+                "name": "Meckenheim(Bz Köln)",
                 "latitude": 7.014757,
                 "longitude": 50.627446,
                 "geonameid": -1,
@@ -29851,11 +29851,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Mainz RÃ¶misches Theater",
+                "station_name": "Mainz Römisches Theater",
                 "station_id": 8003816,
                 "featureclass": "Admin-1",
-                "nameascii": "Mainz RÃ¶misches Theater",
-                "name": "Mainz RÃ¶misches Theater",
+                "nameascii": "Mainz Römisches Theater",
+                "name": "Mainz Römisches Theater",
                 "latitude": 8.277565,
                 "longitude": 49.993465,
                 "geonameid": -1,
@@ -30649,11 +30649,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶wental",
+                "station_name": "Löwental",
                 "station_id": 8003733,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶wental",
-                "name": "LÃ¶wental",
+                "nameascii": "Löwental",
+                "name": "Löwental",
                 "latitude": 9.499241,
                 "longitude": 47.661398,
                 "geonameid": -1,
@@ -30670,11 +30670,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶wenberg(Mark)",
+                "station_name": "Löwenberg(Mark)",
                 "station_id": 8010214,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶wenberg(Mark)",
-                "name": "LÃ¶wenberg(Mark)",
+                "nameascii": "Löwenberg(Mark)",
+                "name": "Löwenberg(Mark)",
                 "latitude": 13.190055,
                 "longitude": 52.896801,
                 "geonameid": -1,
@@ -30691,11 +30691,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶venich",
+                "station_name": "Lövenich",
                 "station_id": 8003732,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶venich",
-                "name": "LÃ¶venich",
+                "nameascii": "Lövenich",
+                "name": "Lövenich",
                 "latitude": 6.83444,
                 "longitude": 50.942932,
                 "geonameid": -1,
@@ -30712,11 +30712,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶rzenbach-Fahrenbach",
+                "station_name": "Lörzenbach-Fahrenbach",
                 "station_id": 8003731,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶rzenbach-Fahrenbach",
-                "name": "LÃ¶rzenbach-Fahrenbach",
+                "nameascii": "Lörzenbach-Fahrenbach",
+                "name": "Lörzenbach-Fahrenbach",
                 "latitude": 8.764441,
                 "longitude": 49.638678,
                 "geonameid": -1,
@@ -30733,11 +30733,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶rrach-Stetten",
+                "station_name": "Lörrach-Stetten",
                 "station_id": 8003730,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶rrach-Stetten",
-                "name": "LÃ¶rrach-Stetten",
+                "nameascii": "Lörrach-Stetten",
+                "name": "Lörrach-Stetten",
                 "latitude": 7.659032,
                 "longitude": 47.601418,
                 "geonameid": -1,
@@ -30754,11 +30754,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶rrach-Haagen/Messe",
+                "station_name": "Lörrach-Haagen/Messe",
                 "station_id": 8002489,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶rrach-Haagen/Messe",
-                "name": "LÃ¶rrach-Haagen/Messe",
+                "nameascii": "Lörrach-Haagen/Messe",
+                "name": "Lörrach-Haagen/Messe",
                 "latitude": 7.680893,
                 "longitude": 47.633233,
                 "geonameid": -1,
@@ -30775,11 +30775,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶rrach-Brombach/Hauingen",
+                "station_name": "Lörrach-Brombach/Hauingen",
                 "station_id": 8001191,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶rrach-Brombach/Hauingen",
-                "name": "LÃ¶rrach-Brombach/Hauingen",
+                "nameascii": "Lörrach-Brombach/Hauingen",
+                "name": "Lörrach-Brombach/Hauingen",
                 "latitude": 7.695207,
                 "longitude": 47.637611,
                 "geonameid": -1,
@@ -30796,11 +30796,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶rrach Schwarzwaldstraße",
+                "station_name": "Lörrach Schwarzwaldstraße",
                 "station_id": 8003743,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶rrach Schwarzwaldstraße",
-                "name": "LÃ¶rrach Schwarzwaldstraße",
+                "nameascii": "Lörrach Schwarzwaldstraße",
+                "name": "Lörrach Schwarzwaldstraße",
                 "latitude": 7.672569,
                 "longitude": 47.624683,
                 "geonameid": -1,
@@ -30817,11 +30817,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶rrach Museum/Burghof",
+                "station_name": "Lörrach Museum/Burghof",
                 "station_id": 8003737,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶rrach Museum/Burghof",
-                "name": "LÃ¶rrach Museum/Burghof",
+                "nameascii": "Lörrach Museum/Burghof",
+                "name": "Lörrach Museum/Burghof",
                 "latitude": 7.661196,
                 "longitude": 47.607961,
                 "geonameid": -1,
@@ -30838,11 +30838,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶rrach Hbf",
+                "station_name": "Lörrach Hbf",
                 "station_id": 8003729,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶rrach Hbf",
-                "name": "LÃ¶rrach Hbf",
+                "nameascii": "Lörrach Hbf",
+                "name": "Lörrach Hbf",
                 "latitude": 7.66542,
                 "longitude": 47.614053,
                 "geonameid": -1,
@@ -30859,11 +30859,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶hne(Westf)",
+                "station_name": "Löhne(Westf)",
                 "station_id": 8000233,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶hne(Westf)",
-                "name": "LÃ¶hne(Westf)",
+                "nameascii": "Löhne(Westf)",
+                "name": "Löhne(Westf)",
                 "latitude": 8.7135,
                 "longitude": 52.196653,
                 "geonameid": -1,
@@ -30880,11 +30880,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶f",
+                "station_name": "Löf",
                 "station_id": 8003723,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶f",
-                "name": "LÃ¶f",
+                "nameascii": "Löf",
+                "name": "Löf",
                 "latitude": 7.443512,
                 "longitude": 50.230569,
                 "geonameid": -1,
@@ -30901,11 +30901,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LÃ¶cknitz",
+                "station_name": "Löcknitz",
                 "station_id": 8010213,
                 "featureclass": "Admin-1",
-                "nameascii": "LÃ¶cknitz",
-                "name": "LÃ¶cknitz",
+                "nameascii": "Löcknitz",
+                "name": "Löcknitz",
                 "latitude": 14.215417,
                 "longitude": 53.4561,
                 "geonameid": -1,
@@ -31069,11 +31069,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LudwigshÃ¶he",
+                "station_name": "Ludwigshöhe",
                 "station_id": 8003768,
                 "featureclass": "Admin-1",
-                "nameascii": "LudwigshÃ¶he",
-                "name": "LudwigshÃ¶he",
+                "nameascii": "Ludwigshöhe",
+                "name": "Ludwigshöhe",
                 "latitude": 11.248783,
                 "longitude": 49.499569,
                 "geonameid": -1,
@@ -31090,11 +31090,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Ludwigshafen-RheingÃ¶nheim",
+                "station_name": "Ludwigshafen-Rheingönheim",
                 "station_id": 8003767,
                 "featureclass": "Admin-1",
-                "nameascii": "Ludwigshafen-RheingÃ¶nheim",
-                "name": "Ludwigshafen-RheingÃ¶nheim",
+                "nameascii": "Ludwigshafen-Rheingönheim",
+                "name": "Ludwigshafen-Rheingönheim",
                 "latitude": 8.409493,
                 "longitude": 49.447471,
                 "geonameid": -1,
@@ -32287,11 +32287,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "LemfÃ¶rde",
+                "station_name": "Lemförde",
                 "station_id": 8003632,
                 "featureclass": "Admin-1",
-                "nameascii": "LemfÃ¶rde",
-                "name": "LemfÃ¶rde",
+                "nameascii": "Lemförde",
+                "name": "Lemförde",
                 "latitude": 8.36161,
                 "longitude": 52.460163,
                 "geonameid": -1,
@@ -32371,11 +32371,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Leipzig-StÃ¶tteritz",
+                "station_name": "Leipzig-Stötteritz",
                 "station_id": 8012194,
                 "featureclass": "Admin-1",
-                "nameascii": "Leipzig-StÃ¶tteritz",
-                "name": "Leipzig-StÃ¶tteritz",
+                "nameascii": "Leipzig-Stötteritz",
+                "name": "Leipzig-Stötteritz",
                 "latitude": 12.411428,
                 "longitude": 51.324512,
                 "geonameid": -1,
@@ -32434,11 +32434,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Leipzig-MÃ¶lkau",
+                "station_name": "Leipzig-Mölkau",
                 "station_id": 8012375,
                 "featureclass": "Admin-1",
-                "nameascii": "Leipzig-MÃ¶lkau",
-                "name": "Leipzig-MÃ¶lkau",
+                "nameascii": "Leipzig-Mölkau",
+                "name": "Leipzig-Mölkau",
                 "latitude": 12.45982,
                 "longitude": 51.325238,
                 "geonameid": -1,
@@ -32455,11 +32455,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Leipzig-MÃ¶ckern",
+                "station_name": "Leipzig-Möckern",
                 "station_id": 8012193,
                 "featureclass": "Admin-1",
-                "nameascii": "Leipzig-MÃ¶ckern",
-                "name": "Leipzig-MÃ¶ckern",
+                "nameascii": "Leipzig-Möckern",
+                "name": "Leipzig-Möckern",
                 "latitude": 12.352271,
                 "longitude": 51.364431,
                 "geonameid": -1,
@@ -32707,11 +32707,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Leipzig VÃ¶lkerschlachtdenkmal",
+                "station_name": "Leipzig Völkerschlachtdenkmal",
                 "station_id": 8012343,
                 "featureclass": "Admin-1",
-                "nameascii": "Leipzig VÃ¶lkerschlachtdenkmal",
-                "name": "Leipzig VÃ¶lkerschlachtdenkmal",
+                "nameascii": "Leipzig Völkerschlachtdenkmal",
+                "name": "Leipzig Völkerschlachtdenkmal",
                 "latitude": 12.4062842,
                 "longitude": 51.3187413,
                 "geonameid": -1,
@@ -34156,11 +34156,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Lang GÃ¶ns",
+                "station_name": "Lang Göns",
                 "station_id": 8003520,
                 "featureclass": "Admin-1",
-                "nameascii": "Lang GÃ¶ns",
-                "name": "Lang GÃ¶ns",
+                "nameascii": "Lang Göns",
+                "name": "Lang Göns",
                 "latitude": 8.667091,
                 "longitude": 50.497939,
                 "geonameid": -1,
@@ -34660,11 +34660,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶rle",
+                "station_name": "Körle",
                 "station_id": 8003388,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶rle",
-                "name": "KÃ¶rle",
+                "nameascii": "Körle",
+                "name": "Körle",
                 "latitude": 9.513137,
                 "longitude": 51.171588,
                 "geonameid": -1,
@@ -34681,11 +34681,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶nigswinter",
+                "station_name": "Königswinter",
                 "station_id": 8003386,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶nigswinter",
-                "name": "KÃ¶nigswinter",
+                "nameascii": "Königswinter",
+                "name": "Königswinter",
                 "latitude": 7.193592,
                 "longitude": 50.678638,
                 "geonameid": -1,
@@ -34702,11 +34702,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶nigstein(SÃ¤chs Schw)",
+                "station_name": "Königstein(SÃ¤chs Schw)",
                 "station_id": 8012072,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶nigstein(SÃ¤chs Schw)",
-                "name": "KÃ¶nigstein(SÃ¤chs Schw)",
+                "nameascii": "Königstein(SÃ¤chs Schw)",
+                "name": "Königstein(SÃ¤chs Schw)",
                 "latitude": 14.078899,
                 "longitude": 50.919445,
                 "geonameid": -1,
@@ -34723,11 +34723,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶nigslutter",
+                "station_name": "Königslutter",
                 "station_id": 8003382,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶nigslutter",
-                "name": "KÃ¶nigslutter",
+                "nameascii": "Königslutter",
+                "name": "Königslutter",
                 "latitude": 10.812489,
                 "longitude": 52.257166,
                 "geonameid": -1,
@@ -34744,11 +34744,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶nigshofen(Baden)",
+                "station_name": "Königshofen(Baden)",
                 "station_id": 8003381,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶nigshofen(Baden)",
-                "name": "KÃ¶nigshofen(Baden)",
+                "nameascii": "Königshofen(Baden)",
+                "name": "Königshofen(Baden)",
                 "latitude": 9.724669,
                 "longitude": 49.546022,
                 "geonameid": -1,
@@ -34765,11 +34765,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶nigsbronn",
+                "station_name": "Königsbronn",
                 "station_id": 8003378,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶nigsbronn",
-                "name": "KÃ¶nigsbronn",
+                "nameascii": "Königsbronn",
+                "name": "Königsbronn",
                 "latitude": 10.116135,
                 "longitude": 48.739518,
                 "geonameid": -1,
@@ -34786,11 +34786,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶nigsborn",
+                "station_name": "Königsborn",
                 "station_id": 8012066,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶nigsborn",
-                "name": "KÃ¶nigsborn",
+                "nameascii": "Königsborn",
+                "name": "Königsborn",
                 "latitude": 11.756268,
                 "longitude": 52.134011,
                 "geonameid": -1,
@@ -34807,11 +34807,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ndringen",
+                "station_name": "Köndringen",
                 "station_id": 8003374,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ndringen",
-                "name": "KÃ¶ndringen",
+                "nameascii": "Köndringen",
+                "name": "Köndringen",
                 "latitude": 7.802925,
                 "longitude": 48.137458,
                 "geonameid": -1,
@@ -34828,11 +34828,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Worringen",
+                "station_name": "Köln-Worringen",
                 "station_id": 8003373,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Worringen",
-                "name": "KÃ¶ln-Worringen",
+                "nameascii": "Köln-Worringen",
+                "name": "Köln-Worringen",
                 "latitude": 6.851719,
                 "longitude": 51.052378,
                 "geonameid": -1,
@@ -34849,11 +34849,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Weiden West",
+                "station_name": "Köln-Weiden West",
                 "station_id": 8003383,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Weiden West",
-                "name": "KÃ¶ln-Weiden West",
+                "nameascii": "Köln-Weiden West",
+                "name": "Köln-Weiden West",
                 "latitude": 6.815137,
                 "longitude": 50.9409,
                 "geonameid": -1,
@@ -34870,11 +34870,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Stammheim",
+                "station_name": "Köln-Stammheim",
                 "station_id": 8003310,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Stammheim",
-                "name": "KÃ¶ln-Stammheim",
+                "nameascii": "Köln-Stammheim",
+                "name": "Köln-Stammheim",
                 "latitude": 7.002095,
                 "longitude": 50.99007,
                 "geonameid": -1,
@@ -34891,11 +34891,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Nippes",
+                "station_name": "Köln-Nippes",
                 "station_id": 8003372,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Nippes",
-                "name": "KÃ¶ln-Nippes",
+                "nameascii": "Köln-Nippes",
+                "name": "Köln-Nippes",
                 "latitude": 6.941605,
                 "longitude": 50.958666,
                 "geonameid": -1,
@@ -34912,11 +34912,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Müngersdorf Technologiepark",
+                "station_name": "Köln-Müngersdorf Technologiepark",
                 "station_id": 8003375,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Müngersdorf Technologiepark",
-                "name": "KÃ¶ln-Müngersdorf Technologiepark",
+                "nameascii": "Köln-Müngersdorf Technologiepark",
+                "name": "Köln-Müngersdorf Technologiepark",
                 "latitude": 6.888201,
                 "longitude": 50.948394,
                 "geonameid": -1,
@@ -34933,11 +34933,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Mülheim",
+                "station_name": "Köln-Mülheim",
                 "station_id": 8000209,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Mülheim",
-                "name": "KÃ¶ln-Mülheim",
+                "nameascii": "Köln-Mülheim",
+                "name": "Köln-Mülheim",
                 "latitude": 7.013295,
                 "longitude": 50.957986,
                 "geonameid": -1,
@@ -34954,11 +34954,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Longerich",
+                "station_name": "Köln-Longerich",
                 "station_id": 8003371,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Longerich",
-                "name": "KÃ¶ln-Longerich",
+                "nameascii": "Köln-Longerich",
+                "name": "Köln-Longerich",
                 "latitude": 6.901557,
                 "longitude": 50.997736,
                 "geonameid": -1,
@@ -34975,11 +34975,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Holweide",
+                "station_name": "Köln-Holweide",
                 "station_id": 8003369,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Holweide",
-                "name": "KÃ¶ln-Holweide",
+                "nameascii": "Köln-Holweide",
+                "name": "Köln-Holweide",
                 "latitude": 7.041235,
                 "longitude": 50.97627,
                 "geonameid": -1,
@@ -34996,11 +34996,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Dellbrück",
+                "station_name": "Köln-Dellbrück",
                 "station_id": 8003367,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Dellbrück",
-                "name": "KÃ¶ln-Dellbrück",
+                "nameascii": "Köln-Dellbrück",
+                "name": "Köln-Dellbrück",
                 "latitude": 7.070124,
                 "longitude": 50.981437,
                 "geonameid": -1,
@@ -35017,11 +35017,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Chorweiler Nord",
+                "station_name": "Köln-Chorweiler Nord",
                 "station_id": 8003366,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Chorweiler Nord",
-                "name": "KÃ¶ln-Chorweiler Nord",
+                "nameascii": "Köln-Chorweiler Nord",
+                "name": "Köln-Chorweiler Nord",
                 "latitude": 6.892772,
                 "longitude": 51.028126,
                 "geonameid": -1,
@@ -35038,11 +35038,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Chorweiler",
+                "station_name": "Köln-Chorweiler",
                 "station_id": 8003365,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Chorweiler",
-                "name": "KÃ¶ln-Chorweiler",
+                "nameascii": "Köln-Chorweiler",
+                "name": "Köln-Chorweiler",
                 "latitude": 6.897824,
                 "longitude": 51.021126,
                 "geonameid": -1,
@@ -35059,11 +35059,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Buchforst",
+                "station_name": "Köln-Buchforst",
                 "station_id": 8003364,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Buchforst",
-                "name": "KÃ¶ln-Buchforst",
+                "nameascii": "Köln-Buchforst",
+                "name": "Köln-Buchforst",
                 "latitude": 7.004327,
                 "longitude": 50.953487,
                 "geonameid": -1,
@@ -35080,11 +35080,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln-Blumenberg",
+                "station_name": "Köln-Blumenberg",
                 "station_id": 8079140,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln-Blumenberg",
-                "name": "KÃ¶ln-Blumenberg",
+                "nameascii": "Köln-Blumenberg",
+                "name": "Köln-Blumenberg",
                 "latitude": 6.881921,
                 "longitude": 51.037414,
                 "geonameid": -1,
@@ -35101,11 +35101,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln West",
+                "station_name": "Köln West",
                 "station_id": 8003363,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln West",
-                "name": "KÃ¶ln West",
+                "nameascii": "Köln West",
+                "name": "Köln West",
                 "latitude": 6.934389,
                 "longitude": 50.943665,
                 "geonameid": -1,
@@ -35122,11 +35122,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln Volkhovener Weg",
+                "station_name": "Köln Volkhovener Weg",
                 "station_id": 8003362,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln Volkhovener Weg",
-                "name": "KÃ¶ln Volkhovener Weg",
+                "nameascii": "Köln Volkhovener Weg",
+                "name": "Köln Volkhovener Weg",
                 "latitude": 6.893241,
                 "longitude": 51.014251,
                 "geonameid": -1,
@@ -35143,11 +35143,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln Trimbornstr",
+                "station_name": "Köln Trimbornstr",
                 "station_id": 8003320,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln Trimbornstr",
-                "name": "KÃ¶ln Trimbornstr",
+                "nameascii": "Köln Trimbornstr",
+                "name": "Köln Trimbornstr",
                 "latitude": 6.996734,
                 "longitude": 50.935857,
                 "geonameid": -1,
@@ -35164,11 +35164,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln Süd",
+                "station_name": "Köln Süd",
                 "station_id": 8003361,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln Süd",
-                "name": "KÃ¶ln Süd",
+                "nameascii": "Köln Süd",
+                "name": "Köln Süd",
                 "latitude": 6.938059,
                 "longitude": 50.9273,
                 "geonameid": -1,
@@ -35185,11 +35185,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln Steinstraße",
+                "station_name": "Köln Steinstraße",
                 "station_id": 8003379,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln Steinstraße",
-                "name": "KÃ¶ln Steinstraße",
+                "nameascii": "Köln Steinstraße",
+                "name": "Köln Steinstraße",
                 "latitude": 7.057173,
                 "longitude": 50.895558,
                 "geonameid": -1,
@@ -35206,11 +35206,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln Messe/Deutz Gl. 9-10",
+                "station_name": "Köln Messe/Deutz Gl. 9-10",
                 "station_id": 8083368,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln Messe/Deutz Gl. 9-10",
-                "name": "KÃ¶ln Messe/Deutz Gl. 9-10",
+                "nameascii": "Köln Messe/Deutz Gl. 9-10",
+                "name": "Köln Messe/Deutz Gl. 9-10",
                 "latitude": 6.974641,
                 "longitude": 50.941299,
                 "geonameid": -1,
@@ -35227,11 +35227,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln Hansaring",
+                "station_name": "Köln Hansaring",
                 "station_id": 8003392,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln Hansaring",
-                "name": "KÃ¶ln Hansaring",
+                "nameascii": "Köln Hansaring",
+                "name": "Köln Hansaring",
                 "latitude": 6.952565,
                 "longitude": 50.949131,
                 "geonameid": -1,
@@ -35248,11 +35248,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln Geldernstr./Parkgürtel",
+                "station_name": "Köln Geldernstr./Parkgürtel",
                 "station_id": 8003360,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln Geldernstr./Parkgürtel",
-                "name": "KÃ¶ln Geldernstr./Parkgürtel",
+                "nameascii": "Köln Geldernstr./Parkgürtel",
+                "name": "Köln Geldernstr./Parkgürtel",
                 "latitude": 6.941413,
                 "longitude": 50.968551,
                 "geonameid": -1,
@@ -35269,11 +35269,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln Frankfurter Straße",
+                "station_name": "Köln Frankfurter Straße",
                 "station_id": 8003358,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln Frankfurter Straße",
-                "name": "KÃ¶ln Frankfurter Straße",
+                "nameascii": "Köln Frankfurter Straße",
+                "name": "Köln Frankfurter Straße",
                 "latitude": 7.051262,
                 "longitude": 50.915219,
                 "geonameid": -1,
@@ -35290,11 +35290,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶ln Airport-Businesspark",
+                "station_name": "Köln Airport-Businesspark",
                 "station_id": 8003370,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶ln Airport-Businesspark",
-                "name": "KÃ¶ln Airport-Businesspark",
+                "nameascii": "Köln Airport-Businesspark",
+                "name": "Köln Airport-Businesspark",
                 "latitude": 7.044451,
                 "longitude": 50.910282,
                 "geonameid": -1,
@@ -35311,11 +35311,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KÃ¶fering",
+                "station_name": "Köfering",
                 "station_id": 8003357,
                 "featureclass": "Admin-1",
-                "nameascii": "KÃ¶fering",
-                "name": "KÃ¶fering",
+                "nameascii": "Köfering",
+                "name": "Köfering",
                 "latitude": 12.20875,
                 "longitude": 48.931716,
                 "geonameid": -1,
@@ -35542,11 +35542,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KrÃ¶pelin",
+                "station_name": "Kröpelin",
                 "station_id": 8012108,
                 "featureclass": "Admin-1",
-                "nameascii": "KrÃ¶pelin",
-                "name": "KrÃ¶pelin",
+                "nameascii": "Kröpelin",
+                "name": "Kröpelin",
                 "latitude": 11.791573,
                 "longitude": 54.069137,
                 "geonameid": -1,
@@ -36508,11 +36508,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KnÃ¶ringen-Essingen",
+                "station_name": "Knöringen-Essingen",
                 "station_id": 8003349,
                 "featureclass": "Admin-1",
-                "nameascii": "KnÃ¶ringen-Essingen",
-                "name": "KnÃ¶ringen-Essingen",
+                "nameascii": "Knöringen-Essingen",
+                "name": "Knöringen-Essingen",
                 "latitude": 8.148265,
                 "longitude": 49.23817,
                 "geonameid": -1,
@@ -36655,11 +36655,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KleinkÃ¶tz",
+                "station_name": "Kleinkötz",
                 "station_id": 8003326,
                 "featureclass": "Admin-1",
-                "nameascii": "KleinkÃ¶tz",
-                "name": "KleinkÃ¶tz",
+                "nameascii": "Kleinkötz",
+                "name": "Kleinkötz",
                 "latitude": 10.288497,
                 "longitude": 48.411659,
                 "geonameid": -1,
@@ -36991,11 +36991,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "KirchmÃ¶ser",
+                "station_name": "Kirchmöser",
                 "station_id": 8012011,
                 "featureclass": "Admin-1",
-                "nameascii": "KirchmÃ¶ser",
-                "name": "KirchmÃ¶ser",
+                "nameascii": "Kirchmöser",
+                "name": "Kirchmöser",
                 "latitude": 12.422206,
                 "longitude": 52.375235,
                 "geonameid": -1,
@@ -37285,11 +37285,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Kirch GÃ¶ns",
+                "station_name": "Kirch Göns",
                 "station_id": 8003262,
                 "featureclass": "Admin-1",
-                "nameascii": "Kirch GÃ¶ns",
-                "name": "Kirch GÃ¶ns",
+                "nameascii": "Kirch Göns",
+                "name": "Kirch Göns",
                 "latitude": 8.666869,
                 "longitude": 50.473373,
                 "geonameid": -1,
@@ -39616,11 +39616,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "HÃ¶sel",
+                "station_name": "Hösel",
                 "station_id": 8002919,
                 "featureclass": "Admin-1",
-                "nameascii": "HÃ¶sel",
-                "name": "HÃ¶sel",
+                "nameascii": "Hösel",
+                "name": "Hösel",
                 "latitude": 6.893231,
                 "longitude": 51.341521,
                 "geonameid": -1,
@@ -39637,11 +39637,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "HÃ¶sbach",
+                "station_name": "Hösbach",
                 "station_id": 8002918,
                 "featureclass": "Admin-1",
-                "nameascii": "HÃ¶sbach",
-                "name": "HÃ¶sbach",
+                "nameascii": "Hösbach",
+                "name": "Hösbach",
                 "latitude": 9.229008,
                 "longitude": 49.999713,
                 "geonameid": -1,
@@ -39658,11 +39658,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "HÃ¶rlkofen",
+                "station_name": "Hörlkofen",
                 "station_id": 8002912,
                 "featureclass": "Admin-1",
-                "nameascii": "HÃ¶rlkofen",
-                "name": "HÃ¶rlkofen",
+                "nameascii": "Hörlkofen",
+                "name": "Hörlkofen",
                 "latitude": 11.942341,
                 "longitude": 48.242591,
                 "geonameid": -1,
@@ -39679,11 +39679,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "HÃ¶llriegelskreuth",
+                "station_name": "Höllriegelskreuth",
                 "station_id": 8002899,
                 "featureclass": "Admin-1",
-                "nameascii": "HÃ¶llriegelskreuth",
-                "name": "HÃ¶llriegelskreuth",
+                "nameascii": "Höllriegelskreuth",
+                "name": "Höllriegelskreuth",
                 "latitude": 11.509752,
                 "longitude": 48.043452,
                 "geonameid": -1,
@@ -39700,11 +39700,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "HÃ¶hmühlbach",
+                "station_name": "Höhmühlbach",
                 "station_id": 8002895,
                 "featureclass": "Admin-1",
-                "nameascii": "HÃ¶hmühlbach",
-                "name": "HÃ¶hmühlbach",
+                "nameascii": "Höhmühlbach",
+                "name": "Höhmühlbach",
                 "latitude": 7.526028,
                 "longitude": 49.243893,
                 "geonameid": -1,
@@ -39721,11 +39721,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "HÃ¶henkirchen-Siegertsbrunn",
+                "station_name": "Höhenkirchen-Siegertsbrunn",
                 "station_id": 8002894,
                 "featureclass": "Admin-1",
-                "nameascii": "HÃ¶henkirchen-Siegertsbrunn",
-                "name": "HÃ¶henkirchen-Siegertsbrunn",
+                "nameascii": "Höhenkirchen-Siegertsbrunn",
+                "name": "Höhenkirchen-Siegertsbrunn",
                 "latitude": 11.719226,
                 "longitude": 48.018465,
                 "geonameid": -1,
@@ -39742,11 +39742,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "HÃ¶fingen",
+                "station_name": "Höfingen",
                 "station_id": 8002892,
                 "featureclass": "Admin-1",
-                "nameascii": "HÃ¶fingen",
-                "name": "HÃ¶fingen",
+                "nameascii": "Höfingen",
+                "name": "Höfingen",
                 "latitude": 9.025315,
                 "longitude": 48.814986,
                 "geonameid": -1,
@@ -41443,11 +41443,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Herne-BÃ¶rnig",
+                "station_name": "Herne-Börnig",
                 "station_id": 8002779,
                 "featureclass": "Admin-1",
-                "nameascii": "Herne-BÃ¶rnig",
-                "name": "Herne-BÃ¶rnig",
+                "nameascii": "Herne-Börnig",
+                "name": "Herne-Börnig",
                 "latitude": 7.26835,
                 "longitude": 51.554789,
                 "geonameid": -1,
@@ -44173,11 +44173,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Hamburg-AllermÃ¶he",
+                "station_name": "Hamburg-Allermöhe",
                 "station_id": 8000779,
                 "featureclass": "Admin-1",
-                "nameascii": "Hamburg-AllermÃ¶he",
-                "name": "Hamburg-AllermÃ¶he",
+                "nameascii": "Hamburg-Allermöhe",
+                "name": "Hamburg-Allermöhe",
                 "latitude": 10.158735,
                 "longitude": 53.490356,
                 "geonameid": -1,
@@ -44362,11 +44362,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Hamburg KÃ¶nigstraße",
+                "station_name": "Hamburg Königstraße",
                 "station_id": 8006706,
                 "featureclass": "Admin-1",
-                "nameascii": "Hamburg KÃ¶nigstraße",
-                "name": "Hamburg KÃ¶nigstraße",
+                "nameascii": "Hamburg Königstraße",
+                "name": "Hamburg Königstraße",
                 "latitude": 9.944088,
                 "longitude": 53.547796,
                 "geonameid": -1,
@@ -44677,11 +44677,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Hamburg Alte WÃ¶hr",
+                "station_name": "Hamburg Alte Wöhr",
                 "station_id": 8000512,
                 "featureclass": "Admin-1",
-                "nameascii": "Hamburg Alte WÃ¶hr",
-                "name": "Hamburg Alte WÃ¶hr",
+                "nameascii": "Hamburg Alte Wöhr",
+                "name": "Hamburg Alte Wöhr",
                 "latitude": 10.035415,
                 "longitude": 53.59793,
                 "geonameid": -1,
@@ -44845,11 +44845,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Halle-SilberhÃ¶he",
+                "station_name": "Halle-Silberhöhe",
                 "station_id": 8013448,
                 "featureclass": "Admin-1",
-                "nameascii": "Halle-SilberhÃ¶he",
-                "name": "Halle-SilberhÃ¶he",
+                "nameascii": "Halle-Silberhöhe",
+                "name": "Halle-Silberhöhe",
                 "latitude": 11.966801,
                 "longitude": 51.445546,
                 "geonameid": -1,
@@ -45139,11 +45139,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Haitz-HÃ¶chst",
+                "station_name": "Haitz-Höchst",
                 "station_id": 8002532,
                 "featureclass": "Admin-1",
-                "nameascii": "Haitz-HÃ¶chst",
-                "name": "Haitz-HÃ¶chst",
+                "nameascii": "Haitz-Höchst",
+                "name": "Haitz-Höchst",
                 "latitude": 9.226821,
                 "longitude": 50.208634,
                 "geonameid": -1,
@@ -45391,11 +45391,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "HagebÃ¶k",
+                "station_name": "Hagebök",
                 "station_id": 8011797,
                 "featureclass": "Admin-1",
-                "nameascii": "HagebÃ¶k",
-                "name": "HagebÃ¶k",
+                "nameascii": "Hagebök",
+                "name": "Hagebök",
                 "latitude": 11.614882,
                 "longitude": 53.96126,
                 "geonameid": -1,
@@ -45559,11 +45559,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "GÃ¶ßnitz",
+                "station_name": "Gößnitz",
                 "station_id": 8010134,
                 "featureclass": "Admin-1",
-                "nameascii": "GÃ¶ßnitz",
-                "name": "GÃ¶ßnitz",
+                "nameascii": "Gößnitz",
+                "name": "Gößnitz",
                 "latitude": 12.429301,
                 "longitude": 50.8932,
                 "geonameid": -1,
@@ -45580,11 +45580,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "GÃ¶tz",
+                "station_name": "Götz",
                 "station_id": 8011662,
                 "featureclass": "Admin-1",
-                "nameascii": "GÃ¶tz",
-                "name": "GÃ¶tz",
+                "nameascii": "Götz",
+                "name": "Götz",
                 "latitude": 12.725983,
                 "longitude": 52.411224,
                 "geonameid": -1,
@@ -45601,11 +45601,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "GÃ¶rlitz",
+                "station_name": "Görlitz",
                 "station_id": 8010131,
                 "featureclass": "Admin-1",
-                "nameascii": "GÃ¶rlitz",
-                "name": "GÃ¶rlitz",
+                "nameascii": "Görlitz",
+                "name": "Görlitz",
                 "latitude": 14.97908,
                 "longitude": 51.146767,
                 "geonameid": -1,
@@ -45916,11 +45916,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "GrÃ¶bers",
+                "station_name": "Gröbers",
                 "station_id": 8011711,
                 "featureclass": "Admin-1",
-                "nameascii": "GrÃ¶bers",
-                "name": "GrÃ¶bers",
+                "nameascii": "Gröbers",
+                "name": "Gröbers",
                 "latitude": 12.1168256,
                 "longitude": 51.4323471,
                 "geonameid": -1,
@@ -45937,11 +45937,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "GrÃ¶benzell",
+                "station_name": "Gröbenzell",
                 "station_id": 8002377,
                 "featureclass": "Admin-1",
-                "nameascii": "GrÃ¶benzell",
-                "name": "GrÃ¶benzell",
+                "nameascii": "Gröbenzell",
+                "name": "Gröbenzell",
                 "latitude": 11.374107,
                 "longitude": 48.194919,
                 "geonameid": -1,
@@ -46147,11 +46147,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "GroßpÃ¶sna",
+                "station_name": "Großpösna",
                 "station_id": 8011755,
                 "featureclass": "Admin-1",
-                "nameascii": "GroßpÃ¶sna",
-                "name": "GroßpÃ¶sna",
+                "nameascii": "Großpösna",
+                "name": "Großpösna",
                 "latitude": 12.488839,
                 "longitude": 51.266709,
                 "geonameid": -1,
@@ -46546,11 +46546,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Groß KÃ¶ris",
+                "station_name": "Groß Köris",
                 "station_id": 8013109,
                 "featureclass": "Admin-1",
-                "nameascii": "Groß KÃ¶ris",
-                "name": "Groß KÃ¶ris",
+                "nameascii": "Groß Köris",
+                "name": "Groß Köris",
                 "latitude": 13.650807,
                 "longitude": 52.159607,
                 "geonameid": -1,
@@ -47428,11 +47428,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "GoldshÃ¶fe",
+                "station_name": "Goldshöfe",
                 "station_id": 8000380,
                 "featureclass": "Admin-1",
-                "nameascii": "GoldshÃ¶fe",
-                "name": "GoldshÃ¶fe",
+                "nameascii": "Goldshöfe",
+                "name": "Goldshöfe",
                 "latitude": 10.128254,
                 "longitude": 48.894221,
                 "geonameid": -1,
@@ -48352,11 +48352,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Gera-ZwÃ¶tzen",
+                "station_name": "Gera-Zwötzen",
                 "station_id": 8011623,
                 "featureclass": "Admin-1",
-                "nameascii": "Gera-ZwÃ¶tzen",
-                "name": "Gera-ZwÃ¶tzen",
+                "nameascii": "Gera-Zwötzen",
+                "name": "Gera-Zwötzen",
                 "latitude": 12.082181,
                 "longitude": 50.85005,
                 "geonameid": -1,
@@ -48772,11 +48772,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "GeiselhÃ¶ring",
+                "station_name": "Geiselhöring",
                 "station_id": 8002209,
                 "featureclass": "Admin-1",
-                "nameascii": "GeiselhÃ¶ring",
-                "name": "GeiselhÃ¶ring",
+                "nameascii": "Geiselhöring",
+                "name": "Geiselhöring",
                 "latitude": 12.392077,
                 "longitude": 48.822392,
                 "geonameid": -1,
@@ -48940,11 +48940,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "GangloffsÃ¶mmern",
+                "station_name": "Gangloffsömmern",
                 "station_id": 8011594,
                 "featureclass": "Admin-1",
-                "nameascii": "GangloffsÃ¶mmern",
-                "name": "GangloffsÃ¶mmern",
+                "nameascii": "Gangloffsömmern",
+                "name": "Gangloffsömmern",
                 "latitude": 10.954856,
                 "longitude": 51.191473,
                 "geonameid": -1,
@@ -49234,11 +49234,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "FÃ¶rtschendorf",
+                "station_name": "Förtschendorf",
                 "station_id": 8002020,
                 "featureclass": "Admin-1",
-                "nameascii": "FÃ¶rtschendorf",
-                "name": "FÃ¶rtschendorf",
+                "nameascii": "Förtschendorf",
+                "name": "Förtschendorf",
                 "latitude": 11.350128,
                 "longitude": 50.392901,
                 "geonameid": -1,
@@ -49255,11 +49255,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "FÃ¶rbau",
+                "station_name": "Förbau",
                 "station_id": 8002019,
                 "featureclass": "Admin-1",
-                "nameascii": "FÃ¶rbau",
-                "name": "FÃ¶rbau",
+                "nameascii": "Förbau",
+                "name": "Förbau",
                 "latitude": 11.910685,
                 "longitude": 50.207519,
                 "geonameid": -1,
@@ -49276,11 +49276,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "FÃ¶hren",
+                "station_name": "Föhren",
                 "station_id": 8002018,
                 "featureclass": "Admin-1",
-                "nameascii": "FÃ¶hren",
-                "name": "FÃ¶hren",
+                "nameascii": "Föhren",
+                "name": "Föhren",
                 "latitude": 6.767531,
                 "longitude": 49.857099,
                 "geonameid": -1,
@@ -49360,11 +49360,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "FrÃ¶ttstÃ¤dt",
+                "station_name": "FröttstÃ¤dt",
                 "station_id": 8010118,
                 "featureclass": "Admin-1",
-                "nameascii": "FrÃ¶ttstÃ¤dt",
-                "name": "FrÃ¶ttstÃ¤dt",
+                "nameascii": "FröttstÃ¤dt",
+                "name": "FröttstÃ¤dt",
                 "latitude": 10.573019,
                 "longitude": 50.930357,
                 "geonameid": -1,
@@ -49381,11 +49381,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "FrÃ¶ndenberg",
+                "station_name": "Fröndenberg",
                 "station_id": 8000113,
                 "featureclass": "Admin-1",
-                "nameascii": "FrÃ¶ndenberg",
-                "name": "FrÃ¶ndenberg",
+                "nameascii": "Fröndenberg",
+                "name": "Fröndenberg",
                 "latitude": 7.762198,
                 "longitude": 51.471254,
                 "geonameid": -1,
@@ -49402,11 +49402,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "FrÃ¶mern",
+                "station_name": "Frömern",
                 "station_id": 8002130,
                 "featureclass": "Admin-1",
-                "nameascii": "FrÃ¶mern",
-                "name": "FrÃ¶mern",
+                "nameascii": "Frömern",
+                "name": "Frömern",
                 "latitude": 7.735929,
                 "longitude": 51.499263,
                 "geonameid": -1,
@@ -50095,11 +50095,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "FreihÃ¶ls",
+                "station_name": "Freihöls",
                 "station_id": 8002075,
                 "featureclass": "Admin-1",
-                "nameascii": "FreihÃ¶ls",
-                "name": "FreihÃ¶ls",
+                "nameascii": "Freihöls",
+                "name": "Freihöls",
                 "latitude": 12.0193553,
                 "longitude": 49.4015378,
                 "geonameid": -1,
@@ -50326,11 +50326,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Frechen-KÃ¶nigsdorf",
+                "station_name": "Frechen-Königsdorf",
                 "station_id": 8002389,
                 "featureclass": "Admin-1",
-                "nameascii": "Frechen-KÃ¶nigsdorf",
-                "name": "Frechen-KÃ¶nigsdorf",
+                "nameascii": "Frechen-Königsdorf",
+                "name": "Frechen-Königsdorf",
                 "latitude": 6.777846,
                 "longitude": 50.936501,
                 "geonameid": -1,
@@ -50431,11 +50431,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Frankfurt-RÃ¶delheim",
+                "station_name": "Frankfurt-Rödelheim",
                 "station_id": 8002052,
                 "featureclass": "Admin-1",
-                "nameascii": "Frankfurt-RÃ¶delheim",
-                "name": "Frankfurt-RÃ¶delheim",
+                "nameascii": "Frankfurt-Rödelheim",
+                "name": "Frankfurt-Rödelheim",
                 "latitude": 8.607026,
                 "longitude": 50.124615,
                 "geonameid": -1,
@@ -50536,11 +50536,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Frankfurt-HÃ¶chst Farbwerke",
+                "station_name": "Frankfurt-Höchst Farbwerke",
                 "station_id": 8002051,
                 "featureclass": "Admin-1",
-                "nameascii": "Frankfurt-HÃ¶chst Farbwerke",
-                "name": "Frankfurt-HÃ¶chst Farbwerke",
+                "nameascii": "Frankfurt-Höchst Farbwerke",
+                "name": "Frankfurt-Höchst Farbwerke",
                 "latitude": 8.528732,
                 "longitude": 50.098558,
                 "geonameid": -1,
@@ -50557,11 +50557,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Frankfurt-HÃ¶chst",
+                "station_name": "Frankfurt-Höchst",
                 "station_id": 8000106,
                 "featureclass": "Admin-1",
-                "nameascii": "Frankfurt-HÃ¶chst",
-                "name": "Frankfurt-HÃ¶chst",
+                "nameascii": "Frankfurt-Höchst",
+                "name": "Frankfurt-Höchst",
                 "latitude": 8.54237,
                 "longitude": 50.102634,
                 "geonameid": -1,
@@ -51145,11 +51145,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "FlÃ¶rsheim(Main)",
+                "station_name": "Flörsheim(Main)",
                 "station_id": 8002013,
                 "featureclass": "Admin-1",
-                "nameascii": "FlÃ¶rsheim(Main)",
-                "name": "FlÃ¶rsheim(Main)",
+                "nameascii": "Flörsheim(Main)",
+                "name": "Flörsheim(Main)",
                 "latitude": 8.431013,
                 "longitude": 50.017211,
                 "geonameid": -1,
@@ -52867,11 +52867,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Espenau-MÃ¶nchehof",
+                "station_name": "Espenau-Mönchehof",
                 "station_id": 8004060,
                 "featureclass": "Admin-1",
-                "nameascii": "Espenau-MÃ¶nchehof",
-                "name": "Espenau-MÃ¶nchehof",
+                "nameascii": "Espenau-Mönchehof",
+                "name": "Espenau-Mönchehof",
                 "latitude": 9.455955,
                 "longitude": 51.390674,
                 "geonameid": -1,
@@ -54316,11 +54316,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "EinÃ¶d(Saar)",
+                "station_name": "Einöd(Saar)",
                 "station_id": 8000371,
                 "featureclass": "Admin-1",
-                "nameascii": "EinÃ¶d(Saar)",
-                "name": "EinÃ¶d(Saar)",
+                "nameascii": "Einöd(Saar)",
+                "name": "Einöd(Saar)",
                 "latitude": 7.321916,
                 "longitude": 49.266663,
                 "geonameid": -1,
@@ -54715,11 +54715,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Ehningen(b BÃ¶blingen)",
+                "station_name": "Ehningen(b Böblingen)",
                 "station_id": 8001689,
                 "featureclass": "Admin-1",
-                "nameascii": "Ehningen(b BÃ¶blingen)",
-                "name": "Ehningen(b BÃ¶blingen)",
+                "nameascii": "Ehningen(b Böblingen)",
+                "name": "Ehningen(b Böblingen)",
                 "latitude": 8.94426,
                 "longitude": 48.662682,
                 "geonameid": -1,
@@ -55093,11 +55093,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "EckernfÃ¶rde",
+                "station_name": "Eckernförde",
                 "station_id": 8001654,
                 "featureclass": "Admin-1",
-                "nameascii": "EckernfÃ¶rde",
-                "name": "EckernfÃ¶rde",
+                "nameascii": "Eckernförde",
+                "name": "Eckernförde",
                 "latitude": 9.835115,
                 "longitude": 54.4676,
                 "geonameid": -1,
@@ -55849,11 +55849,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Düsseldorf VÃ¶lklinger Str.",
+                "station_name": "Düsseldorf Völklinger Str.",
                 "station_id": 8001603,
                 "featureclass": "Admin-1",
-                "nameascii": "Düsseldorf VÃ¶lklinger Str.",
-                "name": "Düsseldorf VÃ¶lklinger Str.",
+                "nameascii": "Düsseldorf Völklinger Str.",
+                "name": "Düsseldorf Völklinger Str.",
                 "latitude": 6.760431,
                 "longitude": 51.210208,
                 "geonameid": -1,
@@ -55975,11 +55975,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "DÃ¶rverden",
+                "station_name": "Dörverden",
                 "station_id": 8001489,
                 "featureclass": "Admin-1",
-                "nameascii": "DÃ¶rverden",
-                "name": "DÃ¶rverden",
+                "nameascii": "Dörverden",
+                "name": "Dörverden",
                 "latitude": 9.246334,
                 "longitude": 52.846407,
                 "geonameid": -1,
@@ -55996,11 +55996,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "DÃ¶rfles-Esbach",
+                "station_name": "Dörfles-Esbach",
                 "station_id": 8001484,
                 "featureclass": "Admin-1",
-                "nameascii": "DÃ¶rfles-Esbach",
-                "name": "DÃ¶rfles-Esbach",
+                "nameascii": "Dörfles-Esbach",
+                "name": "Dörfles-Esbach",
                 "latitude": 10.997756,
                 "longitude": 50.282751,
                 "geonameid": -1,
@@ -56017,11 +56017,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "DÃ¶llstÃ¤dt",
+                "station_name": "DöllstÃ¤dt",
                 "station_id": 8010081,
                 "featureclass": "Admin-1",
-                "nameascii": "DÃ¶llstÃ¤dt",
-                "name": "DÃ¶llstÃ¤dt",
+                "nameascii": "DöllstÃ¤dt",
+                "name": "DöllstÃ¤dt",
                 "latitude": 10.813398,
                 "longitude": 51.084886,
                 "geonameid": -1,
@@ -56794,11 +56794,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Dreieich-GÃ¶tzenhain",
+                "station_name": "Dreieich-Götzenhain",
                 "station_id": 8002315,
                 "featureclass": "Admin-1",
-                "nameascii": "Dreieich-GÃ¶tzenhain",
-                "name": "Dreieich-GÃ¶tzenhain",
+                "nameascii": "Dreieich-Götzenhain",
+                "name": "Dreieich-Götzenhain",
                 "latitude": 8.7322,
                 "longitude": 49.994216,
                 "geonameid": -1,
@@ -57025,11 +57025,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Dortmund-SÃ¶lde",
+                "station_name": "Dortmund-Sölde",
                 "station_id": 8001545,
                 "featureclass": "Admin-1",
-                "nameascii": "Dortmund-SÃ¶lde",
-                "name": "Dortmund-SÃ¶lde",
+                "nameascii": "Dortmund-Sölde",
+                "name": "Dortmund-Sölde",
                 "latitude": 7.589205,
                 "longitude": 51.49546,
                 "geonameid": -1,
@@ -57256,11 +57256,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Dortmund-LÃ¶ttringhausen",
+                "station_name": "Dortmund-Löttringhausen",
                 "station_id": 8001538,
                 "featureclass": "Admin-1",
-                "nameascii": "Dortmund-LÃ¶ttringhausen",
-                "name": "Dortmund-LÃ¶ttringhausen",
+                "nameascii": "Dortmund-Löttringhausen",
+                "name": "Dortmund-Löttringhausen",
                 "latitude": 7.447228,
                 "longitude": 51.451655,
                 "geonameid": -1,
@@ -57277,11 +57277,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Dortmund-KÃ¶rne West",
+                "station_name": "Dortmund-Körne West",
                 "station_id": 8003916,
                 "featureclass": "Admin-1",
-                "nameascii": "Dortmund-KÃ¶rne West",
-                "name": "Dortmund-KÃ¶rne West",
+                "nameascii": "Dortmund-Körne West",
+                "name": "Dortmund-Körne West",
                 "latitude": 7.502409,
                 "longitude": 51.509939,
                 "geonameid": -1,
@@ -57298,11 +57298,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Dortmund-KÃ¶rne",
+                "station_name": "Dortmund-Körne",
                 "station_id": 8001535,
                 "featureclass": "Admin-1",
-                "nameascii": "Dortmund-KÃ¶rne",
-                "name": "Dortmund-KÃ¶rne",
+                "nameascii": "Dortmund-Körne",
+                "name": "Dortmund-Körne",
                 "latitude": 7.51537,
                 "longitude": 51.51343,
                 "geonameid": -1,
@@ -57382,11 +57382,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Dortmund-KirchhÃ¶rde",
+                "station_name": "Dortmund-Kirchhörde",
                 "station_id": 8001534,
                 "featureclass": "Admin-1",
-                "nameascii": "Dortmund-KirchhÃ¶rde",
-                "name": "Dortmund-KirchhÃ¶rde",
+                "nameascii": "Dortmund-Kirchhörde",
+                "name": "Dortmund-Kirchhörde",
                 "latitude": 7.457764,
                 "longitude": 51.464241,
                 "geonameid": -1,
@@ -57424,11 +57424,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Dortmund-HÃ¶rde",
+                "station_name": "Dortmund-Hörde",
                 "station_id": 8000961,
                 "featureclass": "Admin-1",
-                "nameascii": "Dortmund-HÃ¶rde",
-                "name": "Dortmund-HÃ¶rde",
+                "nameascii": "Dortmund-Hörde",
+                "name": "Dortmund-Hörde",
                 "latitude": 7.500029,
                 "longitude": 51.487782,
                 "geonameid": -1,
@@ -57571,11 +57571,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Dortmund-BÃ¶vinghausen",
+                "station_name": "Dortmund-Bövinghausen",
                 "station_id": 8001528,
                 "featureclass": "Admin-1",
-                "nameascii": "Dortmund-BÃ¶vinghausen",
-                "name": "Dortmund-BÃ¶vinghausen",
+                "nameascii": "Dortmund-Bövinghausen",
+                "name": "Dortmund-Bövinghausen",
                 "latitude": 7.327477,
                 "longitude": 51.519036,
                 "geonameid": -1,
@@ -57802,11 +57802,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Dortmund MÃ¶llerbrücke",
+                "station_name": "Dortmund Möllerbrücke",
                 "station_id": 8001518,
                 "featureclass": "Admin-1",
-                "nameascii": "Dortmund MÃ¶llerbrücke",
-                "name": "Dortmund MÃ¶llerbrücke",
+                "nameascii": "Dortmund Möllerbrücke",
+                "name": "Dortmund Möllerbrücke",
                 "latitude": 7.451706,
                 "longitude": 51.507157,
                 "geonameid": -1,
@@ -59230,11 +59230,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Dallgow-DÃ¶beritz",
+                "station_name": "Dallgow-Döberitz",
                 "station_id": 8080260,
                 "featureclass": "Admin-1",
-                "nameascii": "Dallgow-DÃ¶beritz",
-                "name": "Dallgow-DÃ¶beritz",
+                "nameascii": "Dallgow-Döberitz",
+                "name": "Dallgow-Döberitz",
                 "latitude": 13.059037,
                 "longitude": 52.543554,
                 "geonameid": -1,
@@ -59482,11 +59482,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "CÃ¶lbe",
+                "station_name": "Cölbe",
                 "station_id": 8000065,
                 "featureclass": "Admin-1",
-                "nameascii": "CÃ¶lbe",
-                "name": "CÃ¶lbe",
+                "nameascii": "Cölbe",
+                "name": "Cölbe",
                 "latitude": 8.787365,
                 "longitude": 50.848159,
                 "geonameid": -1,
@@ -60217,11 +60217,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "BÃ¶sperde",
+                "station_name": "Bösperde",
                 "station_id": 8001066,
                 "featureclass": "Admin-1",
-                "nameascii": "BÃ¶sperde",
-                "name": "BÃ¶sperde",
+                "nameascii": "Bösperde",
+                "name": "Bösperde",
                 "latitude": 7.774233,
                 "longitude": 51.45894,
                 "geonameid": -1,
@@ -60238,11 +60238,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "BÃ¶sensell",
+                "station_name": "Bösensell",
                 "station_id": 8001065,
                 "featureclass": "Admin-1",
-                "nameascii": "BÃ¶sensell",
-                "name": "BÃ¶sensell",
+                "nameascii": "Bösensell",
+                "name": "Bösensell",
                 "latitude": 7.487687,
                 "longitude": 51.90703,
                 "geonameid": -1,
@@ -60259,11 +60259,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "BÃ¶nen",
+                "station_name": "Bönen",
                 "station_id": 8001061,
                 "featureclass": "Admin-1",
-                "nameascii": "BÃ¶nen",
-                "name": "BÃ¶nen",
+                "nameascii": "Bönen",
+                "name": "Bönen",
                 "latitude": 7.757296,
                 "longitude": 51.598015,
                 "geonameid": -1,
@@ -60280,11 +60280,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "BÃ¶hringen-Rickelshausen",
+                "station_name": "Böhringen-Rickelshausen",
                 "station_id": 8001059,
                 "featureclass": "Admin-1",
-                "nameascii": "BÃ¶hringen-Rickelshausen",
-                "name": "BÃ¶hringen-Rickelshausen",
+                "nameascii": "Böhringen-Rickelshausen",
+                "name": "Böhringen-Rickelshausen",
                 "latitude": 8.926651,
                 "longitude": 47.748732,
                 "geonameid": -1,
@@ -60301,11 +60301,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "BÃ¶hlen(Leipzig)",
+                "station_name": "Böhlen(Leipzig)",
                 "station_id": 8013471,
                 "featureclass": "Admin-1",
-                "nameascii": "BÃ¶hlen(Leipzig)",
-                "name": "BÃ¶hlen(Leipzig)",
+                "nameascii": "Böhlen(Leipzig)",
+                "name": "Böhlen(Leipzig)",
                 "latitude": 12.381991,
                 "longitude": 51.203037,
                 "geonameid": -1,
@@ -60322,11 +60322,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "BÃ¶hlen Werke",
+                "station_name": "Böhlen Werke",
                 "station_id": 8011222,
                 "featureclass": "Admin-1",
-                "nameascii": "BÃ¶hlen Werke",
-                "name": "BÃ¶hlen Werke",
+                "nameascii": "Böhlen Werke",
+                "name": "Böhlen Werke",
                 "latitude": 12.384024,
                 "longitude": 51.184702,
                 "geonameid": -1,
@@ -60343,11 +60343,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "BÃ¶hl-Iggelheim",
+                "station_name": "Böhl-Iggelheim",
                 "station_id": 8001057,
                 "featureclass": "Admin-1",
-                "nameascii": "BÃ¶hl-Iggelheim",
-                "name": "BÃ¶hl-Iggelheim",
+                "nameascii": "Böhl-Iggelheim",
+                "name": "Böhl-Iggelheim",
                 "latitude": 8.303602,
                 "longitude": 49.379831,
                 "geonameid": -1,
@@ -60364,11 +60364,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "BÃ¶bingen(Rems)",
+                "station_name": "Böbingen(Rems)",
                 "station_id": 8005979,
                 "featureclass": "Admin-1",
-                "nameascii": "BÃ¶bingen(Rems)",
-                "name": "BÃ¶bingen(Rems)",
+                "nameascii": "Böbingen(Rems)",
+                "name": "Böbingen(Rems)",
                 "latitude": 9.912807,
                 "longitude": 48.822439,
                 "geonameid": -1,
@@ -61204,11 +61204,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "BruchkÃ¶bel",
+                "station_name": "Bruchköbel",
                 "station_id": 8001199,
                 "featureclass": "Admin-1",
-                "nameascii": "BruchkÃ¶bel",
-                "name": "BruchkÃ¶bel",
+                "nameascii": "Bruchköbel",
+                "name": "Bruchköbel",
                 "latitude": 8.919293,
                 "longitude": 50.186189,
                 "geonameid": -1,
@@ -61981,11 +61981,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Boxberg-WÃ¶lchingen",
+                "station_name": "Boxberg-Wölchingen",
                 "station_id": 8001111,
                 "featureclass": "Admin-1",
-                "nameascii": "Boxberg-WÃ¶lchingen",
-                "name": "Boxberg-WÃ¶lchingen",
+                "nameascii": "Boxberg-Wölchingen",
+                "name": "Boxberg-Wölchingen",
                 "latitude": 9.640048,
                 "longitude": 49.485596,
                 "geonameid": -1,
@@ -62485,11 +62485,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "BodenwÃ¶hr Nord",
+                "station_name": "Bodenwöhr Nord",
                 "station_id": 8001054,
                 "featureclass": "Admin-1",
-                "nameascii": "BodenwÃ¶hr Nord",
-                "name": "BodenwÃ¶hr Nord",
+                "nameascii": "Bodenwöhr Nord",
+                "name": "Bodenwöhr Nord",
                 "latitude": 12.325948,
                 "longitude": 49.278381,
                 "geonameid": -1,
@@ -62779,11 +62779,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "BlÃ¶nsdorf",
+                "station_name": "Blönsdorf",
                 "station_id": 8011210,
                 "featureclass": "Admin-1",
-                "nameascii": "BlÃ¶nsdorf",
-                "name": "BlÃ¶nsdorf",
+                "nameascii": "Blönsdorf",
+                "name": "Blönsdorf",
                 "latitude": 12.895568,
                 "longitude": 51.95541,
                 "geonameid": -1,
@@ -64417,11 +64417,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin-SchÃ¶nholz",
+                "station_name": "Berlin-Schönholz",
                 "station_id": 8089087,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin-SchÃ¶nholz",
-                "name": "Berlin-SchÃ¶nholz",
+                "nameascii": "Berlin-Schönholz",
+                "name": "Berlin-Schönholz",
                 "latitude": 13.381111,
                 "longitude": 52.571422,
                 "geonameid": -1,
@@ -64438,11 +64438,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin-SchÃ¶neweide (S)",
+                "station_name": "Berlin-Schöneweide (S)",
                 "station_id": 8089168,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin-SchÃ¶neweide (S)",
-                "name": "Berlin-SchÃ¶neweide (S)",
+                "nameascii": "Berlin-Schöneweide (S)",
+                "name": "Berlin-Schöneweide (S)",
                 "latitude": 13.509115,
                 "longitude": 52.454976,
                 "geonameid": -1,
@@ -64459,11 +64459,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin-SchÃ¶neweide",
+                "station_name": "Berlin-Schöneweide",
                 "station_id": 8010041,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin-SchÃ¶neweide",
-                "name": "Berlin-SchÃ¶neweide",
+                "nameascii": "Berlin-Schöneweide",
+                "name": "Berlin-Schöneweide",
                 "latitude": 13.509395,
                 "longitude": 52.455127,
                 "geonameid": -1,
@@ -64480,11 +64480,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin-SchÃ¶nefeld Flughafen",
+                "station_name": "Berlin-Schönefeld Flughafen",
                 "station_id": 8010109,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin-SchÃ¶nefeld Flughafen",
-                "name": "Berlin-SchÃ¶nefeld Flughafen",
+                "nameascii": "Berlin-Schönefeld Flughafen",
+                "name": "Berlin-Schönefeld Flughafen",
                 "latitude": 13.51271,
                 "longitude": 52.391062,
                 "geonameid": -1,
@@ -64501,11 +64501,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin-SchÃ¶neberg",
+                "station_name": "Berlin-Schöneberg",
                 "station_id": 8089474,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin-SchÃ¶neberg",
-                "name": "Berlin-SchÃ¶neberg",
+                "nameascii": "Berlin-Schöneberg",
+                "name": "Berlin-Schöneberg",
                 "latitude": 13.352068,
                 "longitude": 52.479377,
                 "geonameid": -1,
@@ -64711,11 +64711,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin-NeukÃ¶lln",
+                "station_name": "Berlin-Neukölln",
                 "station_id": 8089077,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin-NeukÃ¶lln",
-                "name": "Berlin-NeukÃ¶lln",
+                "nameascii": "Berlin-Neukölln",
+                "name": "Berlin-Neukölln",
                 "latitude": 13.44306,
                 "longitude": 52.46942,
                 "geonameid": -1,
@@ -64942,11 +64942,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin-KÃ¶penick",
+                "station_name": "Berlin-Köpenick",
                 "station_id": 8089069,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin-KÃ¶penick",
-                "name": "Berlin-KÃ¶penick",
+                "nameascii": "Berlin-Köpenick",
+                "name": "Berlin-Köpenick",
                 "latitude": 13.580942,
                 "longitude": 52.45861,
                 "geonameid": -1,
@@ -65026,11 +65026,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin-HohenschÃ¶nhausen (S)",
+                "station_name": "Berlin-Hohenschönhausen (S)",
                 "station_id": 8089117,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin-HohenschÃ¶nhausen (S)",
-                "name": "Berlin-HohenschÃ¶nhausen (S)",
+                "nameascii": "Berlin-Hohenschönhausen (S)",
+                "name": "Berlin-Hohenschönhausen (S)",
                 "latitude": 13.5127169,
                 "longitude": 52.5661352,
                 "geonameid": -1,
@@ -65047,11 +65047,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin-HohenschÃ¶nhausen",
+                "station_name": "Berlin-Hohenschönhausen",
                 "station_id": 8011901,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin-HohenschÃ¶nhausen",
-                "name": "Berlin-HohenschÃ¶nhausen",
+                "nameascii": "Berlin-Hohenschönhausen",
+                "name": "Berlin-Hohenschönhausen",
                 "latitude": 13.5124218,
                 "longitude": 52.5660016,
                 "geonameid": -1,
@@ -65719,11 +65719,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin SchÃ¶nhauser Allee",
+                "station_name": "Berlin Schönhauser Allee",
                 "station_id": 8089039,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin SchÃ¶nhauser Allee",
-                "name": "Berlin SchÃ¶nhauser Allee",
+                "nameascii": "Berlin Schönhauser Allee",
+                "name": "Berlin Schönhauser Allee",
                 "latitude": 13.41546,
                 "longitude": 52.5492,
                 "geonameid": -1,
@@ -66055,11 +66055,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin NÃ¶ldnerplatz",
+                "station_name": "Berlin Nöldnerplatz",
                 "station_id": 8089026,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin NÃ¶ldnerplatz",
-                "name": "Berlin NÃ¶ldnerplatz",
+                "nameascii": "Berlin Nöldnerplatz",
+                "name": "Berlin Nöldnerplatz",
                 "latitude": 13.484452,
                 "longitude": 52.503497,
                 "geonameid": -1,
@@ -66202,11 +66202,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin KÃ¶llnische Heide",
+                "station_name": "Berlin Köllnische Heide",
                 "station_id": 8089104,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin KÃ¶llnische Heide",
-                "name": "Berlin KÃ¶llnische Heide",
+                "nameascii": "Berlin Köllnische Heide",
+                "name": "Berlin Köllnische Heide",
                 "latitude": 13.467807,
                 "longitude": 52.469653,
                 "geonameid": -1,
@@ -66832,11 +66832,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Berlin Betriebsbf SchÃ¶neweide",
+                "station_name": "Berlin Betriebsbf Schöneweide",
                 "station_id": 8089007,
                 "featureclass": "Admin-1",
-                "nameascii": "Berlin Betriebsbf SchÃ¶neweide",
-                "name": "Berlin Betriebsbf SchÃ¶neweide",
+                "nameascii": "Berlin Betriebsbf Schöneweide",
+                "name": "Berlin Betriebsbf Schöneweide",
                 "latitude": 13.52368,
                 "longitude": 52.446905,
                 "geonameid": -1,
@@ -68281,11 +68281,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Bad WÃ¶rishofen",
+                "station_name": "Bad Wörishofen",
                 "station_id": 8000768,
                 "featureclass": "Admin-1",
-                "nameascii": "Bad WÃ¶rishofen",
-                "name": "Bad WÃ¶rishofen",
+                "nameascii": "Bad Wörishofen",
+                "name": "Bad Wörishofen",
                 "latitude": 10.597875,
                 "longitude": 48.005711,
                 "geonameid": -1,
@@ -68617,11 +68617,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Bad SchÃ¶nborn-Kronau",
+                "station_name": "Bad Schönborn-Kronau",
                 "station_id": 8004032,
                 "featureclass": "Admin-1",
-                "nameascii": "Bad SchÃ¶nborn-Kronau",
-                "name": "Bad SchÃ¶nborn-Kronau",
+                "nameascii": "Bad Schönborn-Kronau",
+                "name": "Bad Schönborn-Kronau",
                 "latitude": 8.646821,
                 "longitude": 49.219345,
                 "geonameid": -1,
@@ -68638,11 +68638,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Bad SchÃ¶nborn Süd",
+                "station_name": "Bad Schönborn Süd",
                 "station_id": 8003533,
                 "featureclass": "Admin-1",
-                "nameascii": "Bad SchÃ¶nborn Süd",
-                "name": "Bad SchÃ¶nborn Süd",
+                "nameascii": "Bad Schönborn Süd",
+                "name": "Bad Schönborn Süd",
                 "latitude": 8.641924,
                 "longitude": 49.200001,
                 "geonameid": -1,
@@ -69163,11 +69163,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Bad KÃ¶sen",
+                "station_name": "Bad Kösen",
                 "station_id": 8010019,
                 "featureclass": "Admin-1",
-                "nameascii": "Bad KÃ¶sen",
-                "name": "Bad KÃ¶sen",
+                "nameascii": "Bad Kösen",
+                "name": "Bad Kösen",
                 "latitude": 11.718274,
                 "longitude": 51.130742,
                 "geonameid": -1,
@@ -69268,11 +69268,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Bad HÃ¶nningen",
+                "station_name": "Bad Hönningen",
                 "station_id": 8000711,
                 "featureclass": "Admin-1",
-                "nameascii": "Bad HÃ¶nningen",
-                "name": "Bad HÃ¶nningen",
+                "nameascii": "Bad Hönningen",
+                "name": "Bad Hönningen",
                 "latitude": 7.310871,
                 "longitude": 50.513676,
                 "geonameid": -1,
@@ -69352,11 +69352,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Bad GrÃ¶nenbach",
+                "station_name": "Bad Grönenbach",
                 "station_id": 8002378,
                 "featureclass": "Admin-1",
-                "nameascii": "Bad GrÃ¶nenbach",
-                "name": "Bad GrÃ¶nenbach",
+                "nameascii": "Bad Grönenbach",
+                "name": "Bad Grönenbach",
                 "latitude": 10.253715,
                 "longitude": 47.882468,
                 "geonameid": -1,
@@ -70339,11 +70339,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Arensdorf(KÃ¶then)",
+                "station_name": "Arensdorf(Köthen)",
                 "station_id": 8011053,
                 "featureclass": "Admin-1",
-                "nameascii": "Arensdorf(KÃ¶then)",
-                "name": "Arensdorf(KÃ¶then)",
+                "nameascii": "Arensdorf(Köthen)",
+                "name": "Arensdorf(Köthen)",
                 "latitude": 12.007416,
                 "longitude": 51.709511,
                 "geonameid": -1,
@@ -70927,11 +70927,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "Altenstadt-HÃ¶chst",
+                "station_name": "Altenstadt-Höchst",
                 "station_id": 8002886,
                 "featureclass": "Admin-1",
-                "nameascii": "Altenstadt-HÃ¶chst",
-                "name": "Altenstadt-HÃ¶chst",
+                "nameascii": "Altenstadt-Höchst",
+                "name": "Altenstadt-Höchst",
                 "latitude": 8.923418,
                 "longitude": 50.269767,
                 "geonameid": -1,
@@ -71221,11 +71221,11 @@
         {
             "type": "Feature",
             "properties": {
-                "station_name": "AltdÃ¶bern",
+                "station_name": "Altdöbern",
                 "station_id": 8011016,
                 "featureclass": "Admin-1",
-                "nameascii": "AltdÃ¶bern",
-                "name": "AltdÃ¶bern",
+                "nameascii": "Altdöbern",
+                "name": "Altdöbern",
                 "latitude": 14.009236,
                 "longitude": 51.65278,
                 "geonameid": -1,

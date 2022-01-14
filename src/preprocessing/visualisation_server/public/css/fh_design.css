@@ -1,5 +1,10 @@
 
 
+
+.fhcolor_text_dark{
+    color: rgba(0,120,116,1.0);
+}
+
 .fhcolor_text{
     color: rgba(0,120,116,0.7);
 }
