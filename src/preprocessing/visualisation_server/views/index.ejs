@@ -136,7 +136,7 @@
             </div>
         </div>
 
-        <div class="row fhcolor_bg" id="map_content" height="600px">
+        <div class="row" id="map_content" height="600px">
             <div class="col">
 
 
@@ -371,9 +371,7 @@
     }
 
 
-    function parse_available_dates() {
-        const ava_dates_data = Papa.parse(csv);
-    }
+
 
     $(document).ready(function () {
         console.log("ready!");
@@ -390,25 +388,26 @@
         //INIT D3
         init_d3();
 
-        $("#modal_info_text").html("LOADING STATIONS");
+        $("#modal_info_text").html("LOADING RECORDED DATES");
         show_loading_modal(true); //DISPLAY OVERLAY
+        $.getJSON("/visualisation_files/generated/4_departure_table_day_list.json", function (recorded_dates) {
 
 
-        $.getJSON("/visualisation_files/4_departure_table_day_list.json", function (recorded_dates) {
+
             $("#modal_info_text").html("LOADING STATIONS");
-            $.getJSON("/visualisation_files/0_db_station_list.json", function (station_json) {
+            $.getJSON("/visualisation_files/generated/0_db_station_list.json", function (station_json) {
                 parse_station_data(station_json);// LOAD SELECTED STATION INTO FIELDS
 
 
                 $("#modal_info_text").html("LOADING GEOJSON MAP");
-                d3.json('/visualisation_files/gemeinden_simplify200.geojson').then(function (map_json) {
+                d3.json('/visualisation_files/generated/gemeinden_simplify200.geojson').then(function (map_json) {
                     loaded_lk_geojson = map_json;
                     update(map_json);
 
 
                     $("#modal_info_text").html("LOADING STATIONS POI LOCATIONS");
                     //LOAD STATION POINTS
-                    d3.json('/visualisation_files/0_db_station_list.json').then(function (stationpoi_json) {
+                    d3.json('/visualisation_files/generated/0_db_station_list.json').then(function (stationpoi_json) {
                         loaded_station_geojson = stationpoi_json;
                         updatestation(stationpoi_json);
                         //DISABLE LOADING MODAL
@@ -418,8 +417,6 @@
                 });
             });
         });
-
-
     });
 </script>
 
