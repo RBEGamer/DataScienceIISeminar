@@ -4,47 +4,43 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
-  /*global d3: false  */
-  "use strict";
+    /*global d3: false  */
+    "use strict";
 
-  //set up map
-  var w = 960;
-  var h = 500;
-
-
-  //map type & center point
-  var projection = d3.geo.mercator()
-          .center([-47.109375, 34.664841])
-          .scale(350);
-
-  var path = d3.geo.path().projection(projection);
-
-  //initialize map
-  var svg = d3.select("#d3_map")
-          .append("svg")
-          .attr("width", w)
-          .attr("height", h);
-
-  // seperating out the elements lets us organize the draw order
-  var country_group = svg.append("g");
-  var arcGroup = svg.append("g");
-  var point_group = svg.append("g");
+    //set up map
+    var w = 960;
+    var h = 500;
 
 
-  //reading geoJSON & CSV files
-  d3.json("/visualisation_files/generated/gemeinden_simplify200.geojson", function(json){
-    createMap(json);
+    //map type & center point
+    var projection = d3.geo.mercator()
+        .center([-47.109375, 34.664841])
+        .scale(350);
+
+    var path = d3.geo.path().projection(projection);
+
+    //initialize map
+    var svg = d3.select("#d3_map")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
+
+    // seperating out the elements lets us organize the draw order
+    var country_group = svg.append("g");
+    var arcGroup = svg.append("g");
+    var point_group = svg.append("g");
+
+
+    //reading geoJSON & CSV files
+    d3.json("/visualisation_files/generated/gemeinden_simplify200.geojson", function(json){
+
+    });
 
 
 
-  });
-  d3.csv("/visualisation_files/generated/test.csv", function(json){
-      createPoints(json);
-  });
-
-  //draw world map
-  var createMap = function (json) {
-    country_group.append("g")
+    //draw world map
+    var createMap = function (json) {
+        country_group.append("g")
             .selectAll("path")
             .data(json.features)
             .enter()
@@ -52,26 +48,26 @@
             .attr("title", function(d) { return d.id; })
             .style("fill", "#43a2ca")
             .attr("d", path);
-  };
+    };
 
-  var createLinks = function (json) {
-    var links = [];
+    var createLinks = function (json) {
+        var links = [];
 
-    for(var i=0, len=json.length-1; i<len; i++){
-      links.push({
-        type: "LineString",
-        coordinates: [
-          [ json[0].lon, json[0].lat ],
-          [ json[i+1].lon, json[i+1].lat ]
-        ]
-      });
-    }
-    return links;
-  };
+        for(var i=0, len=json.length-1; i<len; i++){
+            links.push({
+                type: "LineString",
+                coordinates: [
+                    [ json[0].lon, json[0].lat ],
+                    [ json[i+1].lon, json[i+1].lat ]
+                ]
+            });
+        }
+        return links;
+    };
 
-  // place dots on screen based on cities
-  function show_selected_stion_on_map(json){
-    point_group.selectAll("circle")
+    // place dots on screen based on cities
+    var createPoints = function(json){
+        point_group.selectAll("circle")
             .data(json)
             .enter()
             .append("circle")
@@ -82,25 +78,25 @@
             .style("fill", "red")
             .on("mouseover", mouseover);
 
-    //functions for tweening the path
-    var lineTransition = function lineTransition(path) {
-      path.transition()
-              .duration(3000)
-              .attrTween("stroke-dasharray", tweenDash);
-    };
+        //functions for tweening the path
+        var lineTransition = function lineTransition(path) {
+            path.transition()
+                .duration(3000)
+                .attrTween("stroke-dasharray", tweenDash);
+        };
 
-    var tweenDash = function tweenDash() {
-      var len = this.getTotalLength(),
-              interpolate = d3.interpolateString("0," + len, len + "," + len);
+        var tweenDash = function tweenDash() {
+            var len = this.getTotalLength(),
+                interpolate = d3.interpolateString("0," + len, len + "," + len);
 
-      return function(t) { return interpolate(t); };
-    };
+            return function(t) { return interpolate(t); };
+        };
 
-    //assemble links from office locations
-    var links = createLinks(json);
+        //assemble links from office locations
+        var links = createLinks(json);
 
-    //append the arcs
-    arcGroup.selectAll(".arc")
+        //append the arcs
+        arcGroup.selectAll(".arc")
             .data(links)
             .enter()
             .append("path")
@@ -108,13 +104,17 @@
             .attr({ d: path })
             .style({ fill: "none", stroke: "red", "stroke-width": "3px" })
             .call(lineTransition);
-  };
+    };
 
 
-  //D3 hoverbox info way
-  var mouseover = function() {
-    var place = d3.select(this).attr("place");
-    d3.select("#info").html("<b>Contact / " + place + "</b>");
-  };
+    //D3 hoverbox info way
+    var mouseover = function() {
+        var place = d3.select(this).attr("place");
+        d3.select("#info").html("<b>Contact / " + place + "</b>");
+    };
 
+
+    var points = [{lat:7.004806, long:49.995933, place:"test", color:"red"}, {lat:6.097265, long:50.924336, place:"test", color:"green"}]
+
+    createPoints(points);
 </script>

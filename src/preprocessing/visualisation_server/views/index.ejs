@@ -214,12 +214,14 @@
 
     var loaded_lk_geojson = null;
     var loaded_station_geojson = null;
-
+    var loaded_station_lookuptable = null;
 
 
     var map_svg = null;
     var map_landkreise_svg = null;
+    var map_line_svg = null;
 
+    var path = null;
 
     function init_d3() {
         width = $("#map_content").width();
@@ -234,11 +236,13 @@
 
         geoGenerator = d3.geoPath().projection(projection);
 
+
         map_svg = d3.select("#svg_map").append("svg").attr("width", width).attr("height", height);
         map_landkreise_svg = map_svg.append("g");
+        map_line_svg = map_svg.append("g");
     }
 
-
+    //MOUSEOVER POINTS ON MAP TO SHOW THE NAME OF THE STATION
     function handleMouseover(e, d) {
         let pixelArea = geoGenerator.area(d);
         let bounds = geoGenerator.bounds(d);
@@ -262,7 +266,7 @@
             .style('display', 'inline')
             .attr('transform', 'translate(' + centroid + ')');
     }
-
+    //USER SELECTED STATION
     var station_id_to = null;
     var station_id_from = null;
 
@@ -296,63 +300,46 @@
 
         $("#modal_info_text").html("LOADING");
         show_loading_modal(true); //DISPLAY OVERLAY
-
-        //TODO LOAD DATA
-
+        //DISPLAY STATIONS AS DOTS ON MAP
+        show_selected_stions_on_map(station_id_from, station_id_to)
+        //LOAD HISTORY
 
         show_loading_modal(false); //DISPLAY OVERLAY
         console.log(station_id_from);
     }
 
 
-    function show_selected_stions_on_map(json){
+
+    function show_selected_stions_on_map(from_id, to_id){
+
+        if(!loaded_station_lookuptable){
+            alert("please reload site");
+            return;
+        }
+
+        const from = loaded_station_lookuptable[String(from_id)];
+        const to = loaded_station_lookuptable[String(to_id)];
+
+        if(!from || !to){
+            alert("station invalid");
+            return;
+        }
+
+        var points = [{lat:from.longitude, long:from.latitude, station_name: from.station_name, color:"red"},
+            {lat:to.longitude, long:to.latitude, station_name: to.station_name, color:"green"}]
 
 
-        var to = [{lat:7.004806, long:49.995933, place:"test", color:"red"}, {lat:6.097265, long:50.924336, place:"test", color:"green"}]
-
-
-        map_landkreise_svg.selectAll("circle")
-            .data(to)
+        map_landkreise_svg.selectAll("circle").remove()
+            .data(points)
             .enter()
             .append("circle")
             .attr("cx", function(d) { return projection([d.lat, d.long])[0]; })
             .attr("cy", function(d) { return projection([d.lat, d.long])[1]; })
-            .attr("place", function(d) { return d.place; })
+            .attr("place", function(d) { return d.station_name; })
             .attr("r", 10)
             .style("fill", function(d) { return d.color; })
             //.on("mouseover", mouseover);
 
-
-        //.on("mouseover", mouseover);
-
-        //functions for tweening the path
-        //var lineTransition = function lineTransition(path) {
-        //    path.transition()
-        //        .duration(3000)
-        //        .attrTween("stroke-dasharray", tweenDash);
-        //};
-
-        //var tweenDash = function tweenDash() {
-        //    var len = this.getTotalLength(),
-        //        interpolate = d3.interpolateString("0," + len, len + "," + len);
-
-            //return function(t) { return interpolate(t); };
-        //};
-
-        //assemble links from office locations
-        //var links = createLinks(json);
-
-        //append the arcs
-        /*
-        arcGroup.selectAll(".arc")
-            .data(links)
-            .enter()
-            .append("path")
-            .attr({ "class": "arc" })
-            .attr({ d: path })
-            .style({ fill: "none", stroke: "red", "stroke-width": "3px" })
-            .call(lineTransition);
-            */
 
     };
 
@@ -404,16 +391,12 @@
         console.log(center);
         console.log(offset);
 
-
         let u = d3.select('#svg_map g.map')
             .selectAll('path')
             .data(geojson.features).enter().append("path")
             .attr("d", path)
             .style("fill", "gray")
             .on('mouseover', handleMouseover);
-
-
-
     }
 
 
@@ -466,6 +449,11 @@
         $.getJSON("/visualisation_files/generated/4_departure_table_day_list.json", function (recorded_dates) {
 
 
+            $("#modal_info_text").html("LOADING STATION LOOKUP_TABLE");
+            show_loading_modal(true); //DISPLAY OVERLAY
+            $.getJSON("/visualisation_files/generated/0_db_station_lookuptable.json", function (_station_lookuptable) {
+                loaded_station_lookuptable = _station_lookuptable;
+
 
             $("#modal_info_text").html("LOADING STATIONS");
             $.getJSON("/visualisation_files/generated/0_db_station_list.json", function (station_json) {
@@ -483,12 +471,13 @@
                     d3.json('/visualisation_files/generated/0_db_station_list.json').then(function (stationpoi_json) {
                         loaded_station_geojson = stationpoi_json;
                         updatestation(stationpoi_json);
-                        show_selected_stions_on_map();
+                       // show_selected_stions_on_map(8005935, 8004623);
                         //DISABLE LOADING MODAL
                         $("#modal_info_text").html("");
                         show_loading_modal(false);
                     });
                 });
+            });
             });
         });
     });
